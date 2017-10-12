@@ -1,0 +1,83 @@
+.tabs {
+    // lost-utility: edit;    
+    lost-utility: clearfix;
+    margin-top: 80px;
+    .tabs_container {
+        lost-offset: 2/10;
+        lost-column: 6/10;
+    }
+    h1 {
+        font-size: 46px;
+        color: #30363E;
+        letter-spacing: 2px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+    }
+    .tabs_separate {
+        font-size: 60px;
+        color: #4E46EE;
+        letter-spacing: 2px;
+        margin-top: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .tabs_content {
+        background: #EEEEEE;
+        border-radius: 3px;
+        padding: 30px;
+        lost-utility: clearfix;
+        position: relative;
+        margin-top: 200px;
+        .container_menu {
+            background: #000;
+            border-radius: 3px;
+            lost-offset: 1/10;
+            lost-column: 8/10;
+            position: absolute;
+            padding: 40px 0; 
+            top: -140px;
+            box-shadow: 0 2px 24px rgba(0,0,0,.3);
+            h2 {
+                color: white;
+                font-size: 46px;
+                letter-spacing: 2px;
+                font-weight: 700;
+                margin: 0;
+                margin-left: 40px;
+                margin-bottom:20px;
+                &:last-of-type {
+                    margin-bottom:20px;
+                }
+            }
+        }
+        .container_text {
+            padding-top: 200px;
+            h4 {
+              font-size: 30px;
+              letter-spacing: 1.5px;
+              text-decoration: underline;
+              margin-bottom: 40px;
+            }
+            div {
+                font-size: 36px;
+                letter-spacing: 1px;
+                line-height: 60px;
+                font-style: italic;
+            }
+            button {
+                margin-top: 20px;
+                height: 40px;
+                background: transparent;
+                border-radius:2px;
+                color: #000;
+                font-weight: 600;
+                font-size: 14px;
+                padding: 0 20px;
+                line-height: 40px;
+                letter-spacing: 1px;
+                border: 2px solid #000;
+            }
+        }
+    }
+}

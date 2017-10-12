@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import "variables";
+@import "mixins";
+@import "base";
+@import "pages";
+
+body {
+    font-family: 'Fira Sans', sans-serif;    
+}
+
+.layout {
+    // padding: 20px 40px;
+}

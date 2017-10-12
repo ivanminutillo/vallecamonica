@@ -1,0 +1,64 @@
+.bigImage {
+    lost-utility: clearfix;
+    // lost-utility: edit; 
+    margin-top: 80px;  
+    position: relative;
+    .bigImage_wrapper {
+        margin-top: 40px;
+        lost-offset: 1/8;
+        lost-column: 3/4;
+        position: relative;
+    }
+    .wrapper_info {
+        background: url('../../assets/images/decide.png');
+        background-size: cover;
+        height: 360px;
+        padding: 40px;
+        padding-bottom: 0;
+        position: relative;
+        z-index: 9;
+    
+        h1 {
+            lost-column: 2/5;
+            margin-top: 0;
+            color: white;
+            font-size: 46px;
+            letter-spacing: 2px;
+            line-height: 60px;
+            font-weight: 300;
+            font-style: italic;
+            b {
+                font-weight: 700;
+                font-style: normal;
+            }
+        }
+        .bigimage_desc {
+            lost-column: 3/5 2;
+            font-size: 18px;
+            letter-spacing: .5px;
+            color: white;
+        }
+        .bigImage_meta {
+            lost-column: 1/1;
+            text-align: center;
+            margin-top: 20px;
+            h2 {
+                font-size: 36px;
+                font-weight: 700;
+                color: white;
+            }
+        }
+    }
+}
+.wrapper_overlay {
+    position: absolute;
+    left: 20px;
+    right: -20px;
+    top: 20px;
+    bottom: -20px;
+    background: rgb(45, 67, 108);
+    display: block;
+    z-index: 1;
+    // lost-offset: 1/8;
+    // lost-column: 3/4;
+}

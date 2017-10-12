@@ -1,0 +1,32 @@
+.cta {
+    margin-top: 100px;
+    // lost-utility: edit;    
+    lost-utility: clearfix;
+    h1 {
+        lost-offset: 1/10;
+        lost-column: 8/10;
+        font-size: 60px;
+        font-weight: 700;
+        color: #5147FE;
+    }
+    div {
+    lost-offset: 1/10;
+    lost-column: 8/10;
+     font-size: 46px;
+     font-style: italic;
+     font-weight: 200;
+     line-height: 70px;   
+     letter-spacing: 2px;
+     color: #5147FE;
+    }
+    a {
+        lost-offset: 1/10;
+        lost-column: 8/10;
+        font-size: 50px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        display: block;
+        margin-top: 40px;
+        color: #30353E;
+    }
+}

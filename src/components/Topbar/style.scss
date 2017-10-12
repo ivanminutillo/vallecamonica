@@ -1,0 +1,50 @@
+@import "../../assets/scss/init";
+
+.topbar {
+    height: 50px;
+    // background: #F5F4E8;
+    @include clearfix;
+    padding: 0 20px;
+    border-bottom: 1px solid  rgba(255, 255, 255, .3 );
+    .topbar_calendar {
+        float: left;
+        line-height: 50px;
+
+        h5 {
+            margin: 0;
+            display: inline-block;
+            font-weight: 400;
+            color: #fff;
+            font-size: 14px;
+        }
+        button {
+            display: inline-block;
+            margin-left: 20px;
+            background: #59C25B;
+            color: white;
+            height: 30px;
+            font-size: 13px;
+            border: none;
+            padding: 0 20px;
+            border-radius: 2px;
+            font-weight: 600;
+        }
+    }
+    .topbar_meta {
+        float: right;
+        .meta_languages {
+            margin-top: 10px;
+            .languages_container {
+                height: 30px;
+                background: #4239D5;
+                border-radius:2px;
+                color: white;
+                font-weight: 600;
+                font-size: 14px;
+                padding: 0 20px;
+                line-height: 30px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

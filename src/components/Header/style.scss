@@ -1,6 +1,6 @@
 .main_header {
     text-align: center;
-    background: #232235;
+    background: #20202C;
     height: 130px;
     box-shadow: 0 1px 4px rgba(0,0,0,.1);
     .header {
@@ -18,7 +18,7 @@
         }
         margin-right: 30px;
         font-weight: 400;
-        text-transform: uppercase;
+        text-transform: capitalize;
         text-decoration: none;
         letter-spacing: 1px;
         font-size: 13px;
@@ -46,11 +46,11 @@
     vertical-align: middle;
     .logo_earth {
       animation: App-logo-spin infinite 20s linear;
-      height: 36px;
+      height: 22px;
       background: url('./earth.png');
       background-size:cover;
       display: inline-block;
-      width: 40px;
+      width: 24px;
       vertical-align: middle;
     }
     display: inline-block;

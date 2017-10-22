@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.scss'
 import Link from 'gatsby-link'
+import {Book} from '../../icons'
 
 const Hero = () => {
   return (
@@ -32,7 +33,7 @@ const Hero = () => {
           </div>
         </div>
         </div> */}
-        <div className='hero_feed'>
+        {/* <div className='hero_feed'>
           <div className='feed_document'>
             <h5>Beginner Starting guide</h5>
           <div className='feed_actions'>
@@ -40,10 +41,11 @@ const Hero = () => {
             <button className='inline'>Read online</button>
           </div>
           </div>
-        </div>
+        </div> */}
         <div className='hero_feed'>
           <div className='feed_document'>
-            <h5>25.09 - Global Assembly Minute</h5>
+            <span><Book heigth='18' width='18' line='1' /></span>
+            <h5> 25.09 - Global Assembly Minute</h5>
           <div className='feed_actions'>
             <button className='good'>Download</button>
             <button className='inline'>Read online</button>

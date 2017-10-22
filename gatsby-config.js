@@ -1,31 +1,49 @@
 module.exports = {
   siteMetadata: {
-    url: 'https:fair.coop',
+    url: 'https://fair.coop',
     title: 'FairCoop',
     subtitle: 'the earth cooperative',
-    copyright: '© All rights reserved.',
+    copyright: '© All rights cooperatively shared.',
     menu: [
       {
-        label: 'Articles',
-        path: '/'
+        label: 'Organization',
+        path: '/organization'
       },
       {
-        label: 'About me',
-        path: '/about/'
+        label: 'Economic System',
+        path: '/economic-system/'
       },
       {
-        label: 'Contact me',
-        path: '/contact/'
+        label: 'Nodes Network',
+        path: '/networks/'
+      },
+      {
+        label: 'Tools',
+        path: '/tools'
+      },
+      {
+        label: 'Wiki',
+        path: '/wiki/'
+      },
+      {
+        label: 'Forum',
+        path: '/forum/'
+      },
+      {
+        label: 'Blog',
+        path: '/blog/'
+      },
+      {
+        label: 'Join us',
+        path: '/join-us/'
       }
     ],
     author: {
-      name: 'Bernini',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#'
+      name: 'FairCoop',
+      email: 'hello@fair.coop',
+      telegram: 'https://t.me/askfaircoop',
+      twitter: 'https://twitter.com/Fair_Coop',
+      github: 'https://github.com/faircoop'
     }
   },
   plugins: [

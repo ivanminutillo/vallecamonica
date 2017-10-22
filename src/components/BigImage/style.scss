@@ -1,13 +1,40 @@
 .bigImage {
     lost-utility: clearfix;
     // lost-utility: edit; 
-    margin-top: 80px;  
+    margin-top: 40px;  
     position: relative;
+    text-align: center;
+    h1 {
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #30363E;
+        padding: 0px 40px;
+        border-radius: 2px;
+        margin-bottom: 80px;
+        position: relative;
+        font-weight: 300;
+        font-style: italic;
+        height: 74px;
+        line-height: 74px;
+        b {
+            font-style: normal;
+        }
+        &:after {
+            position: absolute;
+            content: "";
+            width: 1px;
+            height: 82px;
+            background: #30363E;
+            left: 50%;
+            top: 74px;
+        }
+    }
     .bigImage_wrapper {
-        margin-top: 40px;
+        // margin-top: 40px;
         lost-offset: 1/8;
         lost-column: 3/4;
         position: relative;
+        
     }
     .wrapper_info {
         background: url('../../assets/images/decide.png');
@@ -18,22 +45,25 @@
         position: relative;
         z-index: 9;
     
-        h1 {
-            lost-column: 2/5;
-            margin-top: 0;
-            color: white;
-            font-size: 46px;
-            letter-spacing: 2px;
-            line-height: 60px;
-            font-weight: 300;
-            font-style: italic;
-            b {
-                font-weight: 700;
-                font-style: normal;
-            }
-        }
+        // h1 {
+        //     lost-column: 3/5;
+        //     lost-offset: 1/5;
+        //     margin-top: 0;
+        //     color: white;
+        //     font-size: 46px;
+        //     letter-spacing: 2px;
+        //     line-height: 60px;
+        //     font-weight: 300;
+        //     font-style: italic;
+        //     b {
+        //         font-weight: 700;
+        //         font-style: normal;
+        //     }
+        // }
         .bigimage_desc {
-            lost-column: 3/5 2;
+            lost-column: 5/7;
+            lost-offset: 1/7;
+            lost-align: center;
             font-size: 18px;
             letter-spacing: .5px;
             color: white;
@@ -53,9 +83,9 @@
 .wrapper_overlay {
     position: absolute;
     left: 20px;
-    right: -20px;
+    right: 20px;
     top: 20px;
-    bottom: -20px;
+    bottom: -40px;
     background: rgb(45, 67, 108);
     display: block;
     z-index: 1;

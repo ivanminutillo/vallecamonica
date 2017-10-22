@@ -23,46 +23,52 @@
         text-align: center;
     }
     .tabs_content {
-        background: #EEEEEE;
-        border-radius: 3px;
+        // background: #EEEEEE;
+        // border-radius: 3px;
         padding: 30px;
         lost-utility: clearfix;
         position: relative;
-        margin-top: 200px;
+        // margin-top: 200px;
         .container_menu {
-            background: #000;
-            border-radius: 3px;
-            lost-offset: 1/10;
-            lost-column: 8/10;
-            position: absolute;
-            padding: 40px 0; 
-            top: -140px;
-            box-shadow: 0 2px 24px rgba(0,0,0,.3);
             h2 {
-                color: white;
-                font-size: 46px;
-                letter-spacing: 2px;
-                font-weight: 700;
+                color: #30363E;
+                font-size: 16px;
+                letter-spacing: 1px;
+                font-weight: 600;
                 margin: 0;
-                margin-left: 40px;
-                margin-bottom:20px;
-                &:last-of-type {
-                    margin-bottom:20px;
+                margin-right: 40px;
+                // margin-bottom:20px;
+                display: inline-block;
+                position: relative;
+                &.active {
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        bottom: 0px;
+                        height: 1px;
+                        width: 100%;
+                        background: #30363E;
+                        left: 0;
+                    }
                 }
             }
         }
         .container_text {
-            padding-top: 200px;
+            // padding-top: 200px;
+            background: #EEEEEE;
+            border-radius: 3px;
+            padding: 40px;
             h4 {
-              font-size: 30px;
-              letter-spacing: 1.5px;
+              font-size: 24px;
+              letter-spacing: 1px;
               text-decoration: underline;
+              margin: 0px;
               margin-bottom: 40px;
             }
             div {
-                font-size: 36px;
+                font-size: 22px;
                 letter-spacing: 1px;
-                line-height: 60px;
+                line-height: 40px;
                 font-style: italic;
             }
             button {

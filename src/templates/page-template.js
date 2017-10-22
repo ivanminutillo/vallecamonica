@@ -1,18 +1,18 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import PageTemplateDetails from '../components/PageTemplateDetails';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import PageTemplateDetails from '../components/PageTemplateDetails'
 
 class PageTemplate extends React.Component {
-  render() {
-    const { title, subtitle } = this.props.data.site.siteMetadata;
-    const page = this.props.data.markdownRemark;
+  render () {
+    const { title, subtitle } = this.props.data.site.siteMetadata
+    const page = this.props.data.markdownRemark
 
-    let description;
+    let description
     if (page.frontmatter.description !== null) {
-      description = page.frontmatter.description;
+      description = page.frontmatter.description
     } else {
-      description = subtitle;
+      description = subtitle
     }
 
     return (
@@ -23,7 +23,7 @@ class PageTemplate extends React.Component {
         </Helmet>
         <PageTemplateDetails {...this.props} />
       </div>
-    );
+    )
   }
 }
 
@@ -37,9 +37,9 @@ PageTemplate.propTypes = {
     }),
     markdownRemark: PropTypes.object.isRequired
   })
-};
+}
 
-export default PageTemplate;
+export default PageTemplate
 
 export const pageQuery = graphql`
   query PageBySlug($slug: String!) {
@@ -58,8 +58,6 @@ export const pageQuery = graphql`
           telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }
@@ -73,4 +71,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`;
+`

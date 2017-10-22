@@ -1,39 +1,45 @@
 .todo {
-    // background: #FEEAE9;
     margin-top: 100px;
-    // margin-left: -40px;
-    // margin-right: -40px;
-    // padding-left: 40px;
-    // padding-right: 40px;
     padding-bottom: 60px;
     lost-utility: clearfix;
     // lost-utility: edit; 
     .todo_wrapper {
-        lost-offset: 1/5; 
-        lost-column: 3/5;
-        padding: 20px;
-        background: url('./todo.png');
+        lost-offset: 1/10;
+        lost-column: 8/10;
+        // padding: 20px;
+        // background: url('./todo.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;  
     }
     .wrapper_info {
-     lost-column: 2/5;
+     lost-column: 3/5;
      margin-top: 50px;
         h1 {
-            font-size: 23px;
+            font-size: 46px;
             line-height: 35px;
             margin: 0;
-            color: white;
+            color: #30363E;
+            position: relative;
+            &:after {
+                content: "";
+                position: absolute;
+                left: 0;
+                height: 4px;
+                width: 40px;
+                background: #59C25B;
+                border-radius: 20px;
+                bottom: -20px;
+            }
         }
         .info_desc {
-            color: white;
-            margin-top: 20px;
+            color: #30363E;
+            margin-top: 40px;
 
         }
     }
     .wrapper_todo {
-        lost-column: 3/5;
+        lost-column: 1/1;
         margin-top: 50px;
         .todo_item {
             height: 50px;

@@ -10,11 +10,13 @@ import Work from '../components/Work'
 import Cta from '../components/Cta'
 import Tabs from '../components/Tabs'
 import Todo from '../components/Todo'
+import Footer from '../components/Footer'
 
 class IndexRoute extends React.Component {
   render() {
     const items = []
-    const { title, subtitle } = this.props.data.site.siteMetadata
+    console.log(this.props)
+    const { title, subtitle, author, menu } = this.props.data.site.siteMetadata
     const posts = this.props.data.allMarkdownRemark.edges
     posts.forEach((post) => {
       items.push(
@@ -28,7 +30,7 @@ class IndexRoute extends React.Component {
           <title>{title}</title>
           <meta name="description" content={subtitle} />
         </Helmet>
-        <Header />
+        <Header menu={menu} social={author} />
         <Hero />
         <Tabs />
         <BigImage />
@@ -36,6 +38,7 @@ class IndexRoute extends React.Component {
         <Work />
         <Cta />
         <Todo />
+        <Footer />
         {/* <Sidebar {...this.props} /> */}
         {/* <div className="content">
           <div className="content__inner">
@@ -75,13 +78,10 @@ export const pageQuery = graphql`
           path
         }
         author {
-          name
           email
           telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }

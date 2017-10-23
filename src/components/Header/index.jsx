@@ -6,7 +6,7 @@ import './style.scss'
 const Header = ({menu, social}) => {
   return (
     <header className='main_header'>
-      <Topbar social={social} />
+      <Topbar social={social} menu={menu} />
       <div className='header'>
         <div className='header_logo'>
           <span className='logo_earth' />

@@ -96,13 +96,16 @@
 @media (max-width: 800px) {
     .bigImage {
         // lost-utility: edit; 
-        margin-top: 40px;  
+        margin-top: 0px;  
         padding: 40px 20px;
         h1 {
-            font-size: 30px;
+            font-size: 24px;
         }
         .bigImage_wrapper {
             lost-column: 1/1;
+        }
+        .wrapper_overlay {
+            display: none;
         }
         .wrapper_info {
             height: 600px;
@@ -116,7 +119,7 @@
                 margin-top: 10px;
                 h2 {
                     margin-top: 20px;
-                    font-size: 32px;
+                    font-size: 25px;
                 }
             }
         }

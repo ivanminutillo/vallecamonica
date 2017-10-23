@@ -92,3 +92,33 @@
     // lost-offset: 1/8;
     // lost-column: 3/4;
 }
+
+@media (max-width: 800px) {
+    .bigImage {
+        // lost-utility: edit; 
+        margin-top: 40px;  
+        padding: 40px 20px;
+        h1 {
+            font-size: 30px;
+        }
+        .bigImage_wrapper {
+            lost-column: 1/1;
+        }
+        .wrapper_info {
+            height: 600px;
+            .bigimage_desc {
+                lost-column: 1/1;
+                font-size: 18px;
+                letter-spacing: .5px;
+            }
+            .bigImage_meta {
+                lost-column: 1/1;
+                margin-top: 10px;
+                h2 {
+                    margin-top: 20px;
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+}

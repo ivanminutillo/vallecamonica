@@ -61,3 +61,18 @@
     to { transform: rotate(360deg); }
   }
   
+
+
+@media (max-width: 800px) {
+  .main_header {
+    margin: 0;
+    height: 50px;
+    .header_menu {
+      display: none;
+    }
+  }
+  
+  .header_logo {
+    display: none;
+  }
+}

@@ -1,30 +1,49 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './style.scss'
+import {Integral, Disobedience, Cooperativism, Decentralization} from './topic'
 
-const Tabs = () => {
+class Tabs extends Component {
+  constructor () {
+    super()
+    this.selectTab = this.selectTab.bind(this)
+    this.state = {
+      isSelected: 'integral'
+    }
+  }
+
+  selectTab (topic) {
+    this.setState({
+      isSelected: topic
+    })
+  }
+
+  render () {
+    const {isSelected} = this.state
+    let topic
+    if (isSelected === 'integral') { topic = <Integral /> }
+    else if (isSelected === 'disobedience') { topic = <Disobedience /> }
+    else if (isSelected === 'cooperativism') { topic = <Cooperativism /> }
+    else if (isSelected === 'decentralization') { topic = <Decentralization /> }
     return (
-        <section className='tabs'>
-          <div className='tabs_container'>
-            <h1>What really moves us</h1>
-            <div className='tabs_separate'>~</div>
-            <div className='tabs_content'>
-                <div className='container_menu'>
-                    <h2 className='active'>Integral Revolution</h2>
-                    <h2>Disobedience</h2>
-                    <h2>Cooperativism</h2>
-                    <h2>Decentralization</h2>
-                </div>
-                <div className='container_text'>
-                    <div>
-                    There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck of your home or having a powerful but mobile telescope set up to take to the remove countryside to really get a good shot at some breath taking star gazing.
-The last thing we would want to do is to take away any of the “fun” of your hobby of astronomy.
-                    </div>
-                    <button>Visit the website</button>
-                </div>
-            </div>
+      <section className='tabs'>
+        <div className='tabs_container'>
+          <h1>What really moves us</h1>
+          <div className='tabs_separate'>~</div>
+          <div className='tabs_content'>
+              <div className='container_menu'>
+                  <h2 onClick={() => this.selectTab('integral')} className={isSelected === 'integral' ? 'active' : ''}>Integral Revolution</h2>
+                  <h2 onClick={() => this.selectTab('disobedience')} className={isSelected === 'disobedience' ? 'active' : ''}>Disobedience</h2>
+                  <h2 onClick={() => this.selectTab('cooperativism')} className={isSelected === 'cooperativism' ? 'active' : ''}>Cooperativism</h2>
+                  <h2 onClick={() => this.selectTab('decentralization')} className={isSelected === 'decentralization' ? 'active' : ''}>Decentralization</h2>
+              </div>
+              <div className='container_text'>
+                  {topic}
+              </div>
           </div>
-        </section>
+        </div>
+      </section>
     )
+  }
 }
 
 export default Tabs

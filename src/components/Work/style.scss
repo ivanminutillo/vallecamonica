@@ -52,3 +52,34 @@
         }
     }
 }
+
+
+@media (max-width: 800px) {
+    .work_section {
+        // lost-utility: edit; 
+        padding-top: 50px;
+        padding: 20px;
+        .section_wrapper {
+            lost-column: 1/1;
+            .wrapper_image {
+                lost-column: 1/1;
+                position: relative;
+            }
+            .wrapper_diagram {
+                    height: 480px;
+                    margin-top: 0px;
+                    bottom: 0px;
+            }
+            .wrapper_info {
+                // 4/6
+                lost-column: 1/1;
+                p {
+                    text-align: left;
+                }
+                h1 {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

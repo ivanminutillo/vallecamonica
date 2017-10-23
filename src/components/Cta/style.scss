@@ -30,3 +30,19 @@
         color: #30353E;
     }
 }
+
+@media (max-width: 800px) {
+    .cta {
+        padding: 0 20px;
+        margin-top: 30px;
+        h1 {
+            lost-column: 1/1;
+        }
+        div {
+            lost-column: 1/1;
+        }
+        a {
+            lost-column: 1/1;
+        }
+    }
+}

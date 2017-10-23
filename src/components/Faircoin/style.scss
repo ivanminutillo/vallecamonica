@@ -87,3 +87,29 @@
         }
     }
 }
+
+@media (max-width: 800px) {
+    .faircoin_section {
+        // lost-utility: edit; 
+        padding: 40px 20px;
+        .section_wrapper {
+            lost-column: 1/1;
+            margin: 60px 0;
+        }
+        .wrapper_desc {
+            lost-column: 1/1;
+        }
+        .faircoin_data {
+            lost-column: 1/1;
+            .data_item {
+                margin-right: 20px;
+                h1 {
+                    letter-spacing: 0;
+                }
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

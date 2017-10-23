@@ -1,10 +1,11 @@
 import React from 'react'
 import './style.scss'
-import {Twitter, Github, Calendar} from '../../icons'
+import {Twitter, Github, Calendar, Menu} from '../../icons'
 
 const Topbar = ({social}) => {
     return (
         <section className='topbar'>
+            <span className='topbar_menu'><Menu color='white' width='20' height='20' line='1' /></span>
             <div className='topbar_calendar'>
                 <span><Calendar color='white' width='18' height='18' line='1' /></span>
                 <h5>25.09 - Global Assembly Minute @ 19.00 CET</h5>

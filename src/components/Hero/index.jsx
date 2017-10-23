@@ -45,7 +45,7 @@ const Hero = () => {
         <div className='hero_feed'>
           <div className='feed_document'>
             <span><Book heigth='18' width='18' line='1' /></span>
-            <h5> 25.09 - Global Assembly Minute</h5>
+            <h5>Faircoop Beginner guide </h5>
           <div className='feed_actions'>
             <button className='good'>Download</button>
             <button className='inline'>Read online</button>

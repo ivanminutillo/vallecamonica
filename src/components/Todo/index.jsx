@@ -11,7 +11,7 @@ const Todo = () => {
                     <div className='wrapper_todo'>
                         <div className='todo_item'>
                             <div className='item_checkbox'></div> 
-                            <h5>Create a stable and secure cryptocurrency</h5>
+                            <h5>Create a stable cryptocurrency</h5>
                         </div>
                         <div className='todo_item'>
                             <div className='item_checkbox'></div> 
@@ -19,15 +19,15 @@ const Todo = () => {
                         </div>
                         <div className='todo_item'>
                             <div className='item_checkbox'></div> 
-                            <h5>Build a Cooperative Bank that includes cryptos</h5>
+                            <h5>Build a Cooperative Bank</h5>
                         </div>
                         <div className='todo_item'>
                             <div className='item_checkbox'></div> 
-                            <h5>Create a stable and secure cryptocurrency</h5>
+                            <h5>Create a secure cryptocurrency</h5>
                         </div>
                         <div className='todo_item'>
                             <div className='item_checkbox'></div> 
-                            <h5>Create a stable and secure cryptocurrency</h5>
+                            <h5>Create a stable cryptocurrency</h5>
                         </div>
                     </div>
                 </div>

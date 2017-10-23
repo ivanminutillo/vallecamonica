@@ -26,6 +26,8 @@
                 // margin-left: -60px;
                 // right: 0;
                 bottom: -60px;
+                height: 0;
+                padding-bottom: 130.25%;
         }
         .wrapper_info {
             // 4/6
@@ -66,7 +68,6 @@
                 position: relative;
             }
             .wrapper_diagram {
-                    height: 480px;
                     margin-top: 0px;
                     bottom: 0px;
             }

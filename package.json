@@ -47,6 +47,9 @@
     "typeface-roboto": "latest",
     "lodash": "^4.17.2"
   },
+  "optionalDependencies": {
+    "fsevents": "*"
+  },
   "devDependencies": {
     "postcss-pxtorem": "^4.0.1",
     "eslint": "^3.x",

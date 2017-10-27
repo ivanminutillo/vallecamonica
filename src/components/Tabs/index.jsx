@@ -25,21 +25,20 @@ class Tabs extends Component {
     else if (isSelected === 'cooperativism') { topic = <Cooperativism /> }
     else if (isSelected === 'decentralization') { topic = <Decentralization /> }
     return (
-      <section className='tabs'>
-        <div className='tabs_container'>
-          <h1>What really moves us</h1>
-          <div className='tabs_separate'>~</div>
-          <div className='tabs_content'>
+      <section className='section tabs'>
+        <div className='section_wrapper'>
+          <div className='wrapper_tagline'><h5 className='bold'># Our principles</h5></div>
+            <div className='tabs_content'>
               <div className='container_menu'>
-                  <h2 onClick={() => this.selectTab('integral')} className={isSelected === 'integral' ? 'active' : ''}>Integral Revolution</h2>
-                  <h2 onClick={() => this.selectTab('disobedience')} className={isSelected === 'disobedience' ? 'active' : ''}>Disobedience</h2>
-                  <h2 onClick={() => this.selectTab('cooperativism')} className={isSelected === 'cooperativism' ? 'active' : ''}>Cooperativism</h2>
-                  <h2 onClick={() => this.selectTab('decentralization')} className={isSelected === 'decentralization' ? 'active' : ''}>Decentralization</h2>
+                <h2 onClick={() => this.selectTab('integral')} className={isSelected === 'integral' ? 'active' : ''}>Integral Revolution</h2>
+                <h2 onClick={() => this.selectTab('disobedience')} className={isSelected === 'disobedience' ? 'active' : ''}>Disobedience</h2>
+                <h2 onClick={() => this.selectTab('cooperativism')} className={isSelected === 'cooperativism' ? 'active' : ''}>Cooperativism</h2>
+                <h2 onClick={() => this.selectTab('decentralization')} className={isSelected === 'decentralization' ? 'active' : ''}>Decentralization</h2>
               </div>
               <div className='container_text'>
-                  {topic}
+                {topic}
               </div>
-          </div>
+            </div>
         </div>
       </section>
     )

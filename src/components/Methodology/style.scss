@@ -1,0 +1,18 @@
+.wrapper_image {
+    lost-column: 5/10;
+    position: relative;
+}
+.wrapper_diagram {
+        background: url('../../assets/images/diagram.jpg');
+        background-size: contain;
+        height: 580px;
+        width: 440px;
+        margin: 0;
+        display: block;
+        position: relative;
+        background-repeat: no-repeat;
+        z-index: 2;
+        margin: 0;
+        position: absolute;
+        right: 0;
+}

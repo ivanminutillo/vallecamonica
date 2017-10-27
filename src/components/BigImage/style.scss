@@ -7,27 +7,31 @@
     h1 {
         display: inline-block;
         text-align: center;
-        border: 1px solid #30363E;
+        // border: 1px solid #30363E;
         padding: 0px 40px;
         border-radius: 2px;
         margin-bottom: 80px;
         position: relative;
         font-weight: 300;
         font-style: italic;
-        height: 74px;
-        line-height: 74px;
+        // height: 74px;
+        // line-height: 74px;
+        margin: 0;
+        line-height: 360px;
+        height: 360px;
+        color: white;
         b {
             font-style: normal;
         }
-        &:after {
-            position: absolute;
-            content: "";
-            width: 1px;
-            height: 82px;
-            background: #30363E;
-            left: 50%;
-            top: 74px;
-        }
+        // &:after {
+        //     position: absolute;
+        //     content: "";
+        //     width: 1px;
+        //     height: 82px;
+        //     background: #30363E;
+        //     left: 50%;
+        //     top: 74px;
+        // }
     }
     .bigImage_wrapper {
         // margin-top: 40px;
@@ -36,7 +40,7 @@
         position: relative;
         
     }
-    .wrapper_info {
+    .bigImage_info {
         background: url('../../assets/images/decide.png');
         background-size: cover;
         height: 360px;

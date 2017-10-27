@@ -4,9 +4,10 @@ import Helmet from 'react-helmet'
 import Post from '../components/Post'
 import BigImage from '../components/BigImage'
 import Header from '../components/Header'
+import Methodology from '../components/Methodology'
 import Hero from '../components/Hero'
 import Faircoin from '../components/Faircoin'
-import Work from '../components/Work'
+import Nodes from '../components/Nodes'
 import Cta from '../components/Cta'
 import Tabs from '../components/Tabs'
 import Todo from '../components/Todo'
@@ -34,9 +35,9 @@ class IndexRoute extends React.Component {
         <Hero />
         <Tabs />
         <BigImage />
+        <Methodology />
         <Faircoin />
-        <Work />
-        <Cta />
+        <Nodes />
         <Todo />
         <Footer />
         {/* <Sidebar {...this.props} /> */}

@@ -2,6 +2,9 @@ import React, {Component} from 'react'
 import './style.scss'
 import {Twitter, Github, Calendar, Menu} from '../../icons'
 import Link from 'gatsby-link'
+import LanguageSwitcher from '../LanguageSwitcher'
+import { translate, Trans } from 'react-i18next'
+import i18n from '../../i18n'
 
 class Topbar extends Component {
   constructor () {
@@ -17,8 +20,12 @@ class Topbar extends Component {
     })
   }
   render () {
-    const {social, menu} = this.props
+    const { t, menu} = this.props
     const {isActive} = this.state
+    const changeLanguage = (lng) => {
+        console.log(i18n)
+        i18n.changeLanguage(lng)
+    }
     return (
         <section className='topbar'>
             <div className={isActive ? 'mobile_content active' : 'mobile_content'}>
@@ -39,7 +46,9 @@ class Topbar extends Component {
             <div className='topbar_meta'>
                 <div className='meta_languages'>
                     <div className='languages_container'>
-                        English
+                        <LanguageSwitcher />
+                        {/* <button onClick={() => changeLanguage('it')}>in</button>
+                        <button onClick={() => changeLanguage('en')}>en</button> */}
                     </div>
                 </div>
                 <div className='meta_social'>

@@ -1,3 +1,5 @@
+@import "../../assets/scss/mixins";
+
 .section {
     margin-top: 100px;
     // lost-utility: edit;    
@@ -96,22 +98,17 @@
 }
 
 
-.tabs {
-    // lost-utility: edit;    
+.tabs {   
     lost-utility: clearfix;
     margin-top: 80px;
     .tabs_content {
-        // background: #EEEEEE;
-        // border-radius: 3px;
-        // padding: 30px;
-
         lost-utility: clearfix;
         position: relative;
         margin-top: 50px;
         .container_menu {
             lost-column: 1/4;
             h2 {
-                display: inline-block;
+                display: block;
                 color: #30363E;
                 font-size: 20px;
                 letter-spacing: 1px;
@@ -178,7 +175,30 @@
 
 
 
-@media (max-width:650px) {
+@include breakpoint-md {
+    .section {
+        margin-top: 40px !important;
+        padding-bottom: 40px !important;
+        .section_wrapper {
+            lost-offset: 0/10 !important;
+            lost-column: 1/1 !important;
+            .wrapper_tagline {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .wrapper_info {
+                margin-left: 20px;
+                margin-right: 20px;
+                .info_content {
+                    lost-column: 1/1;
+                }
+            }
+            .wrapper_data {
+                display: none;
+            }
+        }
+    }
+
     .tabs {
         margin-top: 80px;
         .tabs_container {
@@ -187,92 +207,34 @@
         
         .tabs_content {
             padding: 0;
+            .container_text {
+                lost-column: 4/4 !important;
+            }
             .container_menu {
-                padding: 0 20px;
                 margin: 0;
+                lost-column: 1/1 !important;
                 h2 {
-                    font-size: 14px;
-                    text-align: center;
+                    font-size: 18px;
                     margin: 0;
-                    text-transform: uppercase;
-                    letter-spacing: 0px;
-                    // margin-right: 20px;
-                    position: relative;
-                    display: block;
-                    // padding: 0px 40px;
-                    margin-bottom: 10px;
-                    &.active {
-                        border: 1px solid;
-                        &:after {
-                            position: static;
-                        }
-                    }
-                    &:first-of-type {
-                        margin-left: 0;
-                    }
-                    &:last-of-type {
-                        margin-right: 0;
-                    }
-                }
-            }
-        }
-    }   
-}
-
-@media (min-width: 651px) and (max-width:720px){
-    .tabs {
-        margin-top: 80px;
-        .tabs_container {
-            lost-offset: 1/10;
-            lost-column: 8/10;
-        }
-        
-        .tabs_content {
-            padding: 0;
-            .container_menu {
-                h2 {
-                    font-size: 13px;
-                    text-transform: uppercase;
-                    letter-spacing: 0px;
+                    margin-left: 20px;
                     margin-right: 20px;
-                    position: relative;
-                    &:first-of-type {
-                        margin-left: 0;
-                    }
-                    &:last-of-type {
-                        margin-right: 0;
-                    }
-                }
-            }
-        }
-    }   
-}
-
-@media (min-width: 721px) and (max-width:1300px){
-    .tabs {
-        margin-top: 80px;
-        .tabs_container {
-            lost-offset: 1/10;
-            lost-column: 8/10;
-        }
-        
-        .tabs_content {
-            padding: 0;
-            .container_menu {
-                h2 {
-                    font-size: 14px;
                     text-transform: uppercase;
                     letter-spacing: 0px;
-                    margin-right: 30px;
                     position: relative;
-                    &:first-of-type {
-                        margin-left: 0;
-                    }
-                    &:last-of-type {
-                        margin-right: 0;
-                    }
+                    display: block !important;
+                    margin-bottom: 10px;
                 }
             }
         }
-    }   
+    } 
+}
+
+
+@include breakpoint-sm {
+    .section {
+        .section_wrapper {
+            lost-offset: 0/10 !important;
+            lost-column: 1/1 !important;
+        }
+    }
 }

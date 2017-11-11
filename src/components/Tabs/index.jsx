@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './style.scss'
-import {Integral, Disobedience, Cooperativism, Decentralization} from './topic'
+import {Integral, Disobedience, Cooperativism, Decentralization, Stateless} from './topic'
 
 class Tabs extends Component {
   constructor () {
@@ -24,6 +24,7 @@ class Tabs extends Component {
     else if (isSelected === 'disobedience') { topic = <Disobedience /> }
     else if (isSelected === 'cooperativism') { topic = <Cooperativism /> }
     else if (isSelected === 'decentralization') { topic = <Decentralization /> }
+    else if (isSelected === 'stateless') { topic = <Stateless /> }
     return (
       <section className='section tabs'>
         <div className='section_wrapper'>
@@ -32,8 +33,9 @@ class Tabs extends Component {
               <div className='container_menu'>
                 <h2 onClick={() => this.selectTab('integral')} className={isSelected === 'integral' ? 'active' : ''}>Integral Revolution</h2>
                 <h2 onClick={() => this.selectTab('disobedience')} className={isSelected === 'disobedience' ? 'active' : ''}>Disobedience</h2>
-                <h2 onClick={() => this.selectTab('cooperativism')} className={isSelected === 'cooperativism' ? 'active' : ''}>Cooperativism</h2>
+                <h2 onClick={() => this.selectTab('cooperativism')} className={isSelected === 'cooperativism' ? 'active' : ''}>Open Cooperativism</h2>
                 <h2 onClick={() => this.selectTab('decentralization')} className={isSelected === 'decentralization' ? 'active' : ''}>Decentralization</h2>
+                <h2 onClick={() => this.selectTab('stateless')} className={isSelected === 'stateless' ? 'active' : ''}>Stateless Democracy</h2>
               </div>
               <div className='container_text'>
                 {topic}

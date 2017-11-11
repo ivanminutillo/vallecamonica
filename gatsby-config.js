@@ -11,11 +11,11 @@ module.exports = {
       },
       {
         label: 'Economic System',
-        path: '/economic-system/'
+        path: '/economic-system'
       },
       {
         label: 'Nodes Network',
-        path: '/networks/'
+        path: '/network'
       },
       {
         label: 'Tools',
@@ -27,7 +27,7 @@ module.exports = {
       },
       {
         label: 'Forum',
-        path: '/forum/'
+        path: 'http://discourse.fair.coop'
       },
       {
         label: 'Blog',

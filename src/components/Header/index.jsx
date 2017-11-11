@@ -1,22 +1,24 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Topbar from '../Topbar'
+import { translate } from 'react-i18next'
 import './style.scss'
 
-const Header = ({menu, social}) => {
+const Header = (props) => {
+  const { t } = props
   return (
     <header className='main_header'>
-      <Topbar social={social} menu={menu} />
+      <Topbar social={props.social} menu={props.menu} />
       <div className='header'>
         <div className='header_logo'>
           <span className='logo_earth' />
         </div>
         <nav className='header_menu'>
-          {menu.map((item, i) => <Link key={i} activeClassName={'active'} to={item.path}>{item.label}</Link>)}
+          {props.menu.map((item, i) => <Link key={i} activeClassName={'active'} to={item.path}>{item.label}</Link>)}
         </nav>
       </div>
     </header>
   )
 }
 
-export default Header
+export default translate('translations')(Header)

@@ -1,3 +1,4 @@
+@import "../../assets/scss/mixins";
 .wrapper_image {
     lost-column: 5/10;
     position: relative;
@@ -15,4 +16,10 @@
         margin: 0;
         position: absolute;
         right: 0;
+}
+
+@include breakpoint-md {
+    .wrapper_image {
+        display: none;
+    }
 }

@@ -2,10 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import PageTemplateDetails from '../components/PageTemplateDetails'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 class PageTemplate extends React.Component {
   render () {
-    const { title, subtitle } = this.props.data.site.siteMetadata
+    const { title, subtitle, menu, author } = this.props.data.site.siteMetadata
     const page = this.props.data.markdownRemark
 
     let description
@@ -21,7 +23,15 @@ class PageTemplate extends React.Component {
           <title>{`${page.frontmatter.title} - ${title}`}</title>
           <meta name="description" content={description} />
         </Helmet>
+        <Header
+          menu={menu}
+          social={author}
+        />
         <PageTemplateDetails {...this.props} />
+        <Footer
+          menu={menu}
+          social={author}
+        />
       </div>
     )
   }

@@ -1,11 +1,79 @@
+@import "../../assets/scss/mixins";
 .nodes {
         .wrapper_info {
           .info_content {
             lost-column: 3/5 !important;
             margin: 0;
             button {
-                margin-right: 20px;
+                margin-right: 20px;  
+                a {
+                    color: #100F2B;
+                }
             }
+          }
+        }
+    .hero_feed {
+        lost-utility: clearfix;
+        padding-top: 0px;
+        margin-top: 60px;
+        lost-column: 1/1;
+        .feed_document {
+            height: 50px;
+            border-radius: 3px;
+            background: #F5F5E9;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+            padding: 0 10px;
+            lost-utility: clearfix;
+        }
+        h5 {
+            margin: 0;
+            line-height: 50px;
+            font-size: 15px;
+            font-weight: 500;
+            display: inline-block;
+        }
+        span {
+            display: inline-block;
+            vertical-align: SUB; 
+            height: 50px;
+            line-height: 50px;
+            margin-right: 10px;
+        }
+        .feed_actions {
+            float: right;
+            margin-top: 0px;
+            button {
+                height: 30px;
+                margin-top: 10px;
+                border: none;
+                margin-left: 10px;
+                font-size: 13px;
+                margin-right: 0;
+                a {
+                    color: #100F2B;
+                }
+                &.good {
+                    background: #59C25B;
+                    border-radius: 2px;
+                    color: white;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                }
+                &.inline {
+                    text-decoration: underline;
+                    font-weight: 600;
+                    background: transparent;
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint-md {
+    .nodes {
+        .wrapper_info {
+          .info_content {
+            lost-column: 1/1 !important;
           }
         }
     .hero_feed {
@@ -60,4 +128,5 @@
             }
         }
     }
+}
 }

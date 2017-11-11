@@ -40,7 +40,7 @@
         }
     }
     .faircoin_actions {
-        margin-top: 20px;
+        margin-top: 40px;
         margin-bottom: 40px;
         button {
             height: 40px;
@@ -50,6 +50,9 @@
             border-radius: 2px;
             font-size: 14px;
             font-weight: 600;
+            a {
+                color: #222;
+            }
             &.good {
                 background: #59C25B;
                 border-radius: 2px;
@@ -65,7 +68,11 @@
         }
     }
     .wrapper_desc {
-        lost-column: 4/7;
+        lost-column: 7/7;
+        hr {
+            color: #dadada;
+            background-image: none;
+        }
     }
     .faircoin_data {
         lost-column: 3/7;

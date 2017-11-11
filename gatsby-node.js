@@ -4,6 +4,8 @@ const path = require('path');
 const lost = require('lost');
 const pxtorem = require('postcss-pxtorem');
 const slash = require('slash');
+const fs = require('fs-extra');
+
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
@@ -171,3 +173,8 @@ exports.modifyWebpackConfig = ({ config }) => {
     ]
   });
 };
+
+exports.onPostBuild = () => {
+  console.log('Copying locales');
+  fs.copySync(path.join(__dirname, '/src/locales'), path.join(__dirname, '/public/locales'))
+}

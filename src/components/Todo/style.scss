@@ -1,3 +1,4 @@
+@import "../../assets/scss/mixins";
 .todo {
     margin-top: 100px;
     padding-bottom: 60px;
@@ -69,21 +70,28 @@
     }
 }
 
-@media (max-width: 800px) {
+@include breakpoint-md {
     .todo {
-        padding: 0 20px;
         margin-top: 50px;
-        .todo_wrapper {
-            lost-column: 1/1;
-            .wrapper_info {
-              lost-column: 1/1;
+        .wrapper_info {
+            lost-column: 1/1 !important;
+            .info_content {
+              div {
+                margin-left: 20px !important;
+                margin-right: 20px !important;
+              }
             }
         }
+        .todo_wrapper {
+            lost-column: 1/1 !important;
+        }
         .wrapper_todo {
-            lost-column: 1/1;
+            lost-column: 1/1 !important;
             margin-top: 50px;
             .todo_item {
                 padding: 0 5px;
+                margin-left: 20px !important;
+                margin-right: 20px !important;
                 h5 {
                     margin: 0;
                     margin-left: 5px;

@@ -1,36 +1,39 @@
 import React from 'react'
 import './style.scss'
+import {Check} from '../../icons'
+import { translate } from 'react-i18next'
 
-const Todo = () => {
+const Todo = (props) => {
+    const {t} = props
     return (
         <section className='section todo'>
         <div className='section_wrapper'>
-            <div className='wrapper_tagline '><h5 className='bold'># What we did so far</h5></div>
+            <div className='wrapper_tagline '><h5 className='bold'>{t('milestones.title')}</h5></div>
             <div className='wrapper_info'>
-                <div className='info_content'>
-                    <div>Here is some of the  goals we want to achieve working together, feel you want to be involved? Start to chat with us</div>
-                    
-                </div>
                 <div className='wrapper_todo'>
                         <div className='todo_item'>
-                            <h4 className='item_checkbox' />
-                            <h5>Create a stable cryptocurrency</h5>
+                            <span><Check width={20} height={20} color={"#59C25B"} /></span>
+                            <h5>{t('milestones.one')}</h5>
                         </div>
                         <div className='todo_item'>
-                            <h4 className='item_checkbox' />
-                            <h5>Build a european cooperative framework</h5>
+                            <span><Check width={20} height={20} color={"#59C25B"} /></span>
+                            <h5>{t('milestones.two')}</h5>
                         </div>
                         <div className='todo_item'>
-                            <h4 className='item_checkbox' />
-                            <h5>Build a Cooperative Bank</h5>
+                            <span><Check width={20} height={20} color={"#59C25B"} /></span>
+                            <h5>{t('milestones.three')}</h5>
                         </div>
                         <div className='todo_item'>
-                            <h4 className='item_checkbox' />
-                            <h5>Create a secure cryptocurrency</h5>
+                            <span><Check width={20} height={20} color={"#59C25B"} /></span>
+                            <h5>{t('milestones.four')}</h5>
                         </div>
                         <div className='todo_item'>
-                            <h4 className='item_checkbox' />
-                            <h5>Create a stable cryptocurrency</h5>
+                            <span><Check width={20} height={20} color={"#59C25B"} /></span>
+                            <h5>{t('milestones.five')}</h5>
+                        </div>
+                        <div className='todo_item'>
+                            <span><Check width={20} height={20} color={"#59C25B"} /></span>
+                            <h5>{t('milestones.six')}</h5>
                         </div>
                     </div>
             </div>
@@ -39,4 +42,4 @@ const Todo = () => {
     )
 }
 
-export default Todo
+export default translate('translations')(Todo)

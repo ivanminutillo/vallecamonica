@@ -1,0 +1,76 @@
+
+{
+    "hero": {
+      "title": {
+        "first_line": "Global",
+        "second_line": "écosystème coopératif",
+        "third_line_italic": "pour une",
+        "third_line": "économie équitable"
+      },
+      "description": "Changer le monde par l'autodétermination et la décentralisation", 
+      "readMore": "Voir plus",
+      "joinDiscussion": "Joindre la discussion"
+    },
+    "tabs": {
+      "title": "# Ce qui nous fait vraiment bouger",
+      "integralRevolution": "Révolution intégrale",
+      "disobedience": "Désobéissance",
+      "openCooperativism": "Coopératisme ouvert",
+      "decentralization": "Décentralisation",
+      "statelessDemocracy": "Démocratie sans états",
+      "integralRevolutionText": "Une transformation profonde et claire de la société, incluant ses valeurs et sa structure. La nouvelle société auto gérée est basée sur l'autonomie et l'abollition de toute forme de domination : l'état, le capitalisme, la patrie et tout ce qui affecte les relations humaines et l'environnement. Des actions stratégiques sont nécessaires afin de recycler les structures obsolètes et recréer ces valeurs et qualités qui nous permettent de vivre en commun. Le point le plus prommeteur de ce changement collectif est un nouveau [LINK to economic system page|système économique]. Cela donne au peuple la possibilité de sortir du cercle vicieux du capitalisme et de ses effets de bord, afin de trouver de l'espace pour de nouvelles idées et permettre la passage à une vie saine et balancée.",
+      "disobedienceText": "La désobéissance implique dans une certaine mesure de désobéir à certaines lois de structures dominantes. Cela peut devenir un acte de civilité lorsque lesdites lois sont considérées fausses ou abusives. Pour bien comprendre cela, nous nous réferons à la différence entre légal et juste. Certaines lois peuvent être légales sur le papier mais ne peuvent pas être considerées justes, ce qui arrive fréquemment avec des gouvernements totalitaires ou fascistes. Cela peut arriver aussi avec des gouvernements dits 'démocratiques' lorsque, par exemple, l'argent public est utilisé pour démarrer des guerres dont personne ne veut.",
+      "openCooperativismText": "Nous suivons et supportons les principes des coopératives dans le sens ou elle sont dirigées par leur participants et basées sur l'aide mutuelle, l'auto-responsabilité , l'égalité, l'équité , la solidarité et la démocratie. Tout le monde peut participer activement et égalitairement aux décisions et règles. Le capital accumulé , gagné principalement avec la hausse de notre monnaie [LINK|FairCoin], est réinvesti dans le dévellopement de l'écosystème. De cette manière, les participants peuvent acoir accès à un réseau en constante progression de biens et services dans l'économie équitable.",
+      "decentralizationText": "Un de nos buts est d'avoir un système d'organisation décentralisé. En faisant cela, nous empêchons un point central d'échec, sous entendu, qu'une autorité puisse nous fermer. Nous faisons en sorte que tous les participants puissent communiquer, partager des idées et travailler sur des projets sans répression ou censure. La distribution du pouvoir politique et économique, combiné avec la [LINK to an explanation about the blockchain|transparence] nous protège des abus de personnes avec trop de droits et des fraudes ou autre corruption. Sans parler de prise de pouvoirs abusive.",
+      "statelessDemocracyText": "Le capitalisme moderne dépent d'un système de nation-état qui lui même dépent d'une culture hiérarchique et patriarcale profondément forgée dans les esprits depuis des centaines d'années. Pour la première fois dans l'histoire, grâce à une combinaison de politiques s'affaiblissants et de technologies évoluantes, nous pouvons présenter une alternative réaliste aux modèle de gouvernance actuel. Un système financier coopératif global nous donne de l'air frais et un marché équitable. Un grand pas en avant. Si nous combinons cela avec des valeurs basées sur la liberté et un vrai système démocratique, nous commencons à obtenir une réalité. Si vous croyez en une vie en dehors des états, joignez (link to your nearest node, or something)  FairCoop dès aujourd'hui ! "
+    },
+    "bigImage": {
+      "title": "Nous sommes régit par",
+      "bold": "consensus"
+    },
+    "methodology": {
+      "assembly" : {
+        "suptitle": "Un zoom sur nos méthodes",
+        "title": "# Assemblées ouvertes et concensus",
+        "description": "Dans nos assemblées ouvertes, la communauté décide elle même des moyens d'atteindre un but commun. Tout le monde peut participer et faire des propositions sur les projets en cours ou à dévelloper. Lorsqu'une proposition passe et mène à un consensus, le créateur et le troupe respectif peuvent commencer à travailler sur le projet. Nous organisons les assemblées globales en ligne et locales, physiques, de cette manière."
+      },
+      "autonomy": {
+        "title": "# Auto organisation et distribution des valeurs",
+        "description": "L'écosystème FairCoop s'auto organise a l'aide du [LINK| Wiki coopérativisme ouvert]. Tout le monde est encouragé à participer avec ses propores compétences et idées et à prendre des initiatives, donc d'aider le mouvement à grossir. En utilisant notre outil collaboratif innovant, la plateforme [LINK|Open Collaborative Platform], les participants peuvent aider gratuitement ou demander une rémunération en FairCoin afin de couvrir leur besoins. De cette manière, nous rétribuons ceux qui amènent une vrai valeur dans FairCoop et la distribution est faite d'une manière équitable et décentralisée."
+      }
+    },
+    "economy": {
+      "faircoin": {
+        "title": "Nous utilisons",
+        "bold": "faircoins",
+        "tagline": "ET une paire d'autre monnaies alternatives",
+        "description": "FairCoin est une monnaie numérique éthique, portant les valeurs de FairCoop et supportée par une coopérative globale à forte progression. Elle est décentralisée, comme les autres crypto-monnaies mais dans le même temps, implémente des innovations radicales qui la rendent unique en terme écologique, stabilité de la valeur, échanges éthiques, épargne et placements. Son dévellopement continue dans le but de créer une économie équitable pour la terre. En savoir plus : https://fair-coin.org"
+      },
+      "circularEconomy": {
+        "title": "Pour construire une",
+        "bold": "Economie circulaire",
+        "description": "Nous construisons une vrai économie autour de FairCoin avec une utilisation circulaire de produits et services , en local comme globalement. De plus en plus de marchands, producteurs et magasins dans le monde font confiance en FairCoin comme valeur d'échange, utilisants sa valeur stable et ses outils gratuits faits pour le supporter."
+      },
+      "action": {
+        "one": "FairMarket",
+        "two": "faircoins dans le monde"
+      }
+    },
+    "localNodes": {
+      "title": "# Noeuds locaux",
+      "description": "En plus de la vision globale, de multiples noeuds locaux sont ajoutés de part le monde au réseau. Ils servent à connecter les initiatives locales , les groupes et les gens à l'écosystème. C'est une relation bidirectionnelle permettant de réaliser le but de FairCoop avec les communautés locales tout en retournant une importante valeur.  Il s'agit bien d'une aide mutuelle :  Le local fait grandir le global qui aide à son tour le local pour ses activités économiques.",
+      "action": "Inspecter le réseau en expension",
+      "action_start": "Pourquoi pas démarrer un noeud local dans votre région?"
+    },
+    "milestones": {
+      "title": "# Quelques étapes majeures que nous avons atteintes jusque là",
+      "one": "Créé et valorisé une crypto-monnaie unique au monde (FairCoin)",
+      "two": "Démarré un reseau de noeud locaux en expansion rapide",
+      "three": "Ouvert une coopérative européenne (FreedomCoop)",
+      "four": "Co-foundé une banque coopérative (Bank of the Commons)",
+      "five": "Construit une marketplace (FairMarket) et une plateforme collaborative (OCP)",
+      "six": "Ne nous sommes pas tous entretués (pour l'instant)"
+    }
+  }
+  
+  

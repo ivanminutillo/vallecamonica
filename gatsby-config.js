@@ -6,6 +6,10 @@ module.exports = {
     copyright: '© All rights cooperatively shared.',
     menu: [
       {
+        label: 'About',
+        path: '/about'
+      },
+      {
         label: 'Organization',
         path: '/organization'
       },
@@ -14,24 +18,8 @@ module.exports = {
         path: '/economic-system'
       },
       {
-        label: 'Nodes Network',
-        path: '/network'
-      },
-      {
         label: 'Tools',
         path: '/tools'
-      },
-      {
-        label: 'Wiki',
-        path: '/wiki/'
-      },
-      {
-        label: 'Forum',
-        path: 'http://discourse.fair.coop'
-      },
-      {
-        label: 'Blog',
-        path: '/blog/'
       },
       {
         label: 'Join us',
@@ -97,6 +85,7 @@ module.exports = {
                       frontmatter {
                         title
                         date
+                        image
                         layout
                         draft
                         description

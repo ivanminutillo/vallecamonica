@@ -2,25 +2,30 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Markdown from 'react-remarkable'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
-class TagsRoute extends React.Component {
-  render() {
-    const { title } = this.props.data.site.siteMetadata;
-    const tags = this.props.data.allMarkdownRemark.group;
-
+class NetworkRoute extends React.Component {
+  render () {
+    const { title, subtitle, menu, author } = this.props.data.site.siteMetadata
     return (
       <div>
         <Helmet title={`All Tags - ${title}`} />
-
-        <div className="content">
-        <Markdown source={Content}/>
-        </div>
+        <Header
+          menu={menu}
+          social={author}
+        />
+        <Markdown source={Content} />
+        <Footer
+          menu={menu}
+          social={author}
+        />
       </div>
     );
   }
 }
 
-TagsRoute.propTypes = {
+NetworkRoute.propTypes = {
   data: PropTypes.shape({
     site: PropTypes.shape({
       siteMetadata: PropTypes.shape({
@@ -33,10 +38,10 @@ TagsRoute.propTypes = {
   })
 };
 
-export default TagsRoute;
+export default NetworkRoute
 
 export const pageQuery = graphql`
-  query TagsQuery {
+  query NetworkRoute {
     site {
       siteMetadata {
         title

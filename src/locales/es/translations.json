@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "title": {
+      "first_line": "El ecosistema",
+      "second_line": "cooperativo de la Tierra",
+      "third_line_italic": "para",
+      "third_line": "una economía justa"
+    },
+    "description": "Revolucionando la vida mediante el empoderamiento y la descentralización",
+    "readMore": "leer más",
+    "joinDiscussion": "únete al debate"
+  },
+  "tabs": {
+    "title": "# Qué nos mueve realmente",
+    "integralRevolution": "Revolución Integral",
+    "disobedience": "Desobediencia",
+    "openCooperativism": "Cooperativismo abierto",
+    "decentralization": "Descentralización",
+    "statelessDemocracy": "Democracia sin Estado",
+    "integralRevolutionText": "Una transformación profunda y completa de todas las piezas de la sociedad, incluidos sus valores y su estructura.La nueva sociedad autogestionada se basa en la autonomía y en la abolición de todas las formas de dominación:  el Estado, el capitalismo, el patriarcado y cualquier otra que afecte a las relaciones entre los seres humanos y con el medio ambiente.Se necesitan acciones conscientes y estratégicas para fertilizar las estructuras obsoletas y recuperar aquellos valores y cualidades que nos permitan vivir una vida en común.Consideramos que el punto de partida más prometedor para el cambio colectivo es un nuevo [LINK to economic system page|sistema económico]. Éste está dando a la gente la oportunidad de salirse por fin del círculo vicioso de la esclavitud capitalista y de sus efectos colaterales, de encontrar un espacio sin límites para las nuevas ideas y de hacer posible el cambio a una vida saludable, en equilibrio con la Naturaleza.",
+    "disobedienceText": "La desobediencia implica, hasta cierto punto, desobedecer ciertas leyes o demandas procedentes de las estructuras dominantes. A veces, esto se convierte en un deber civil, cuando la ley se considera arbitraria. Para entender esta idea, nos remitimos a la diferencia entre lo 'legal' y lo 'justo'. Algunas normas y leyes pueden ser legales sobre el papel y aún así no ser consideradas justas, algo que ocurre a menudo bajo regímenes represivos, fascistas o totalitarios. Ello también se puede aplicar directa o indirectamente a los Estados occidentales, por ejemplo, cuando un gobierno destina los impuestos de la población a financiar guerras de agresión 'legales', contra algún otro país y su sociedad civil.",
+    "openCooperativismText": "Seguimos y apoyamos las pautas básicas de las cooperativas, que son gestionadas por sus participantes y se basan en la ayuda mutua, la responsabilidad personal, la igualdad, la equidad, la democracia y la solidaridad.  En dicho sentido, en FairCoop, todas pueden participar activa e igualitariamente a la hora de tomar decisiones y de fijar políticas. Nuestro capital acumulado, logrado principalmente a través del incremento de valor de nuestra moneda  [LINK|FairCoin], se reinvierte en el desarrollo del ecosistema y de proyectos afines. De esta forma, las personas participantes pueden tener acceso cada vez a más herramientas de empoderamiento y a una red de bienes y servicios en continuo crecimiento, dentro de una Economía Justa.",
+    "decentralizationText": "Uno de nuestros objetivos es tener modelos descentralizados de organización en la toma de decisiones y la asunción de roles. Al descentralizar nuestra tecnología, prevenimos el fallo en un punto esencial, de forma que evitamos que ninguna autoridad pueda acabar con nosotras. Queremos asegurarnos de que todas las participantes puedan comunicarse, compartir ideas, trabajar en proyectos o transferir valor sin represión ni censura. La distribución del poder político y económico, combinada con [LINK to an explanation about the blockchain|la transparencia radical], previene el abuso de roles con derechos o accesos particulares y, por tanto, previene el fraude, la corrupción o el poder de unas sobre otras.",
+    "statelessDemocracyText": "La modernidad capitalista depende del sistema basado en la nación-Estado que, a su vez, depende de una mentalidad colectiva jerárquica y patriarcal, forjada profundamente a lo largo de siglos de opresión de unos humanos por otros. Por primera vez en la historia, una combinación del despertar de la conciencia política, el debilitamiento de la economía capitalista y la aparición de la tecnología criptográfica p2p nos permite presentar alternativas serias y realistas a los actuales modelos de gobierno. Un sistema financiero cooperativo global nos proporciona mercados libres y justos; un gran paso adelante. Si esto se combina con un indestructible conjunto de valores éticos basados en la libertad y con protocolos democráticos de toma de decisiones. empieza a convertirse en una realidad visible. Si crees que la vida fuera del Estado es posible, únete(link to your nearest node, or something) ya a FairCoop."
+  },
+  "bigImage": {
+    "title": "nos gobernamos por",
+    "bold": "consenso"
+  },
+  "methodology": {
+    "assembly" : {
+      "suptitle": "Una inmersión en nuestra metodología",
+      "title": "# Asambleas abiertas y consenso",
+      "description": "En las asambleas abiertas, la comunidad decide cómo llegamos a las metas comunes. Cualquiera puede participar en ellas y realizar propuestas de desarrollos, cambios o proyectos en los que trabajar. Cuando una propuesta se aprueba por consenso, quien la haya propuesto y los grupos de trabajo relevantes para la misma, se ponen manos a la obra. De esta forma organizamos tanto las reuniones globales online, como las reuniones físicas de los nodos locales."
+    },
+    "autonomy": {
+      "title": "# Autoorganización y distribución de valor",
+      "description": "El ecosistema FairCoop se organiza mediante el [LINK| Wiki cooperativismo abierto]. Se anima a todo el mundo a participar con sus habilidades e ideas particulares y a ser proactivas en la asunción de responsabilidades, ayudando, de esta forma, a que el movimiento crezca. A través de nuestra innovadora herramienta de trabajo colaborativo, [LINK|OCP] las participantes pueden registrar el tiempo dedicado al proyecto, bien de forma voluntaria, bien solicitando una remuneración en FairCoin para cubrir sus necesidades. De esta forma, recompensamos a quienes están aportando un valor real a FairCoop con su trabajo y distribuimos el valor de una forma justa y descentralizada."
+    }
+  },
+  "economy": {
+    "faircoin": {
+      "title": "Usamos",
+      "bold": "FairCoins",
+      "tagline": "y un montón de otras monedas alternativas ",
+      "description": "FairCoin es una moneda digital ética, que se rige por los valores del ecosistema FairCoop y que cuenta con el apoyo de un movimiento cooperativo global que crece rápidamente. Es descentralizada, igual que cualquier otra criptomoneda, pero, al mismo tiempo, implementa innovaciones radicales que la hacen única en términos de funcionamiento ecológico, crecimiento de valor estable, comercio ético y oportunidades de ahorro y financiación. Su desarrollo persigue el objetivo de crear un sistema económico justo para todo el planeta. Leer más https://fair-coin.org"
+    },
+    "circularEconomy": {
+      "title": "para construir",
+      "bold": "Economía circular",
+      "description": "Estamos construyendo una economía real y productiva en torno al FairCoin, con la creación de un uso circular de productos y servicios, tanto a escala local como global. Cada vez son más los comercios, tiendas y productores de todo el mundo que confían en FairCoin como medio de intercambio, aprovechando la estabilidad de su valor y las distintas herramientas abiertas y libres que se han diseñado para apoyarlo:"
+    },
+    "action": {
+      "one": "FairMarket",
+      "two": "FairCoin en el mundo"
+    }
+  },
+  "localNodes": {
+    "title": "#Nodos locales",
+    "description": "Aparte de la visión global, múltiples nodos locales se están sumando a la red FairCoop en todo el mundo para conectar al ecosistema iniciativas, grupos y gente local. Se trata de una relación bidireccional que apoya y hace posible el logro de las metas de FairCoop en las comunidades locales, al tiempo que recibe un importante feedback por parte de éstas. Es una red de ayuda mutua construida para expandir nuestro sistema económico a una escala global, mediante la construcción de la confianza local y del apoyo a la actividad económica real.",
+    "action": "Échale un vistazo a esta red creciente",
+    "action_start": "¿Por qué no crear un nodo local en tu zona?"
+  },
+  "milestones": {
+    "title": "# Algunos de los principales logros que hemos conseguido hasta ahora",
+    "one": "Hemos creado y estamos usando una moneda (FairCoin) innovadora, segura y ecológica",
+    "two": "Hemos iniciado una red global de nodos locales que crece rápidamente",
+    "three": "Hemos abierto una cooperativa europea (FreedomCoop)",
+    "four": "Hemos cofundado un banco cooperativo (Bank of the Commons)",
+    "five": "Hemos construido un mercado online (FairMarket) y una plataforma de trabajo colaborativa (OCP)",
+    "six": "No nos hemos matado las unas a las otras (todavía)"
+  }
+}

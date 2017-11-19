@@ -79,8 +79,9 @@
             &.bold {
                 font-size: 36px;
                 font-weight: 700;
+                line-height: 50px;
                 &:after {
-                    bottom: -18px;    
+                    bottom: -12px;    
                 }
             }
             &:after {
@@ -110,8 +111,8 @@
             h2 {
                 display: block;
                 color: #30363E;
-                font-size: 20px;
-                letter-spacing: 1px;
+                font-size: 18px;
+                letter-spacing: 0px;
                 font-weight: 400;
                 margin: 0;
                 cursor: pointer;

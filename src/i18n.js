@@ -23,7 +23,6 @@ i18n
     react: {
       wait: true
     }
-  });
+  })
 
-
-export default i18n;
+export default i18n

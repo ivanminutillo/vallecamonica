@@ -161,6 +161,15 @@
     }
 }
 
+@media (max-width: 1080px) {
+    .hero_feed {
+        lost-column: 8/10;
+        lost-offset: 0/10;
+        margin-top: -50px;
+        padding-left: 40px;
+    }
+}
+
 @media (max-width: 800px) {
     .hero {
         // lost-utility: edit;    

@@ -14,9 +14,8 @@ import Todo from '../components/Todo'
 import Footer from '../components/Footer'
 
 class IndexRoute extends React.Component {
-  render() {
+  render () {
     const items = []
-    console.log(this.props)
     const { title, subtitle, author, menu } = this.props.data.site.siteMetadata
     const posts = this.props.data.allMarkdownRemark.edges
     posts.forEach((post) => {
@@ -40,12 +39,6 @@ class IndexRoute extends React.Component {
         <Nodes />
         <Todo />
         <Footer />
-        {/* <Sidebar {...this.props} /> */}
-        {/* <div className="content">
-          <div className="content__inner">
-            {items}
-          </div>
-        </div> */}
       </div>
     )
   }

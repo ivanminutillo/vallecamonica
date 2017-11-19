@@ -1,0 +1,75 @@
+{
+    "hero": {
+      "title": {
+        "first_line": "L'ecosistema",
+        "second_line": "cooperatiu global",
+        "third_line_italic": "per a",
+        "third_line": "una economia justa"
+      },
+      "description": "Revolucionant la vida amb l'autoempoderament i la descentralització",
+      "readMore": "llegiu més",
+      "joinDiscussion": "uniu-vos a la discussió"
+    },
+    "tabs": {
+      "title": "# El que realment ens mou",
+      "integralRevolution": "Revolució Integral",
+      "disobedience": "Desobediència",
+      "openCooperativism": "Cooperativisme obert",
+      "decentralization": "Descentralització",
+      "statelessDemocracy": "Democràcia sense Estat",
+      "integralRevolutionText": "Una profunda i completa transformació de tota la societat, incloent els seus valors i la seua estructura.La nova societat autogestionada es basa en l'autonomia i l'abolició de totes les formes de dominació: l'estat, el capitalisme, el patriarcat, o qualsevol altra que afecte a les relacions humanes i la nostra relació amb l'entorn natural.Es necessiten accions conscients i estratègiques per a què fertilitzem les estructures obsolescents i recuperem els valors i les qualitats que ens permitisquen una vida en comú.Com a punt de partida per al canvi col·lectiu, veiem un nou [LINK a la pàgina de sistema econòmic|sistema econòmic]. Açò està donant a la gent l'oportunitat d'eixir per fi del cercle viciós de l'esclavisme capitalista i els seus efectes col·laterals per a trobar un espai on noves idees es desenvolupen sense límits i on siga possible el canvi a una vida sana i en equilibri amb la Natura.",
+      "disobedienceText": "La desobediència implica, en alguna mesura, desobeir certes lleis o requisits de les estructures dominants. De vegades, açò es converteix en un deure civil, quan la llei es considera injusta/arbitrària. Per a comprendre açò podem referir-nos a la diferència entre legal i just. Algunes normes i lleis poden ser legals sobre el paper però no poden ser considerades justes, com és el que ocorre sovint sota governs repressius, feixistes o totalitaris. Açò també pot ser aplicat, directa o indirectament, als estats occidentals , per exemple, quan un govern utilitza els impostos comuns de la població per a finançar 'lícites' guerres d'agressió contra un altre país i la seua societat civil.",
+      "openCooperativismText": "Seguim i recolzem les directrius bàsiques de les cooperatives, perquè estan impulsades pels seus participants i basades en el suport mutu, l'auto-responsabilitat, igualtat, equitat, democràcia i solidaritat. Qualsevol pot participar activament i amb igualtat en la presa de decisions i l'establiment de polítiques. El capital acumulat, guanyat principalment a través de l'augment de valor de la nostra moneda [LINK|FairCoin] és reinvertit en el desenvolupament de l'ecosistema i projectes relacionats. D'aquesta manera, els/les participants poden tindre accés a més eines d'auto-empoderament i a una xarxa constantment creixent de béns i serveis dins de l'Economia Justa.",
+      "decentralizationText": "Un dels nostres objectius és adoptar models organitzatius descentralitzats quant als rols i les preses de decisions. Descentralitzant la nostra tecnologia, evitem l'existència d'un punt crític i impedim per tant que cap autoritat ens puga tancar el projecte. Volem assegurar-nos que tot/-es els/les participants poden comunicar, compartir idees, treballar en projectes o transferir valor sense repressió o censura. La distribució del poder polític i econòmic, combinada amb [LINK a l'explicació sobre el blockchain|la transparència radical], impedeix l'abús de rols amb drets o accés únics, i per tant prevenint el frau, la corrupció i les apropiacions.",
+      "statelessDemocracyText": "La modernitat capitalista depén del sistema d'estats-nació, que al seu torn depén d'una mentalitat patriarcal i jeràrquica, profundament forjada durant segles d'opressió d'uns éssers humans sobre uns altres. Per primera volta en la història, una combinació de consciència política, debilitat de l'economia capitalista i tecnologia criptogràfica P2P ens permet presentar alternatives serioses i realistes als models de governança actuals. Un sistema financer cooperatiu global ens dóna mercats lliures i justos, un gran pas endavant. Si combinem açò amb un sòlid conjunt de valors ètics basat en la llibertat i els protocols democràtics de presa de decisions, comença a convertir-se en una realitat visible. Si creus que la vida fora dels estats és possible, uneix-te (link al node més proper, o a alguna altra cosa) a FairCoop avui."
+    },
+    "bigImage": {
+      "title": "funcionem per",
+      "bold": "consens"
+    },
+    "methodology": {
+      "assembly" : {
+        "suptitle": "una capbussada en la nostra metodologia",
+        "title": "# Assemblees obertes i consens",
+        "description": "En les assemblees obertes, la comunitat decideix com abastar els objectius comuns. Tota persona pot participar i fer propostes de desenvolupaments, canvis o projectes en els que treballar. Quan hi ha consens en una proposta, la persona que l'ha feta i els grups de treball relacionats amb el tema es posaran en acció. Ens organitzem així tant en les reunions generals online com en les físiques dels nodes locals."
+      },
+      "autonomy": {
+        "title": "# Auto-organització i Distribució del Valor",
+        "description": "L'ecosistema FairCoop s'organitza a través de [LINK| cooperativisme obert wiki]. Animem a tota persona a participar amb les seues pròpies idees i habilitats i a assumir responsabilitats de forma proactiva, ajudant per tant al creixement del moviment.Basant-se en la nostra innovadora eina de treball col·laboratiu, el [LINK|Open Collaborative Platform] les participants poden aportar el seu treball voluntàriament o demanar remuneració en FairCoins per a cobrir les seues necessitats. D'aquesta manera, recompensem qui està aportant valor amb el seu treball en FairCoop, i la distribució de valor es fa de forma justa i descentralitzada."
+      }
+    },
+    "economy": {
+      "faircoin": {
+        "title": "Utilitzem",
+        "bold": "FairCoin",
+        "tagline": " i un fum d'altres monedes alternatives",
+        "description": "FairCoin és una moneda digital ètica guiada pels valors de l'ecosistema FairCoop i recolzada per un moviment cooperatiu global de ràpid creixement. És una moneda descentralitzada, com qualsevol altra criptomoneda, però al mateix temps implementa innovacions radicals que la fan única en termes de funcionament ecològic, creixement de valor estable, comerç just, estalvis i oportunitats de finançament. El seu desenvolupament continua amb l'objectiu de crear un sistema econòmic just per al planeta. Pots llegir més a https://fair-coin.org"
+      },
+      "circularEconomy": {
+        "title": "per a construir",
+        "bold": "economia circular",
+        "description": "Estem construint una economia real i productiva al voltant del FairCoin, amb la creació d'un ús circular de productes i serveis tant a nivell local com global. Cada volta més comerciants, tendes i productors de tot el món confien en FairCoin com a mitjà d'intercanvi, aprofitant-se del seu valor estable i de les diferents eines lliures dissenyades per a recolzar-lo."
+      },
+      "action": {
+        "one": "FairMarket",
+        "two": "FairCoin per tot el món"
+      }
+    },
+    "localNodes": {
+      "title": "# Nodes locals",
+      "description": "A més de la visió global, molts nodes locals estan afegint-se a la xarxa FairCoop per tot el món, per a connectar a l'ecosistema les iniciatives, els col·lectius i les persones de cada territori. Aquesta és una relació bidireccional que recolza i fa realitat els objectius de FairCoop en les comunitats locals, alhora que aporta un important feedback. És una xarxa d'ajuda mútua construïda per a expandir el nostre sistema econòmic al nivell global, construint confiança local i recolzant l'activitat econòmica real.",
+      "action": "Dóna-li una ullada a la creixent xarxa",
+      "action_start": "Per què no engegar un Node Local en la teua zona?"
+    },
+    "milestones": {
+      "title": "# Algunes de les fites aconseguides fins ara",
+      "one": "Hem creat i estem utilitzant una innovadora moneda ecològica i segura",
+      "two": "Hem engegat una xarxa de nodes locals que ha crescut ràpidament",
+      "three": "Hem posat en marxa una estructura cooperativa europea (FreedomCoop)",
+      "four": "Hem cofundat un banc cooperatiu (Bank of the Commons)",
+      "five": "Hem construït un mercat online (FairMarket) i una plataforma de treball col·laboratiu (OCP)",
+      "six": "No ens hem matat les unes a les altres (encara)"
+    }
+  } 
+  
+  

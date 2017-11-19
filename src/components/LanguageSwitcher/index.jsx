@@ -1,32 +1,40 @@
-import React, { Component } from 'react';
-import classNames from 'classnames';
-import { translate } from 'react-i18next';
+import React, { Component } from 'react'
+import classNames from 'classnames'
+import { translate } from 'react-i18next'
+import {Down} from '../../icons'
+import './style.scss'
 
 class LanguageSwitcher extends Component {
 
-  constructor(props) {
-    super(props);
-    const { i18n } = this.props;
-    this.state = { language: i18n.language };
+  constructor (props) {
+    super(props)
+    this.handleDropdown = this.handleDropdown.bind(this)
+    const { i18n } = this.props
+    this.state = {
+      language: i18n.language,
+      active: false
+    }
 
     this.handleChangeLanguage = this.handleChangeLanguage.bind(this);
   }
 
-  componentWillReceiveProps(nextProps) {
-    this.setState({ language: nextProps.i18n.language });
+  componentWillReceiveProps (nextProps) {
+    this.setState({ language: nextProps.i18n.language })
   }
 
-  handleChangeLanguage(lng) {
-    const { i18n } = this.props;
-    i18n.changeLanguage(lng);
+  handleDropdown () {
+    this.setState({active: !this.state.active})
   }
 
-  renderLanguageChoice({ code, label }) {
+  handleChangeLanguage (lng) {
+    const { i18n } = this.props
+    i18n.changeLanguage(lng)
+  }
 
+  renderLanguageChoice ({ code, label }) {
     const buttonClass = classNames('LanguageSwitcher__button', {
       'LanguageSwitcher__button--selected': this.state.language === code
-    });
-
+    })
     return (
       <button
         key={code}
@@ -35,22 +43,29 @@ class LanguageSwitcher extends Component {
       >
         {label}
       </button>
-    );
+    )
   }
 
-  render() {
+  render () {
     const languages = [
       { code: 'en', label: 'English' },
-      { code: 'it', label: 'Italian' },
-      { code: 'es', label: 'Spanish' }
-    ];
-
+      { code: 'fr', label: 'French' },
+      { code: 'es', label: 'Spanish' },
+      { code: 'cat', label: 'Catalan' },
+      { code: 'it', label: 'Italian' }
+    ]
     return (
-      <div className="LanguageSwitcher">
-        {languages.map((language) => this.renderLanguageChoice(language))}
+      <div className='languages_container' onClick={() => this.handleDropdown()}>
+        <div className="languageSwitcher">
+          <div className="languageSwitcher_current">{this.state.language === 'en-US' ? 'English' : languages.filter(lang => this.state.language === lang.code)[0].label}</div>
+          <div className={this.state.active ? "languageSwitcher_dropdown active" : "languageSwitcher_dropdown" }>
+            {languages.map((language) => this.renderLanguageChoice(language))}
+          </div>
+          <span><Down width='18' heigth='18' color='#fff' /></span>
+        </div>
       </div>
-    );
+    )
   }
-};
+}
 
-export default translate('LanguageSwitcher')(LanguageSwitcher);
+export default translate('LanguageSwitcher')(LanguageSwitcher)

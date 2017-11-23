@@ -13,7 +13,6 @@ class TagsRoute extends React.Component {
         <Helmet title={`All Tags - ${title}`} />
 
         <div className="content">
-        <Markdown source={Content}/>
         </div>
       </div>
     );

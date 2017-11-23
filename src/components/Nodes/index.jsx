@@ -8,10 +8,9 @@ const Nodes = (props) => {
   return (
     <section className='section nodes'>
       <div className='section_wrapper'>
-        <div className='wrapper_tagline'><h5>{t('localNodes.suptitle')}</h5></div>
+        <div className='wrapper_tagline'><h5 className='bold'>{t('localNodes.title')}</h5></div>
         <div className='wrapper_info'>
           <div className='info_content'>
-            <h1>{t('localNodes.title')}</h1>
             <div>{t('localNodes.description')}</div>
             <button><a href='http://map.fairplayground.info/'>{t('localNodes.action')}</a></button>
             <div className='hero_feed'>

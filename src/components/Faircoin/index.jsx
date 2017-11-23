@@ -10,7 +10,7 @@ const Faircoin = (props) => {
         <div className='wrapper'>
           <div className='wrapper_desc'>
             <h1>{t('economy.faircoin.title')} <br /> <b>{t('economy.faircoin.bold')}</b></h1>
-            <h3>{t('economy.faircoin.tagline')}</h3>
+            {/* <h3>{t('economy.faircoin.tagline')}</h3> */}
             <h5>{t('economy.faircoin.description')}</h5>
             <br />
             <h1>{t('economy.circularEconomy.title')} <br /> <b>{t('economy.circularEconomy.bold')}</b></h1>
@@ -18,7 +18,6 @@ const Faircoin = (props) => {
             <div className='faircoin_actions'>
               <button className='good'>{t('economy.action.one')}</button>
               <button className='inline'><a href='https://use.fair-coin.org/'>{t('economy.action.two')}</a></button>
-              <button className='inline'><a href='https://market.fair.coop'>{t('economy.action.three')}</a></button>
             </div>
           </div>
         </div>

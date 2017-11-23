@@ -20,7 +20,7 @@ class OrganizationRoute extends React.Component {
           menu={menu}
           social={author}
         />
-        <Intro image={'tools'} title={'Network & Organization'} />
+        <Intro image={'organization'} title={'Network & Organization'} />
         <div className='page_body'>
             <Markdown source={t('organization.content')} />
         </div>

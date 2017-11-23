@@ -20,7 +20,7 @@ class AboutRoute extends React.Component {
           menu={menu}
           social={author}
         />
-        <Intro image={'tools'} title={'About FairCoop'} />
+        <Intro image={'about'} title={'About FairCoop'} />
         <div className='page_body'>
             <Markdown source={t('about.content')} />
         </div>

@@ -9,10 +9,10 @@ const Hero = (props) => {
   return (
     <section className='hero'>
       <div className='hero_wrapper'>
+        <h4>{t('hero.description')}</h4>
         <h3 className='hero_tagline'>{t('hero.title.first_line')}<br />{t('hero.title.second_line')}<br /> <i>{t('hero.title.third_line_italic')}</i> {t('hero.title.third_line')}</h3>
         <div className='hero_meta'>
           <div className='meta_desc'>
-            <h4>{t('hero.description')}</h4>
             <Link to='/about'>{t('hero.readMore')}</Link>
             <Link className='inline' to='/about'>{t('hero.joinDiscussion')}</Link>
           </div>

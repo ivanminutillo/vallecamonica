@@ -4,7 +4,7 @@ import { translate } from 'react-i18next'
 import {Down} from '../../icons'
 import './style.scss'
 
-class LanguageSwitcher extends Component {
+class Horizontal extends Component {
 
   constructor (props) {
     super(props)
@@ -56,20 +56,13 @@ class LanguageSwitcher extends Component {
       { code: 'de', label: 'German' }
     ]
     return (
-      <div className='languages_container' onClick={() => this.handleDropdown()}>
-        <div className="languageSwitcher">
-          <div className="languageSwitcher_current">
-            {this.state.language === 'en-US' ? 'English' 
-            : languages.filter(lang => this.state.language.includes(lang.code))[0].label}
-          </div>
-          <div className={this.state.active ? "languageSwitcher_dropdown active" : "languageSwitcher_dropdown" }>
+        <div className="languageSwitcher horizontal">
+          <div className="languageSwitcher_list">
             {languages.map((language) => this.renderLanguageChoice(language))}
           </div>
-          <span><Down width='18' heigth='18' color='#fff' /></span>
         </div>
-      </div>
     )
   }
 }
 
-export default translate('LanguageSwitcher')(LanguageSwitcher)
+export default translate('LanguageSwitcher')(Horizontal)

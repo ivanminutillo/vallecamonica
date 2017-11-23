@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import classNames from 'classnames'
 import { translate } from 'react-i18next'
-import {Down} from '../../icons'
+import {Cross} from '../../icons'
 import './style.scss'
 
-class LanguageSwitcher extends Component {
+class LanguageMobile extends Component {
 
   constructor (props) {
     super(props)
@@ -63,13 +63,14 @@ class LanguageSwitcher extends Component {
             : languages.filter(lang => this.state.language.includes(lang.code))[0].label}
           </div>
           <div className={this.state.active ? "languageSwitcher_dropdown active" : "languageSwitcher_dropdown" }>
+            <h5>Select your language</h5>
+            <span className='close'><Cross width='21' height='21' color='#333'/></span>
             {languages.map((language) => this.renderLanguageChoice(language))}
           </div>
-          <span><Down width='18' heigth='18' color='#fff' /></span>
         </div>
       </div>
     )
   }
 }
 
-export default translate('LanguageSwitcher')(LanguageSwitcher)
+export default translate('LanguageSwitcher')(LanguageMobile)

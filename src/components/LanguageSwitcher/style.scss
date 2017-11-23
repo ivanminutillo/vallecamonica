@@ -6,6 +6,12 @@
 
 }
 
+.meta_languages {
+    margin-top: 10px;
+    float: left;
+    
+}
+
 .languageSwitcher_current {
     float: left;
 }
@@ -15,13 +21,37 @@
     lost-utility: clearfix;
     span {
         vertical-align: middle;
-        display: inline-block;
+        float: right;
         height: 30px;
         padding-left: 5px;
         padding-top: 3px;
     }
 }
 
+.languageSwitcher_list {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    button {
+        font-size: 14px;
+        background: transparent;
+        border: none;
+        height: auto;
+        margin-right: 10px;
+        padding-right: 10px;
+        border-right: 1px solid;
+        cursor: pointer;
+        &:last-of-type {
+            margin-right: 0px;
+            padding-right: 0px;
+            border-right: none;
+        }
+        &.LanguageSwitcher__button--selected {
+            font-weight: 700;
+            color: #59C25B;
+        }
+    }
+}
 .languageSwitcher_dropdown {
     background: white;
     padding: 10px;
@@ -46,6 +76,7 @@
         margin: 5px 0;
         border-radius: 3px;
         cursor: pointer;
+        color: #333;
         &:hover {
             background: #f3f3f3;
         }

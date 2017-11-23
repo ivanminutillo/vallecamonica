@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 import Intro from '../components/Intro'
 import { translate } from 'react-i18next'
 
-class EconomicSystemRoute extends React.Component {
+class JoinUsRoute extends React.Component {
   render () {
     const { t } = this.props
     const { title, menu, author } = this.props.data.site.siteMetadata
@@ -20,9 +20,9 @@ class EconomicSystemRoute extends React.Component {
           menu={menu}
           social={author}
         />
-        <Intro image={'economic'} title={'Economic System'} />
+        <Intro image={'join'} title={'Join Us'} />
         <div className='page_body'>
-            <Markdown source={t('economic.content')} />
+            <Markdown source={t('joinus.content')} />
         </div>
         <Footer
           menu={menu}
@@ -33,10 +33,10 @@ class EconomicSystemRoute extends React.Component {
   }
 }
 
-export default translate('translations')(EconomicSystemRoute)
+export default translate('translations')(JoinUsRoute)
 
 export const pageQuery = graphql`
-query EconomicSystemQuery {
+query JoinUsQuery {
   site {
     siteMetadata {
       title

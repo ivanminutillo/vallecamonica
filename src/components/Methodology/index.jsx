@@ -12,10 +12,10 @@ const Methodology = (props) => {
           <div className='info_content'>
             <h1>{t('methodology.assembly.title')}</h1>
             <div>{t('methodology.assembly.description')}</div>
-            <button>{t('methodology.assembly.action')}</button>
+            {/* <button>{t('methodology.assembly.action')}</button> */}
             <h1>{t('methodology.autonomy.title')}</h1>
             <div>{t('methodology.autonomy.description')}</div>
-            <button>{t('methodology.autonomy.action')}</button>
+            {/* <button>{t('methodology.autonomy.action')}</button> */}
           </div>
           <div className='wrapper_image'>
             <div className='wrapper_diagram' />

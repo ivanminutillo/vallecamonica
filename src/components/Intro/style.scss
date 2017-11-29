@@ -149,6 +149,11 @@
         lost-column: 8/10;
         lost-offset: 1/10;
     }
+    .body_tools {
+        .tools_item {
+            lost-column: 1/1; 
+        }
+    }
 }
 
 
@@ -162,3 +167,5 @@ ul {
         }
     }
 }
+
+

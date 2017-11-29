@@ -22,7 +22,7 @@ class JoinUsRoute extends React.Component {
         />
         <Intro image={'join'} title={'Join Us'} />
         <div className='page_body'>
-            <Markdown source={t('joinus.content')} />
+          <Markdown source={t('joinus.content')} />
         </div>
         <Footer
           menu={menu}

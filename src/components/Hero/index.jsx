@@ -14,7 +14,8 @@ const Hero = (props) => {
         <div className='hero_meta'>
           <div className='meta_desc'>
             <Link to='/about'>{t('hero.readMore')}</Link>
-            <Link className='inline' to='/about'>{t('hero.joinDiscussion')}</Link>
+            <a className='inline' href='http://discourse.fair.coop'>{t('hero.joinDiscussion')}</a>
+            {/* <Link className='inline' to='/about'></Link> */}
           </div>
         </div>
       </div>
@@ -23,7 +24,7 @@ const Hero = (props) => {
             <span><Book heigth='18' width='18' line='1' /></span>
             <h5>Faircoop Beginner guide </h5>
           <div className='feed_actions'>
-            <button className='good'>Download</button>
+            {/* <button className='good'>Download</button> */}
             <button className='inline'>Read online</button>
           </div>
           </div>

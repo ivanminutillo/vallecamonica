@@ -54,7 +54,7 @@ class Topbar extends Component {
                             <Github color='white' width='16' height='16' />
                         </a>
                         </i>
-                    <i className='social'><Twitter color='white' width='16' height='16' /></i>
+                    {/* <i className='social'><Twitter color='white' width='16' height='16' /></i> */}
                 </div>
             </div>
         </section>

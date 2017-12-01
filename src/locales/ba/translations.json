@@ -25,7 +25,7 @@
   },
   "bigImage": {
     "title": "Vođeni smo",
-    "bold": "koncenzus"
+    "bold": "konsenzusom"
   },
   "methodology": {
     "assembly" : {
@@ -41,17 +41,17 @@
   "economy": {
     "faircoin": {
       "title": "Mi koristimo",
-      "bold": "faircoin-e",
+      "bold": "FairCoin-e",
       "description": "FairCoin je etička digitalna valuta, vođena vrijednostima FairCoop ekosistema i podržana brzo-rastućim globalnim kooperativnim pokretom. Decentralizovan, kao i svaka druga kriptovaluta, ali u isto vrijeme implementira radikalne inovacije koje je čine jedinstvenom u smislu ekoloških operacija, stabilnog rasta vrijednosti, etične trgovine, štednje i prilike za finansiranje. Razvoj valute se nastavlja sa ciljem kreiranja fer/pravednog ekonomskog sistema za planetu Zemlju. Pročitati više https://fair-coin.org"
     },
     "circularEconomy": {
-      "title": "izgraditi",
-      "bold": "Cirkularna/Kružeća Ekonomija",
+      "title": "izgradnja",
+      "bold": "Cirkularne/Kružeće Ekonomije",
       "description": "Gradimo realnu i produktivnu ekonomiju vezanu na FairCoin, sa stvaranjem kružeće/cirkularne upotrebe proizvoda i usluga na lokalnom ili globalnom nivou. Sve više i više trgovaca, prodavnica i proizvođača širom svijeta vjeruju faircoin-u kao sredstvu za razmjenu, koristeći prednost stabilne vrijednosti i različitih besplatnih i otvorenih alata napravljenih u svrhu podrške."
     },
     "action": {
       "one": "FairMarket",
-      "two": "faircoin-i svuda u svijetu"
+      "two": "FairCoin-i svuda u svijetu"
     }
   },
   "localNodes": {
@@ -65,7 +65,7 @@
     "one": "Već napravljena i u upotrebi, inovativna, sigurna i ekološka valuta (FairCoin)",
     "two": "Započeta brzo-rastuća globalna mreža lokalnih čvorova",
     "three": "Otvoren Evropski kooperativni okvir (FreedomCoop)",
-    "four": "Suosnivač kooperativne banke (Bank of the Commons",
+    "four": "Suosnivač Kooperativne Banke (Bank of the Commons)",
     "five": "Izgrađeno online tržište (FairMarket) i Otvorena saradnička platforma(OCP)",
     "six": "Nismo se (još) poubijali"
   },
@@ -121,6 +121,6 @@
     }
   },
   "joinus": {
-    "content": "pridružite se našoj grupi dobrodošlice https://t.me/askfaircoop ili na budućem FairChat (link) i ostvarite direktan kontakt. U neprestanoj smo potrebi za ljudim kojji posjeduje vještine a željeli bi da pomognu u razvoju ovog prekrasnog pokreta. Međutim, bilo ko sa proaktivnim razmišljanjem i dobrodušnosti je više nego dobrodošao:)"
+    "content": "pridružite se našoj grupi dobrodošlice https://t.me/askfaircoop ili na budućem FairChat i ostvarite direktan kontakt. U neprestanoj smo potrebi za ljudim kojji posjeduje vještine a željeli bi da pomognu u razvoju ovog prekrasnog pokreta. Međutim, bilo ko sa proaktivnim razmišljanjem i dobrodušnosti je više nego dobrodošao:)"
   }
 }

@@ -25,52 +25,52 @@ class ToolsRoute extends React.Component {
                 <div className='tools_item'>
                     <h2>{t("tools.faircoin.title")}</h2>
                     <p>{t("tools.faircoin.description")}</p>
-                    <a href='#'>Go to FairCoin website</a>
+                    <a href='https://fair-coin.org/' target='blank'>Go to FairCoin website</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.fairpay.title")}</h2>
                     <p>{t("tools.fairpay.description")}</p>
-                    <a href='#'>Go to FairPay</a>
+                    <a href='https://fairtoearth.com/' target='blank'>Go to FairPay</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.fairfund.title")}</h2>
                     <p>{t("tools.fairfund.description")}</p>
-                    <a href='#'>Go to FairFund</a>
+                    <a href='https://fair.coop/fairfunds/' target='blank'>Go to FairFund</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.usefaircoin.title")}</h2>
                     <p>{t("tools.usefaircoin.description")}</p>
-                    <a href='#'>Go to useFairCoin</a>
+                    <a href='https://use.fair-coin.org/' target='blank'>Go to useFairCoin</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.getfaircoin.title")}</h2>
                     <p>{t("tools.getfaircoin.description")}</p>
-                    <a href='#'>Go to getFaircoin</a>
+                    <a href='https://getfaircoin.net/' target='blank'>Go to getFaircoin</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.fairsaving.title")}</h2>
                     <p>{t("tools.fairsaving.description")}</p>
-                    <a href='#'>Go to FairSaving</a>
+                    <a href='https://fair.coop/fairsaving-2/' target='blank'>Go to FairSaving</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.ocp.title")}</h2>
                     <p>{t("tools.ocp.description")}</p>
-                    <a href='#'>Go to OCP</a>
+                    <a href='ocp.freedomcoop.eu' target='blank'>Go to OCP</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.freedomcoop.title")}</h2>
                     <p>{t("tools.freedomcoop.description")}</p>
-                    <a href='#'>Go to FreedomCoop</a>
+                    <a href='http://freedomcoop.eu/' target='blank'>Go to FreedomCoop</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.fairmarket.title")}</h2>
                     <p>{t("tools.fairmarket.description")}</p>
-                    <a href='#'>Go to FairMarket</a>
+                    <a href='https://market.fair.coop/' target='blank'>Go to FairMarket</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.bankofthecommons.title")}</h2>
                     <p>{t("tools.bankofthecommons.description")}</p>
-                    <a href='#'>Go to BankoftheCommons</a>
+                    <a href='http://bankofthecommons.coop/' target='blank'>Go to BankoftheCommons</a>
                 </div>
             </div>
         </div>

@@ -20,9 +20,9 @@ const Header = (props) => {
         </div>
         <nav className='header_menu'>
           {props.menu.map((item, i) => <Link key={i} activeClassName={'active'} to={item.path}>{item.label}</Link>)}
-          <a href='http://blog.fair.coop'>Blog</a>
-          <a href='http://discourse.fair.coop'>Forum</a>
-          <a href='http://wiki.fair.coop'>Wiki</a>
+          <a target='blank' href='http://blog.fair.coop'>Blog</a>
+          <a target='blank' href='http://discourse.fair.coop'>Forum</a>
+          {/* <a href='http://wiki.fair.coop'>Wiki</a> */}
         </nav>
       </div>
     </header>

@@ -25,7 +25,7 @@ const Hero = (props) => {
             <h5>Faircoop Beginner guide </h5>
           <div className='feed_actions'>
             {/* <button className='good'>Download</button> */}
-            <button className='inline'>Read online</button>
+            <a className='inline' href='https://git.fairkom.net/faircoop/MediaCommunication/wikis/welcome-to-faircoop' target='blank'>Read online</a>
           </div>
           </div>
         </div>

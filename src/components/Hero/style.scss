@@ -168,6 +168,16 @@
                 background: transparent;
             }
         }
+        a.inline {
+            height: 30px;
+            margin-top: 10px;
+            background: transparent;
+            border: none;
+            line-height: 30px;
+            color: #333;
+            font-size: 13px;
+            text-decoration: underline;
+        }
     }
 }
 

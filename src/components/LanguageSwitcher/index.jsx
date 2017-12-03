@@ -48,14 +48,16 @@ class LanguageSwitcher extends Component {
 
   render () {
     const languages = [
-      { code: 'en', label: 'English' },
-      { code: 'fr', label: 'French' },
-      { code: 'es', label: 'Spanish' },
+      { code: 'ba', label: 'Bosnian' },
       { code: 'cat', label: 'Catalan' },
+      { code: 'cr', label: 'Croatian' },
       { code: 'de', label: 'German' },
+      { code: 'en', label: 'English' },
+      { code: 'es', label: 'Spanish' },
+      { code: 'fr', label: 'French' },
+      { code: 'gr', label: 'Greek' },
       { code: 'ku', label: 'Kurdish' },
-      { code: 'se', label: 'Serbian' },
-      { code: 'ba', label: 'Bosniac' }
+      { code: 'se', label: 'Serbian' }
     ]
     return (
       <div className='languages_container' onClick={() => this.handleDropdown()}>

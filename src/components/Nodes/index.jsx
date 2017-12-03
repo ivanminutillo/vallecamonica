@@ -12,14 +12,14 @@ const Nodes = (props) => {
         <div className='wrapper_info'>
           <div className='info_content'>
             <div>{t('localNodes.description')}</div>
-            <button><a href='http://map.fairplayground.info/map-localnodes/'>{t('localNodes.action')}</a></button>
+            <a className='good' href='http://map.fairplayground.info/map-localnodes/' target='blank'>{t('localNodes.action')}</a>
             <div className='hero_feed'>
               <div className='feed_document'>
                 <span><Book heigth='18' width='18' line='1' /></span>
                 <h5>How to create a local node </h5>
                 <div className='feed_actions'>
                   {/* <button className='good'>Download</button> */}
-                  <button className='inline'><a href='https://fair.coop/docs/how-to-create-local-nodes/'>Read online</a></button>
+                  <a className='inline' target='blank' href='https://fair.coop/docs/how-to-create-local-nodes/'>Read online</a>
                 </div>
               </div>
             </div>

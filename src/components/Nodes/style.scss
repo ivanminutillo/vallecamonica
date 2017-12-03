@@ -12,6 +12,31 @@
             }
           }
         }
+        a {
+            display: inline-block;
+            height: 40px;
+            border: none;
+            padding: 0 20px;
+            margin-right: 10px;
+            border-radius: 2px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 30px;
+            line-height: 40px;
+            &.good {
+                background: #59C25B;
+                border-radius: 2px;
+                color: white;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+            &.inline {
+                text-decoration: underline;
+                font-weight: 600;
+                background: transparent;
+                color: #333;
+            }
+        }
     .hero_feed {
         lost-utility: clearfix;
         padding-top: 0px;

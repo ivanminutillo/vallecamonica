@@ -53,11 +53,11 @@ class Horizontal extends Component {
       { code: 'cr', label: 'Croatian' },
       { code: 'de', label: 'German' },
       { code: 'en', label: 'English' },
-      { code: 'es', label: 'Spanish' },
       { code: 'fr', label: 'French' },
       { code: 'gr', label: 'Greek' },
       { code: 'ku', label: 'Kurdish' },
-      { code: 'se', label: 'Serbian' }
+      { code: 'se', label: 'Serbian' },
+      { code: 'es', label: 'Spanish' }
     ]
     return (
         <div className="languageSwitcher horizontal">

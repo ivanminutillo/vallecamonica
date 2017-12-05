@@ -42,11 +42,7 @@
     "faircoin": {
       "title": "We use",
       "bold": "FairCoin",
-<<<<<<< HEAD
-      "description": "FairCoin is an ethical digital currency, driven by the values of the FairCoop ecosystem and supported by a fast-growing global cooperative movement. It is decentralized, as with any other cryptocurency, but at the same time implements radical innovations that makes it unique in terms of ecological operation, stable value growth, ethical trade, savings and funding opportunities. Its development continues with the goal of creating a fair economic system for the Earth. Read more on [faircoin website](https://fair-coin.org)"
-=======
       "description": "FairCoin is an ethical digital currency, driven by the values of the FairCoop ecosystem and supported by a fast-growing global cooperative movement. It is decentralized, as with any other cryptocurency, but at the same time implements radical innovations that makes it unique in terms of ecological operation, stable value growth, ethical trade, savings and funding opportunities. Its development continues with the goal of creating a fair economic system for the Earth. Read more about [FairCoin](https://fair-coin.org)"
->>>>>>> 2f614fdee8eb4decf75ab4622ea8430815c103e9
     },
     "circularEconomy": {
       "title": "to build",

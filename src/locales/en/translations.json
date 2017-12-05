@@ -42,7 +42,7 @@
     "faircoin": {
       "title": "We use",
       "bold": "FairCoin",
-      "description": "FairCoin is an ethical digital currency, driven by the values of the FairCoop ecosystem and supported by a fast-growing global cooperative movement. It is decentralized, as with any other cryptocurency, but at the same time implements radical innovations that makes it unique in terms of ecological operation, stable value growth, ethical trade, savings and funding opportunities. Its development continues with the goal of creating a fair economic system for the Earth. Read more on [fair-coin.org](https://fair-coin.org)"
+      "description": "FairCoin is an ethical digital currency, driven by the values of the FairCoop ecosystem and supported by a fast-growing global cooperative movement. It is decentralized, as with any other cryptocurency, but at the same time implements radical innovations that makes it unique in terms of ecological operation, stable value growth, ethical trade, savings and funding opportunities. Its development continues with the goal of creating a fair economic system for the Earth. Read more on [faircoin website](https://fair-coin.org)"
     },
     "circularEconomy": {
       "title": "to build",
@@ -121,6 +121,6 @@
     }
   },
   "joinus" : {
-    "content": "join us in our [welcome telegram group](https://t.me/askfaircoop) or in the [FairCoop Forum](http://discourse.fair.coop) and get directly in contact with us.\n We are constantly looking for skilled people who want to help in developing this beautiful movement.\n Anyway, everybody with a proactive mindset and a good spirit is very welcome :)"
+    "content": "join us in our [welcome telegram group](https://t.me/askfaircoop) or in the [FairCoop Forum](http://forum.fair.coop) and get directly in contact with us.\n We are constantly looking for skilled people who want to help in developing this beautiful movement.\n Anyway, everybody with a proactive mindset and a good spirit is very welcome :)"
   }
 }

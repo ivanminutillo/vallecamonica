@@ -14,7 +14,7 @@ const Hero = (props) => {
         <div className='hero_meta'>
           <div className='meta_desc'>
             <Link to='/about'>{t('hero.readMore')}</Link>
-            <a className='inline' href='http://discourse.fair.coop'>{t('hero.joinDiscussion')}</a>
+            <a className='inline' href='http://forum.fair.coop'>{t('hero.joinDiscussion')}</a>
             {/* <Link className='inline' to='/about'></Link> */}
           </div>
         </div>

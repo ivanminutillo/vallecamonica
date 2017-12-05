@@ -35,7 +35,7 @@ class ToolsRoute extends React.Component {
                 <div className='tools_item'>
                     <h2>{t("tools.fairfund.title")}</h2>
                     <p>{t("tools.fairfund.description")}</p>
-                    <a href='https://fair.coop/fairfunds/' target='blank'>Go to FairFund</a>
+                    <a href='https://2017.fair.coop/fairfunds/' target='blank'>Go to FairFund</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.usefaircoin.title")}</h2>
@@ -50,12 +50,12 @@ class ToolsRoute extends React.Component {
                 <div className='tools_item'>
                     <h2>{t("tools.fairsaving.title")}</h2>
                     <p>{t("tools.fairsaving.description")}</p>
-                    <a href='https://fair.coop/fairsaving-2/' target='blank'>Go to FairSaving</a>
+                    <a href='https://2017.fair.coop/fairsaving-2/' target='blank'>Go to FairSaving</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.ocp.title")}</h2>
                     <p>{t("tools.ocp.description")}</p>
-                    <a href='ocp.freedomcoop.eu' target='blank'>Go to OCP</a>
+                    <a href='https://ocp.freedomcoop.eu' target='blank'>Go to OCP</a>
                 </div>
                 <div className='tools_item'>
                     <h2>{t("tools.freedomcoop.title")}</h2>

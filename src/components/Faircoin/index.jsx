@@ -1,38 +1,30 @@
 import React from 'react'
 import './style.scss'
+import Markdown from 'react-remarkable'
+import { translate } from 'react-i18next'
 
-const Faircoin = () => {
-    return (
-        <section className='faircoin_section'>
-            <div className='section_wrapper'>
-                <div className='wrapper'>
-                    <div className='wrapper_desc'>
-                        <h1>We use <br /> <b>faircoins</b></h1>
-                        <h3>And a bunch of others alternative currencies</h3>
-                        <h5>We just love Faircoin for so many reasons. It is our global currency which has major advantages to other fiat and cryptocurrencies. It is resistant against inflation, the value grows with its community, its energy efficient and decentralized by nature. And the best, it creates cooperative win-win situation for all participants.</h5>
-                        <div className='faircoin_actions'>
-                            <button className='good'>Download Wallet</button>
-                            <button className='inline'>Get some faircoins</button>
-                        </div>
-                    </div>
-                    <div className='faircoin_data'>
-                        <div className='data_item'>
-                            <h1>120</h1>
-                            <h5>Markets</h5>
-                        </div>
-                        <div className='data_item'>
-                            <h1>45</h1>
-                            <h5>Website</h5>
-                        </div>
-                        <div className='data_item'>
-                            <h1>83.4K</h1>
-                            <h5>Market Cap.</h5>
-                        </div>
-                    </div>
-                </div>
+const Faircoin = (props) => {
+  const {t} = props
+  return (
+    <section className='faircoin_section'>
+      <div className='section_wrapper'>
+        <div className='wrapper'>
+          <div className='wrapper_desc'>
+            <h1>{t('economy.faircoin.title')} <br /> <b>{t('economy.faircoin.bold')}</b></h1>
+            {/* <h3>{t('economy.faircoin.tagline')}</h3> */}
+            <h5><Markdown source={t('economy.faircoin.description')} /></h5>
+            <br />
+            <h1>{t('economy.circularEconomy.title')} <br /> <b>{t('economy.circularEconomy.bold')}</b></h1>
+            <h5>{t('economy.circularEconomy.description')}</h5>
+            <div className='faircoin_actions'>
+              <a className='good' target='blank' href='https://market.fair.coop'>{t('economy.action.one')}</a>
+              <a className='inline' target='blank' href='https://use.fair-coin.org/'>{t('economy.action.two')}</a>
             </div>
-        </section>
-    )
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }
 
-export default Faircoin
+export default translate('translations')(Faircoin)

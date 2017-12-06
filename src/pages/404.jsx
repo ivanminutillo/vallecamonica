@@ -1,11 +1,15 @@
-import React from 'react';
-import Sidebar from '../components/Sidebar';
+import React from 'react'
+import Header from '../components/Header'
 
 class NotFoundRoute extends React.Component {
   render() {
+    const { menu, author } = this.props.data.site.siteMetadata
     return (
       <div>
-        <Sidebar {...this.props} />
+        <Header
+          menu={menu}
+          social={author}
+        />
         <div className="content">
           <div className="content__inner">
             <div className="page">

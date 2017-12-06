@@ -1,0 +1,126 @@
+{
+  "hero": {
+    "title": {
+      "first_line": "Zemaljski ",
+      "second_line": "kooperativni ekosistem",
+      "third_line_italic": "za",
+      "third_line": "fer/pravednu ekonomiju"
+    },
+    "description": "Šta dolazi poslije Kapitalizma?",
+    "readMore": "pročitaj više",
+    "joinDiscussion": "Pridruži se diskusiji"
+  },
+  "tabs": {
+    "title": "# Šta nas uistinu pokreće",
+    "integralRevolution": "Integralna Revolucija",
+    "disobedience": "Neposlušnost",
+    "openCooperativism": "Otvoreni Kooperativizam",
+    "decentralization": "Decentralizacija",
+    "statelessDemocracy": "Demokratija bez Države",
+    "integralRevolutionText": "Duboka i sveobuhvatna transformacija svih dijelova društva, uključujući vrijednosti i strukturu. Novo, samo-upravljajuće društvo je zasnovano na autonomiji i napuštanju svih oblika dominacije: države, kapitalizma, patrijarhalizma i svih drugih oblika koji utiču na ljudske odnose i odnose sa prirodnim okruženjem. Svjesna i strateška djelovanja su potrebna da se raspadnu zastarjele strukture i povrate one vrijednosti i kvalitete koje će nam omogućiti da živimo život u zajedništvu. Kao najobećavajuću polaznu tačku za kolektivnu promjenu vidimo novi ekonomski sistem. Ovo ljudima daje mogućnost da konačno izađu iz zlobnog kruga kapitalističkog porobljavanja i njegovih popratnih pojava, da pronađu prostor za nove ideje bez granica i učine mogućim prelazak na zdrav život u skladu sa prirodom.",
+    "disobedienceText": "Neposlušnost implicira, u izvjesnoj mjeri, neposlušnost određenim zakonima ili zahtjevima od strane dominantnih struktura. Ponekad to postaje građanska dužnost i to onda kada se zakon smatra pogrešnim. Da bi se navedeno razumjelo upućujemo na razliku između zakonito i pravično. Određena pravila i zakoni mogu biti zakoniti na papiru ali ne mogu se smatrati pravednim, što je često slučaj u represivnim, fašističkim ili totalitarnim režimima. Ovo se, indirektno ili direktno može primijeniti na zapadne države, kao naprimjer, kada vlast koristi uobičajene poreze da finansira 'zakoniti' agresivni rat protiv druge zemlje i njenog civilnog društva.",
+    "openCooperativismText": "Mi slijedimo i podržavamo temeljne smjernice kooperativnosti kojima su vođeni učesnici, utemeljeni na uzajamnoj pomoći, samo-odgovornosti, jednakosti, pravičnosti, demokratiji i solidarnosti. Svi mogu aktivno i jednako učestvovati u donošenju odluka i pravljenju politika. Akumulirani kapital, prikupljen uglavnom kroz povećanje vrijednosti naše valute, je ponovo investiran u razvoj ekosistema i odgovarajućih projekata. Na ovaj način učesnici imaju pristup većem broju samo-osnažujućih alata i konstantno rastućoj mreži dobara i usluga unutar Fer Ekonomije.",
+    "decentralizationText": "Jedan od naših ciljeva je da imamo decentralizovan model odlučivanja i uloga. Decentraliziranjem naše tehnologije, mi sprečavamo centralnu tačku neuspjeha, time izbjegavajući da nas ugasi bilo koja vlast. Želimo da osiguramo da svi učesnici mogu komunicirati, dijeliti ideje, raditi na projektima i prenositi vrijednost bez represije ili cenzure. Raspodjela političke i ekonomske moći u kombinaciji sa radikalnom transparentnošću, preduprijediti će zloupotrebu uloga sa jedinstvenim pravima ili pristupom i tako spriječiti prijevaru, korupciju ili preuzimanja.",
+    "statelessDemocracyText": "Savremeni kapitalist ovisi o sistemu nacionalnih država, što se zauzvrat zasniva na patrijarhalnom i hijerarhijskom društvenom misaonom sklopu, duboko urezanim vjekovima ugnjetavanja ljudi od strane drugih ljudi. Po prvi put u istoriji, kombinacija političke svjesnosti, slabosti kapitalističke ekonomije i p2p kriptografske tehnologije dopušta nam da predstavimo ozbiljne i realistične alternative trenutnom modelu upravljanja. Globalni kooperativni financijski sistem nudi nam slobodna i fer tržišta, a to je divovski korak naprijed. Ako se ovo kombinuje sa neraskidivim sklopom etičkih vrijednosti utemeljenih na slobodi i demokratskom protokolu za donošenje odluka, počinje da postaje vidljiva realnost. Ako vjerujete da je život izvan države moguć, pridružite se FairCoop-u već danas."
+  },
+  "bigImage": {
+    "title": "Vođeni smo",
+    "bold": "konsenzusom"
+  },
+  "methodology": {
+    "assembly" : {
+      "suptitle": "Uronite u našu metodologiju",
+      "title": "# Otvorene Skupštine i konsenzus",
+      "description": "Na otvorenim skupštinama, zajednica odlučuje kako će ostvariti zajedničke ciljeve. Svi mogu učestvovati i davati prijedloge za razvoj, promjene ili projekte na kojima bi se radilo. Kada se prijedlog usvoji kroz konsenzus, dotični predlagač i relevantne radne grupe preduzimaju akciju. Na ovakav način organizujemo globalne online sastanke i sastanke članova lokalnih čvorova"
+    },
+    "autonomy": {
+      "title": "# Samo-Organizacija i Distribucija Vrijednosti",
+      "description": "FairCoop ekosistem je organizovan kroz otvoreni kooperativizam. Svi se potiču da učestvuju skupa sa njihovim individualnim vještinama i idejama, te preuzmu proaktivne odgovornosti i tako pomognu da pokret raste. Temeljem našeg inovativnog kolaborativnog radnog alata, učesnici mogu volonterski odraditi sate ili tražiti naknadu u faircoinima - fer novčićima da pokriju svoje troškove. Na ovaj način nagrađujemo sve one koji unose stvarne vrijednosti svojim radom u Fair Coop-u, a distribucija vrijednosti je urađena na fer/pravedan i decentralizovan način."
+    }
+  },
+  "economy": {
+    "faircoin": {
+      "title": "Mi koristimo",
+      "bold": "FairCoin-e",
+      "description": "FairCoin je etička digitalna valuta, vođena vrijednostima FairCoop ekosistema i podržana brzo-rastućim globalnim kooperativnim pokretom. Decentralizovan, kao i svaka druga kriptovaluta, ali u isto vrijeme implementira radikalne inovacije koje je čine jedinstvenom u smislu ekoloških operacija, stabilnog rasta vrijednosti, etične trgovine, štednje i prilike za finansiranje. Razvoj valute se nastavlja sa ciljem kreiranja fer/pravednog ekonomskog sistema za planetu Zemlju. [Pročitati više](https://fair-coin.org)"
+    },
+    "circularEconomy": {
+      "title": "izgradnja",
+      "bold": "Cirkularne/Kružeće Ekonomije",
+      "description": "Gradimo realnu i produktivnu ekonomiju vezanu na FairCoin, sa stvaranjem kružeće/cirkularne upotrebe proizvoda i usluga na lokalnom ili globalnom nivou. Sve više i više trgovaca, prodavnica i proizvođača širom svijeta vjeruju faircoin-u kao sredstvu za razmjenu, koristeći prednost stabilne vrijednosti i različitih besplatnih i otvorenih alata napravljenih u svrhu podrške."
+    },
+    "action": {
+      "one": "FairMarket",
+      "two": "FairCoin-i svuda u svijetu"
+    }
+  },
+  "localNodes": {
+    "title": "# Lokalni Čvorovi",
+    "description": "Osim globalne vizije, mnogobrojni Lokalni Čvorovi su dodati u mrežu FairCoop-a po cijelom svijetu, u cilju spajanja lokalnih inicijativa, grupa i ljudi u ekosistem. To je dvosmjerni odnos koji podržava i realizuje ciljeve FairCoop-a u lokalnim zajednicama omogućavajući važan povrat informacija. Ovo je zajednička mreža pomoći izgrađena da proširi naš ekonomski sistem na globalnom nivou kroz izgradnju povjerenja i podržavanja stvarne ekonomske aktivnosti.",
+    "action": "Pogledajte rastuću mrežu",
+    "action_start": "Zašto da ne pokrenete Lokalni Čvor u vašoj blizini?"
+  },
+  "milestones": {
+    "title": "# Neke od glavnih prekretnica koje smo postigli",
+    "one": "Već napravljena i u upotrebi, inovativna, sigurna i ekološka valuta (FairCoin)",
+    "two": "Započeta brzo-rastuća globalna mreža lokalnih čvorova",
+    "three": "Otvoren Evropski kooperativni okvir (FreedomCoop)",
+    "four": "Suosnivač Kooperativne Banke (Bank of the Commons)",
+    "five": "Izgrađeno online tržište (FairMarket) i Otvorena saradnička platforma(OCP)",
+    "six": "Nismo se (još) poubijali ;)"
+  },
+  "about": {
+    "content": "### Misija \n Naša misija je stvoriti inovativni glokalni (globalni/lokalni) ekonomski sistem od dna do vrha u korist alternativnog i post-kapitalističkog modela kako bi popločali put kolektivnoj promjeni prema životu u zajedništvu. Kooperacija, etika, solidarnost i transparentnost su za nas ključni faktori da stvorimo istinski pravičan sistem za sve. Razvoj i upotreba moćnih međusobno povezanih digitalnih alata (globalno) i regionalnih mreža (lokalno) su krucijalne za uspjeh. Mi koristimo naše vrijeme i energiju konstruktivno i na zajednički način da stvorimo stvarnu alternativu provodeći teoriju u praksu. \n ### Vizija \n  Zamišljamo globalnu mrežu samo-organizovanih i samo-osnaženih lokalnih zajednica i pojedinaca, nezavisnih od napasnih centralizovanih snaga i restrikcija. \n Naši globalni principi i okvir su definisani zajednički, u ime 99% nas, i u isto vrijeme, realizirane na lokalnom nivou u skladu sa određenim regionalnim potrebama i okolnostima. Na ovaj način, ljudi preuzimaju kontrolu nad svojim životima, imajući slobodu da izaberu razne alternative društvenih modela temeljenih na decentralizovanoj organizacijskoj strukturi. \n Naše kooperativno djelovanje je kreiranje nezavisnog ekosistema, čiji je cilj da se smanji globalna ekonomska i socijalna nejednakost, koja će dovesti do novog globalnog bogatstva dostupnog svima u obliku zajedničarstva/zajedništva. Kao domino-efekt, okvir koji mijenja igru ovog ekonomskog sistema će otvoriti vrata za globalnu smjenu, utičući na sve aspekte života kao što su edukacija, zdravstvena zaštita, energija, stanovanje, transport i stvoriti će prilike da se ponovo otkriju zdravi i neiskorištavajući odnosi sa našim bližnjim i prirodom. \n ### Prinicipi \n Djelovanja FairCoop zajednice utemeljena su na tri glavne grane već postojećih principa: **Integralna Revolucija**,  **P2P Kolaboracija**, **Haker Etika** \n #### 1) Integralna Revolucija \n Ovo je proces od historijske važnosti, za uspostavljanje novog samo-upravljajućeg društva, temeljeno na autonomiji i napuštanju svih oblika dominacije: države, kapitalizma i svih drugih oblika koji utiču na odnose kako među ljudima tako i sa prirodnim okruženjem. Posvećena je svjesnom djelovanju, pojedinačnom i kolektivnom, radi poboljšanja i povrata vrijednosti i kvaliteta koje nam omogućuju život u zajedništvu. \n Utemeljena na uspostavljanju novih struktura i oblika organizacije u svim područjima života da bi se osigurala jednakost u donošenju odluka i pravičnost, u ostvarenju naših osnovnih i vitalnih potreba. \n Ovo uključuje:\n *  Pravične ljudske odnose temeljene na slobodi i izostanku prinude.\n* Samo-organizacija i suverenost javnih skupština.\n*  Zajedničari, javnost\n    - Ponovno sticanje zajedničkog vlasništva u korist svih sa javnim posjedom i kontrolom \n    - Izgradnja kooperativnog sistema koji je javan i samo-upravljajući, temeljen na uzajamnoj pomoći \n    - Osloboditi pristup informacijama i znanju \n * Nova ekonomija temeljena na kooperaciji i neposrednosti. \n * Učinite javne podatke dostupnim, zaštitite privatne podatke\n ###### [Saznajte više o konceptima integralne revolucije ovdje](http://integrarevolucio.net/en/integral-revolution/ideological-bases-of-the-call/)\n #### 2) P2P Kolaboracija\n * P2P kolaboracija znači da svako preuzima određene uloge i zadatke unutar zajednice kao volontersku obavezu za zajedničko dobro.\n* Ne očekuje se direktni reprocitet za preuzete obaveze. Međutim, kako svaki učesnik pokušava da podrži uzajamnost i solidarnost unutar Zajedničara, doći će do prilike da se dobije nešto zauzvrat.\n* Sve dinamike kolaboracije nisu hijerarhijske, tako da svi koji su uključeni imaju jednako pravo glasa tokom procesa.\n* Sve dinamike kolaboracije nisu hijerarhijske, tako da svi koji su uključeni imaju jednako pravo glasa tokom procesa.\n ###### [Više vrijednih informacija možete pronaći ovdje](https://wiki.p2pfoundation.net/Core_Peer-2-Peer_Collaboration_Principles)\n#### 3) Haker Etika\n Hakiranje je više od socijalne slike cyber kriminalaca sa crnim kapuljačama. Način na koji mi, kao i većina slobodnih tech ljudi razumijemo djelovanje hakiranja odnosi se na moralne vrijednosti, slobodu i poboljšanje općeg dobra. Ključne haker etike su:\n* Sve informacije trebaju biti besplatne\n* Pristup kompjuterima - i sve ono što može poučiti o načinu kako svijet funkcionira- treba biti neograničeno i potpuno. Uvijek se pridržavaj imperativa praktičnosti!\n* Ne vjerovati vlastima - promicati decentralizaciju\n* Hakere treba cijeniti po hakiranju a ne kriterijima kao što su diplome, godine, rasa, spol ili pozicija\n* Kompjuterom se može stvarati umjetnost i ljepota\n* Kompjuteri mogu promijeniti vaš život na bolje\n* Ne razbacujte podatke drugih ljudi\n* Učinite javne podatke dostupnim, zaštiite privatne podatke.\n###### [Viđe informacija o haker etici ovdje](https://ccc.de/en/hackerethik)"
+  },
+  "economic": {
+    "content": "> FairCoop vidi revoluciju globalnog ekonomskog sistema kao najobećavajuću polaznu tačku za provociranje i iniciranje kolektivne promjene u društvu. \n \n Jedan od prioritetnih ciljeva FairCoop-a je izgraditi novi globalni ekonomski sistem utemeljen na kooperaciji, etici, solidarnosti i pravdi u našim ekonomskim odnosima. Da bi se ovo postiglo, definisali smo glavne uzroke savremene boljke ekonomskog sistema i preokret ovakvih mehanizama, koji uzrokoju globalnu neravnotežu, u našu korist. \n \n Naš plan je da uspostavimo najveći mogući nivo globalne ekonomske pravednosti i to:\n * korištenjem naše vlastite digitalne valute FairCoin-a i razvojem vlastitog ekonomskog sistema koji je sasvim nezavisan o centralnim bankama i institucijama.\n* korištenje FairCoin-a za nešto što je obično korišteno protiv Globalnog Juga: snage tržišta (ponuda-potražnja), hakirati ih i ubaciti kooperativni virus.\n* koristeći kooperativni virus da bi se stvorilo povjerenje i podsticaj za sve da ulažu u kooperativni sistem radije nego u promjenljivi i spekulativni konkurentski sistem.\n* koristeći strategiju stabilnog rasta da se poveća vrijednost valute kroz ograničenu ponudu valutnih jedinica (deflaciona osobina) i povećana potražnja za valutom.\n* koristeći uvećanu vrijednost valute da se financiraju projekti i razvojni alati koji su povezani sa ciljevima FairCoop-a, te za konstantno proširenje sistemske infrastrukture.\n* koristeći takve projekte, alate i infrastrukturu da se olakša uobičajena upotreba FairCoin-a za buduće proizvode i usluge koji su u skladu sa FairCoop Principima i time povećanjem njegove upotrebljivosti.\n* koristeći ovu stalno rastuću upotrebljivost FairCoin-a da bi bili sve više nezavisniji od drugih dekretiranih valuta i bliži cirkularnoj ekonomiji.\n* koristeći cirkularnu ekonomiju, osnaženu uključivanjem sve više i više proizvoda i usluga, bilo gdje u svijetu, da bi se pokrile naše osnovne potrebe i, naravno, uključivanjem sve više korisnika (pojedinaca, grupa, mreža) na FairCoin.\n* koristeći našu zajedničku i financijsku moć izvedenu iz stalno rastuće participacije i broja korisnika, da se osnaži i oslobodi sve više i više ljudi od bilo kakve vrste ekonomskog ili političkog tlačenja.\n* koristeći široko rasprostranjene ali međusobno povezane alate, mreže ljudi, usluge i karakteristike ovog nezavisnog decentralizovanog sistema kao bazu društvene promjene cjelokupnog globalnog društva, znano kao integralna revolucija."
+  },
+  "organization": {
+    "content": "Zajednica FairCoop-a se organizuje kroz otvoreni kooperativizam. Svi su potaknuti da učestvuju sa svojim individualnim vještinama i pomognu rast pokreta. \n \n Kako radimo globalno da podržimo decentralizaciju i lokalnu ekonomiju, naš pristup je da slijedimo glokalni(globalno-lokalni) model organizacije:\n \n ### Globalne Radne oblasti \n se odnose uglavnom na internet rad-online, ciljajući na strukturu, organiziranje i razvoj informacija i tehnologije za globalnu mrežu. Svi zadaci su organizovani na našoj Otvorenoj Saradničkoj Platformi (OCP). Učesnici mogu volontirati ili zahtijevati naknadu u FairCoin-ima za posao koji se treba obaviti.\n \n Naše Globalne Radne oblasti su:\n * Zajednički Menadžment\n *  Komunikacija\n  * Cirkularna Ekonomija\n  * Razvoj Tehnologije\n  * Dobrodošlica-Edukacija-Podrška\n  \n ###### [više o našoj strukturi globalnih radnih oblasti, ovdje](https://www.mindomo.com/mindmap/free-mind-map-ffa5505555b54101960e3138e13b5e89) \n ### Rad Lokalnih Čvorova \n odnosi se i na online i offline djelovanja koje vode lokalni čvor ka razvoju mreže pojedinaca na terenu sa fokusom na pojedinu regionalnu djelatnost.\n Neke od oblasti Lokalnih Čvorova mogle bi biti:\n  * Dinamizacija cirkularne ekonomije (podrška trgovcima)\n  * Promocija različitih FairCoop Alata\n * Upravljanje Point of Exchange (PoE) - Mjenjačnice\n * Promoviranje vrijednosti i praksi FairCoop-a u lokalnim projektima\n * Pravljenje određenih lokalnih projekata unutar FairCoop ekosistema\n ###### [više o lokalnim čvorovima ovdje](https://git.fairkom.net/faircoop/MediaCommunication/wikis/How-to-create-a-Local-Node-%5Ben%5D) \n **Svaka Globalna Radna Oblast i Lokalni Čvor imaju autonomiju donošenja unutrašnjih odluka kroz skupštine da bi ispunili svoje zadatke i postigli svoje ciljeve na najbolji način. Stoga, centralizirane dozvole nisu potrebne. Međutim, glavni problemi, koji se odnose na cijelu zajednicu, rješavaju se na generalnim globalnim skupštinama, putem koncenzusa.** \n \n **Sve globalne radne oblasti i oblasti lokalnih čvorova imaju različite grupe za razgovor i podoblasti za dnevnu komunikaciju i koordinaciju.**\n \n Ako ste zainteresovani za učestvovanje, molimo uključite se u našu [grupu dobrodošlice](https://t.me/askfaircoop) te stupite u direktan kontakt. Odatle, možemo vam naći mjesto koje najbolje odgovara vašim interesima i namjerama.\n \n ### Mreža Lokalnih Čvorova \n Lokalni Čvorovi su regionalne predstavničke grupe i proširenja FairCoop-a na lokalnom nivou. Oni nezavisno razvijaju i proširuju regionalnu mrežu promoviranjem FairCoop alata prema prodavnicama i pojedincima, dajući tehničku podršku, održavajući prezentacije, odgovarajući na sve vrste pitanja ili čak pokrećući pojedine projekte lokalnog čvora na okosnici FairCoop principa. Lokalni Čvorovi mogu primiti manje iznose za finansiranje da pokriju osnovne troškove sa namjerom da postanu samo-održive protekom vremena. \n \n Da se uspostavi lokalni čvor, potrebno je najmanje 3 aktivna učesnika. Potičemo svakoga ko je zainteresovan da stupi u direktan kontakt s ljudima iz lokalnog čvora vaše regije. Mapu Lokalnih Čvorova možete pogledati, sa više detalja, ovdje: (http://map.fairplayground.info/) . Ako ne možete pronaći lokalni čvor u vašoj blizini, mi ćemo vam rado pomoći i podržati u uspostavljanju istog.\n \n ###### [Više detalja možete pronaći u vodiču za Lokalne Čvorove, ovdje ]( https://git.fairkom.net/faircoop/MediaCommunication/wikis/How-to-create-a-Local-Node-%5Ben%5D)."
+  },
+  "tools": {
+    "faircoin": {
+      "title": "FairCoin:",
+      "description": "FairCoin je digitalna valuta utemeljena na decentralizovanoj mreži lice-u-lice (P2P) koja je zaštićena snažnom enkripcijom. Moćni alat za promjenu svijeta kroz nezavisnost o centralnim bankama, finansijskim institucijama i vladama. Zbog toga je to ključni alat u novom ekonomskom sistemu. Uspoređujući ga sa drugim kriptovalutama, kao što je Bitcoin, njegova vrijednost je stabilna i često usklađivana od zajednice kroz koncenzus."
+    },
+    "fairpay": {
+      "title": "FairPay",
+      "description": "FairPay je NFC kartični sistem za klijente i trgovce za obavljanje FairCoin plaćanja sa lakoćom poput kreditne kartice. NFC Naljepnica sadrži jedinstvenu identifikaciju (ID), koja identificira korisnika kartice te komunicira direktno sa povezanom aplikacijom App Panel. Kroz ovu aplikaciju Panel, trgovci čak imaju mogućnost razmjene FairCoin-a direktno u Eure, ako je potrebno."
+    },
+    "fairfund": {
+      "title": "FairFund",
+      "description": "Postoje tri glavna FairFunds-a: Global South Fund (Fond Globalnog Juga), Commons Fund (Fond Zajedničara) i Technology Infrastructure Fund (Fond Tehnološke Infrastrukture). Pohranjeni FairCoin-i u ovim fondovima imaju svrhu finansiranja budućih projekata koji su u skladu sa ciljem pojedinačnog fonda te da podrže rastuću FairCoin cirkularnu ekonomiju. Kroz stabilan vrijednosni rast FairCoin-a kao valute, ekonomska moć fondova je u stalnom porastu. Stoga smo sve više i više u mogućnosti finansirati veće projekte usmjerene na ostvarivanje naših zajedničkih ciljeva."
+    },
+    "usefaircoin": {
+      "title": "useFairCoin",
+      "description": "Use.fair-coin.org je virtuelna mapa i direktorij fizičkih mjesta svake vrste koje primaju FairCoin-e kao način plaćanja. Ovo je posebno korisno za korisnike da lakše pronađu lokacije da potroše FairCoin-e za stvarne proizvode i usluge te u isto vrijeme daju podršku cirkularnoj ekonomiji."
+    },
+    "getfaircoin": {
+      "title": "getFairCoin",
+      "description": "GetFairCoin.net je jednostavan način da se kupi FairCoin putem različitih nacionalnih valuta kao što su EUR, USD, SYP, CNY, RUB, GBP, INR, NGN, BRL, MXN, itd. na uobičajeni način plaćanja kao što su doznake, kreditne ili debitne kartice ili čak gotovinom, na fizičkom mjestu (Lokalni Čvorovi). Službena cijena FairCoin-a je stabilna, definirana skupštinom i frekventno prilagođena različitim parametrima cijena."
+    },
+    "fairsaving": {
+      "title": "FairSaving",
+      "description": "FairSaving je FairCoin usluga štednje koju FairCoop omogućava kroz getFairCoin platformu. Ponuđena je onima koji žele da koriste našu infrastrukturu da pohrane svoje FairCoin-e pod odgovarajuće sigurnosne mjere. Preporučuje se ljudima bez sopstvenog kompjutera ili onima koji se ne osjećaju dovoljno uvjereni u svoje kompjuterske vještine da preuzmu odgovornost za brigu o svom Coop novčaniku."
+    },
+    "ocp": {
+      "title": "Open Collaborative Platform",
+      "description": "OCP je ključni organizacijski alat koji nudimo pojedincima, zajednicama i projekt koordinatorima unutar FreedomCoop-a, Bank of the Commons i mnogim drugim kooperativnim projektima u budućnosti. Može biti korišten, na primjer, da upravlja otvorenim zajedničkim projektima i timskim radom kako bi se uspostavile radne grupe, računati utrošeno vrijeme svakog člana kao bazu za distribuciju prihoda ili upravljati online FairCoin novčanikom da se prime i izvrše uplate."
+    },
+    "freedomcoop": {
+      "title": "FreedomCoop",
+      "description": "FreedomCoop je Evropsko Kooperativno Društvo (SCE) koje nudi set alata za samo-upravljanje, samo-zapošljavanje, ekonomsku autonomiju i finansijsku neposlušnost. Samo-zaposleni članovi mogu, na primjer, predati fakture FreedomCoop-u i primiti novce na svom virtualnom računu. Lični dokumenti sa podacima ili drugi dokumenti nisu potrebni. Svi troškovi za članstvo se mogu platiti FairCoin-ima. Profiti od FreedomCoop-a su redistribuirani Lokalnim Čvorovima te tako finansijski krucijalni i dinamizirajući za njihovo uspostavljanje."
+    },
+    "fairmarket": {
+      "title": "FairMarket",
+      "description": "FairMarket je FairCoop-ova online tržnica, gdje svi učesnici mogu ponuditi svoje proizvode i usluge zajednici. Međusobno povezuje pojedince koji su upućeni u alternativna tržišta, društvene valute, pravednu trgovinu i opće principe FairCoop-a. Svi proizvodi i usluge se plaćaju FairCoin-ima. Ovo povećava upotrebljivostt/cirkulaciju valute i pomaže izgraditi alternative za pravičniju ekonomiju."
+    },
+    "bankofthecommons": {
+      "title": "Bank of the Commons",
+      "description": "Bank of the Commons (BotC) je inicijativa otvorene kooperative sa ciljem da transformira bankarenje, plaćanja i valute radi podrške ekonomiji kojom se služe kooperativni i društveni pokreti na globalnom i lokalnom nivou. BotC je usvojila FairCoin kao stratešku globalnu valutu i tehnologiju blockchain kao dio razvijanja i usvajanja decentralizovanih finansijskih struktura za Zajedničare. BotC je indirektno povezana sa setom alata FairCoop-a da se proširi potencijalno polje korisnika što je više moguće."
+    }
+  },
+  "joinus": {
+    "content": "pridružite se našoj [grupi dobrodošlice](https://t.me/askfaircoop) ili na [FairCoop Forum](http://forum.fair.coop/) i ostvarite direktan kontakt. U neprestanoj smo potrebi za ljudim kojji posjeduje vještine a željeli bi da pomognu u razvoju ovog prekrasnog pokreta. Međutim, bilo ko sa proaktivnim razmišljanjem i dobrodušnosti je više nego dobrodošao:)"
+  }
+}

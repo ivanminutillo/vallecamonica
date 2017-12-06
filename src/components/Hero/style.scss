@@ -5,15 +5,22 @@
     background-position: bottom center;
     padding-bottom: 80px;
     // lost-utility: edit;    
+    min-height: 600px;
     lost-utility: clearfix;
     .hero_wrapper {
-        // text-align: center;
         margin-top: 60px;
         margin-bottom: 40px;
         padding-left: 40px;
-        // padding-right: 40px;
-        // lost-offset: 1/10;
         lost-column: 5/10;
+        h4 {
+            font-size: 18px;
+            margin: 0;
+            color: white;
+            margin-top: 80px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
     }
     .hero_title {
         font-size: 46px;
@@ -30,9 +37,10 @@
         font-size: 46px;
         color: #fff;
         letter-spacing: 2px;
-        margin-top: 80px;
+        margin-top: 0;
         line-height: 60px; 
         font-weight: 800;
+        margin-bottom: 40px !important;
         i {
             font-weight: 400;
         }  
@@ -68,6 +76,10 @@
             line-height: 40px;
             letter-spacing: 1px;
             border: 2px solid #59C25B;
+            &:hover {
+                color: white;
+                background: #469A48;
+            }
         }
         .inline {
             margin-left: 10px;
@@ -130,10 +142,9 @@
     }
     span {
         display: inline-block;
-        vertical-align: SUB; 
-        height: 50px;
-        line-height: 50px;
         margin-right: 10px;
+        vertical-align: middle;
+        height: 24px;
     }
     .feed_actions {
         float: right;
@@ -157,6 +168,25 @@
                 background: transparent;
             }
         }
+        a.inline {
+            height: 30px;
+            margin-top: 10px;
+            background: transparent;
+            border: none;
+            line-height: 30px;
+            color: #333;
+            font-size: 13px;
+            text-decoration: underline;
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+    .hero_feed {
+        lost-column: 8/10;
+        lost-offset: 0/10;
+        margin-top: -50px;
+        padding-left: 40px;
     }
 }
 
@@ -175,6 +205,17 @@
         }
         .hero_meta {
             lost-utility: clearfix;
+        }
+        .meta_desc {
+            a {
+                display: block;
+                text-align: center;
+                margin: 0;
+                margin-bottom: 10px;
+               &.inline {
+                  margin-left: 0;
+                } 
+            }
         }
     }
     

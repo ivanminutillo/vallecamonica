@@ -1,3 +1,8 @@
+.main_header .header > * {
+  position: static !important;
+  transform: none !important;
+}
+
 .main_header {
     text-align: center;
     background: #20202C;
@@ -6,6 +11,12 @@
     .header {
       height: 80px;
       line-height: 80px;
+      lost-column: 8/10;
+      lost-offset: 1/10;
+      lost-align: center;
+      h2 {
+        color: white;
+      }
     }
     .header_menu {
       margin-left: 10px;
@@ -64,9 +75,11 @@
 
 
 @media (max-width: 800px) {
+
   .main_header {
     margin: 0;
     height: 50px;
+    
     .header_menu {
       display: none;
     }
@@ -74,5 +87,14 @@
   
   .header_logo {
     display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .main_header {
+    .header {
+      lost-column: 10/10;
+      margin-left: 0 !important;
+    }
   }
 }

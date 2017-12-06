@@ -1,6 +1,5 @@
 .footer {
-    margin-top: 60px;
-    // lost-utility: edit;    
+    margin-top: 60px;   
     lost-utility: clearfix;
     .footer_wrapper {
         border-top: 1px solid #D6D6D6;
@@ -14,6 +13,23 @@
             letter-spacing: .5px;
             font-weight: 400;
             margin: 40px 0;
+            margin-bottom: 0;
+        }
+        .footer_logo {
+            background: url('./logo.png');
+            background-size:cover;
+            display: block;
+            width: 125px;
+            height: 24px;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    }
+    .horizontal {
+        button {
+            border-radius: 0;
         }
     }
 }

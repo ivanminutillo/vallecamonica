@@ -4,18 +4,17 @@ import Helmet from 'react-helmet'
 import Post from '../components/Post'
 import BigImage from '../components/BigImage'
 import Header from '../components/Header'
+import Methodology from '../components/Methodology'
 import Hero from '../components/Hero'
 import Faircoin from '../components/Faircoin'
-import Work from '../components/Work'
-import Cta from '../components/Cta'
+import Nodes from '../components/Nodes'
 import Tabs from '../components/Tabs'
 import Todo from '../components/Todo'
 import Footer from '../components/Footer'
 
 class IndexRoute extends React.Component {
-  render() {
+  render () {
     const items = []
-    console.log(this.props)
     const { title, subtitle, author, menu } = this.props.data.site.siteMetadata
     const posts = this.props.data.allMarkdownRemark.edges
     posts.forEach((post) => {
@@ -34,17 +33,11 @@ class IndexRoute extends React.Component {
         <Hero />
         <Tabs />
         <BigImage />
+        <Methodology />
         <Faircoin />
-        <Work />
-        <Cta />
+        <Nodes />
         <Todo />
         <Footer />
-        {/* <Sidebar {...this.props} /> */}
-        {/* <div className="content">
-          <div className="content__inner">
-            {items}
-          </div>
-        </div> */}
       </div>
     )
   }

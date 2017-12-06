@@ -164,19 +164,19 @@ figcaption {
     .float-left {
         float: left;
     }
-    .content {
-        lost-column: 7/12;
-        &__inner {
-            padding: 30px 20px;
-        }
-    }
+    // .content {
+    //     lost-column: 7/12;
+    //     &__inner {
+    //         padding: 30px 20px;
+    //     }
+    // }
 }
 
-@include breakpoint-md {
-    .content {
-        lost-column: 2/3;
-        &__inner {
-            padding: 40px 35px;
-        }
-    }
-}
+// @include breakpoint-md {
+//     .content {
+//         lost-column: 2/3;
+//         &__inner {
+//             padding: 40px 35px;
+//         }
+//     }
+// }

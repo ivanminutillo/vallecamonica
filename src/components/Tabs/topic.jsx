@@ -1,27 +1,56 @@
 import React from 'react'
+import { translate } from 'react-i18next'
 
-export const Integral = () => (
+const Integral = (props) => {
+  const {t} = props
+  return (
     <div>
-        <div>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck of your home or having a powerful but mobile telescope set up to take to the remove countryside to really get a good shot at some breath taking star gazing.The last thing we would want to do is to take away any of the “fun” of your hobby of astronomy.</div>
-        <button>Visit the website</button>
+      <div>{t('tabs.integralRevolutionText')}</div>
     </div>
-)
+  )
+}
 
-export const Disobedience = () => (
-    <div>
-        <div>There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck of your home or having a powerful but mobile telescope set up to take to the remove countryside to really get a good shot at some breath taking star gazing.The last thing we would want to do is to take away any of the “fun” of your hobby of astronomy.</div>
-    </div>
-)
 
-export const Cooperativism = () => (
+export const Disobedience = (props) => {
+  const {t} = props
+  return (
     <div>
-        <div>Cooperativism There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck of your home or having a powerful but mobile telescope set up to take to the remove countryside to really get a good shot at some breath taking star gazing.The last thing we would want to do is to take away any of the “fun” of your hobby of astronomy.</div>
-        <button>Visit the website</button>
+      <div>{t('tabs.disobedienceText')}</div>
     </div>
-)
+  )
+}
 
-export const Decentralization = () => (
+export const Cooperativism = (props) => {
+  const {t} = props
+  return (
     <div>
-        <div>Decentralization is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station whether that is on the deck of your home or having a powerful but mobile telescope set up to take to the remove countryside to really get a good shot at some breath taking star gazing.The last thing we would want to do is to take away any of the “fun” of your hobby of astronomy.</div>
+      <div>{t('tabs.openCooperativismText')}</div>
     </div>
-)
+  )
+}
+
+export const Decentralization = (props) => {
+  const {t} = props
+  return (
+    <div>
+      <div>{t('tabs.decentralizationText')}</div>
+    </div>
+  )
+}
+
+export const Stateless = (props) => {
+  const {t} = props
+  return (
+    <div>
+      <div>{t('tabs.statelessDemocracyText')}</div>
+    </div>
+  )
+}
+
+module.exports = {
+    Integral: translate('translations')(Integral),
+    Disobedience:translate('translations')(Disobedience),
+    Cooperativism: translate('translations')(Cooperativism),
+    Decentralization: translate('translations')(Decentralization),
+    Stateless: translate('translations')(Stateless)
+}

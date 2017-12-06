@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 class HTML extends React.Component {
   render() {
@@ -33,6 +33,8 @@ class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" /> 
+          <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700" rel="stylesheet" />
           {headComponents}
           {css}
         </head>

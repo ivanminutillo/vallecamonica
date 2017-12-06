@@ -1,0 +1,129 @@
+
+{
+  "hero": {
+    "title": {
+      "first_line": "Ecosystème",
+      "second_line": "coopératif global",
+      "third_line_italic": "pour une",
+      "third_line": "économie équitable"
+    },
+    "description": "Qu'est ce qui vient après le capitalisme ?", 
+    "readMore": "Voir plus",
+    "joinDiscussion": "Joindre la discussion"
+  },
+  "tabs": {
+    "title": "# Ce qui nous fait vraiment bouger",
+    "integralRevolution": "Révolution intégrale",
+    "disobedience": "Désobéissance",
+    "openCooperativism": "Coopératisme ouvert",
+    "decentralization": "Décentralisation",
+    "statelessDemocracy": "Démocratie sans états",
+    "integralRevolutionText": "Une transformation profonde et claire de la société, incluant ses valeurs et sa structure. La nouvelle société auto gérée est basée sur l'autonomie et l'abollition de toute forme de domination: l'état, le capitalisme, la patrie et tout ce qui affecte les relations humaines et l'environnement. Des actions stratégiques sont nécessaires afin de recycler les structures obsolètes et recréer ces valeurs et qualités qui nous permettent de vivre en commun. Le point le plus prommeteur de ce changement collectif est un nouveau page|système économique. Cela donne au peuple la possibilité de sortir du cercle vicieux du capitalisme et de ses effets de bord, afin de trouver de l'espace pour de nouvelles idées et permettre la passage à une vie saine et balancée.",
+    "disobedienceText": "La désobéissance implique dans une certaine mesure de désobéir à certaines lois de structures dominantes. Cela peut devenir un acte de civilité lorsque lesdites lois sont considérées fausses ou abusives. Pour bien comprendre cela, nous nous réferons à la différence entre légal et juste. Certaines lois peuvent être légales sur le papier mais ne peuvent pas être considerées justes, ce qui arrive fréquemment avec des gouvernements totalitaires ou fascistes. Cela peut arriver aussi avec des gouvernements dits 'démocratiques' lorsque, par exemple, l'argent public est utilisé pour démarrer des guerres dont personne ne veut.",
+    "openCooperativismText": "Nous suivons et supportons les principes des coopératives dans le sens ou elle sont dirigées par leur participants et basées sur l'aide mutuelle, l'auto-responsabilité , l'égalité, l'équité , la solidarité et la démocratie. Tout le monde peut participer activement et égalitairement aux décisions et règles. Le capital accumulé , gagné principalement avec la hausse de notre monnaie, est réinvesti dans le dévellopement de l'écosystème. De cette manière, les participants peuvent acoir accès à un réseau en constante progression de biens et services dans l'économie équitable.",
+    "decentralizationText": "Un de nos buts est d'avoir un système d'organisation décentralisé. En faisant cela, nous empêchons un point central d'échec, sous entendu, qu'une autorité puisse nous fermer. Nous faisons en sorte que tous les participants puissent communiquer, partager des idées et travailler sur des projets sans répression ou censure. La distribution du pouvoir politique et économique, combiné avec la transparence nous protège des abus de personnes avec trop de droits et des fraudes ou autre corruption. Sans parler de prise de pouvoirs abusive.",
+    "statelessDemocracyText": "Le capitalisme moderne dépent d'un système de nation-état qui lui même dépent d'une culture hiérarchique et patriarcale profondément forgée dans les esprits depuis des centaines d'années. Pour la première fois dans l'histoire, grâce à une combinaison de politiques s'affaiblissants et de technologies évoluantes, nous pouvons présenter une alternative réaliste aux modèle de gouvernance actuel. Un système financier coopératif global nous donne de l'air frais et un marché équitable. Un grand pas en avant. Si nous combinons cela avec des valeurs basées sur la liberté et un vrai système démocratique, nous commencons à obtenir une réalité. Si vous croyez en une vie en dehors des états, joignez FairCoop dès aujourd'hui ! "
+  },
+  "bigImage": {
+    "title": "Nous sommes régit par",
+    "bold": "consensus"
+  },
+  "methodology": {
+    "assembly" : {
+      "suptitle": "Un zoom sur nos méthodes",
+      "title": "# Assemblées ouvertes et concensus",
+      "description": "Dans nos assemblées ouvertes, la communauté décide elle même des moyens d'atteindre un but commun. Tout le monde peut participer et faire des propositions sur les projets en cours ou à dévelloper. Lorsqu'une proposition passe et mène à un consensus, le créateur et le troupe respectif peuvent commencer à travailler sur le projet. Nous organisons les assemblées globales en ligne et locales, physiques, de cette manière."
+    },
+    "autonomy": {
+      "title": "# Auto organisation et distribution des valeurs",
+      "description": "L'écosystème FairCoop s'auto organise a l'aide du. Tout le monde est encouragé à participer avec ses propores compétences et idées et à prendre des initiatives, donc d'aider le mouvement à grossir. En utilisant notre outil collaboratif innovant les participants peuvent aider gratuitement ou demander une rémunération en FairCoin afin de couvrir leur besoins. De cette manière, nous rétribuons ceux qui amènent une vrai valeur dans FairCoop et la distribution est faite d'une manière équitable et décentralisée."
+    }
+  },
+  "economy": {
+    "faircoin": {
+      "title": "Nous utilisons",
+      "bold": "FairCoin",
+      "description": "FairCoin est une monnaie numérique éthique, portant les valeurs de FairCoop et supportée par une coopérative globale à forte progression. Elle est décentralisée, comme les autres crypto-monnaies mais dans le même temps, implémente des innovations radicales qui la rendent unique en terme écologique, stabilité de la valeur, échanges éthiques, épargne et placements. Son dévellopement continue dans le but de créer une économie équitable pour la terre. [En savoir plus](https://fair-coin.org)"
+    },
+    "circularEconomy": {
+      "title": "Pour construire une",
+      "bold": "Economie circulaire",
+      "description": "Nous construisons une vrai économie autour de FairCoin avec une utilisation circulaire de produits et services , en local comme globalement. De plus en plus de marchands, producteurs et magasins dans le monde font confiance en FairCoin comme valeur d'échange, utilisants sa valeur stable et ses outils gratuits faits pour le supporter."
+    },
+    "action": {
+      "one": "FairMarket",
+      "two": "faircoins dans le monde"
+    }
+  },
+  "localNodes": {
+    "title": "# Noeuds locaux",
+    "description": "En plus de la vision globale, de multiples noeuds locaux sont ajoutés de part le monde au réseau. Ils servent à connecter les initiatives locales , les groupes et les gens à l'écosystème. C'est une relation bidirectionnelle permettant de réaliser le but de FairCoop avec les communautés locales tout en retournant une importante valeur.  Il s'agit bien d'une aide mutuelle :  Le local fait grandir le global qui aide à son tour le local pour ses activités économiques.",
+    "action": "Inspecter le réseau en expension",
+    "action_start": "Pourquoi pas démarrer un noeud local dans votre région?"
+  },
+  "milestones": {
+    "title": "# Quelques étapes majeures que nous avons atteintes jusque là",
+    "one": "Créé et valorisé une crypto-monnaie unique au monde (FairCoin)",
+    "two": "Démarré un reseau de noeud locaux en expansion rapide",
+    "three": "Ouvert une coopérative européenne (FreedomCoop)",
+    "four": "Co-foundé une banque coopérative (Bank of the Commons)",
+    "five": "Construit une marketplace (FairMarket) et une plateforme collaborative (OCP)",
+    "six": "Ne nous sommes pas tous entretués (pour l'instant) ;)"
+  },
+  "about": {
+    "content": "### Mission \n Notre mission consiste à créer un nouveau système économique global post capitaliste et frayer un chemin vers un changement collectif pour une vie meilleure en commun. Coopération , éthique, solidarité et transparence sont les valeurs clés pour une vrai justice. Le développement et l'utilisation d'un ensemble d'outils digitaux interconnectés au niveau global et d'un reseau de points régionaux sont les élements essentiels à notre réussite. Nous utilisons notre énergie d'une manière constructive et collaborative afin de créer une réelle alternative en passant de la théorie à la pratique. \n ### Vision \n   Nous immaginons un réseau global de communautés auto organisées, indépendantes des forces centralisées et bien souvent abusives. \n Nos principes généraux et notre structure sont définis colectivement au niveau global et dans le même temps, sont implementés au niveau local avec l'adaptation des spécificités régionales.De cette manière, les gens peuvent reprendre le contrôle de leur vie en ayant le choix entre plusieurs modèles de sociétés basées sur une structure décentralisée. \n Notre travail collaboratif créé un écosystème indépendant qui tend à réduire les inégalités sociales. Partant de ce système, on devrait pouvoir ouvrir la porte à un changement global impactant tous les aspect de nos vies comme l'éducation, la sécurité sociale, l'énergie ou encore les transports. Nous allons redécouvrir des relations sans exploitation avec nos semblables et avec la nature. \n ### Principes \n Les actions de la communauté FairCoop sont basées sur trois branches majeures de principes existants: **Révolution intégrale** - **Collaboration P2P** - **Ethique Hackers** \n #### 1) Révolution intégrale \n Est un processus de signification historique, pour la construction d'une nouvelle société autogérée, basée sur l'autonomie et l'abolition de toutes les formes de domination: l'État, le capitalisme et toutes les autres formes qui affectent les relations entre les humains et l'environnement naturel. Elle s'engage à l'action consciente, personnelle et collective, pour l'amélioration et la récupération des valeurs et des qualités qui nous permettent de vivre une vie en commun.  \n Elle est basé sur la construction de nouvelles structures et formes d'organisation dans tous les domaines de la vie pour assurer l'égalité dans la prise de décision et l'équité dans la satisfaction de nos besoins fondamentaux et vitaux. \n Ceux-ci inclus:\n *  Des relations humaines équitables basées sur la liberté et la non-coercition.\n* L'auto-organisation et les assemblées populaires souveraines.\n*  Les communs, le public\n    - Récupérer la propriété commune au profit de tous, avec possession et contrôle populaires \n    - Construire un système coopératif public et autogéré, basé sur l'entraide \n    - Libérer l'accès à l'information et au savoir \n * Une nouvelle économie basée sur la coopération et la proximité. \n *Coopération avec la vie et la biosphère.\n ###### [En savoir plus sur les concepts de la révolution intégrale](http://integrarevolucio.net/en/integral-revolution/ideological-bases-of-the-call/)\n #### 2) Collaboration P2P\n * La collaboration P2P signifie que tout le monde assume certains rôles et tâches au sein de la communauté en tant qu'engagement volontaire pour le bien commun.\n* Une réciprocité directe via les engagements acceptés ne devrait pas être attendue. Cependant, au fur et à mesure que chacun des participants s'efforcera de maintenir la réciprocité et la solidarité au sein de la Chambre des communes, il y aura des occasions de retirer quelque chose de l'ensemble.\n* Toutes les dynamiques de collaboration sont non hiérarchiques, de sorte que toute personne impliquée est considérée comme ayant une voix égale dans le processus.\n* Il y a beaucoup plus à apprendre sur les principes P2P et ses différents sous-domaines.\n ###### [Vous trouverez d'autres informations utiles ici](https://wiki.p2pfoundation.net/Core_Peer-2-Peer_Collaboration_Principles) \n#### 3) L'éthique hacker \n Le piratage est bien plus que l'image sociale des cybercriminels avec des sweats à capuche noirs. La façon dont nous, et la plupart des gens de technologie libre, comprenons l'action du piratage fait référence aux valeurs morales, à la liberté et à l'amélioration pour le bien. Les clés de l'éthique des hackers sont:\n* Toutes les informations devraient être libres\n* L'accès aux ordinateurs - et tout ce qui pourrait vous apprendre quelque chose sur le fonctionnement du monde - devrait être illimité et total. Toujours céder à l'impératif pratique!\n* Autorité de méfiance-promouvoir la décentralisation\n* Les pirates doivent être jugés en fonction de leur piratage, et non de critères tels que les diplômes, l'âge, la race, le sexe ou la position\n* Vous pouvez créer de l'art sur un ordinateur\n* Les ordinateurs peuvent changer votre vie pour le mieulleur\n* Ne pas jeter les données d'autres personnes\n* Rendre les données publiques disponibles, protéger les données privées\n###### [Plus d'informations sur l'éthique des hackers ici](https://ccc.de/en/hackerethik)"
+  },
+  "economic": {
+    "content": "> FairCoop voit la révolution du système économique mondial comme le point d'entrée le plus prometteur pour provoquer et initier un changement collectif dans la société. \n \n L'un des objectifs prioritaires de FairCoop est de construire un nouveau système économique mondial basé sur la coopération, l'éthique, la solidarité et la justice dans nos relations économiques. Pour y parvenir, nous avons défini les causes majeures du système économique en difficulté et transformé en notre faveur les mécanismes qui causent le déséquilibre mondial du pouvoir. \n \n Notre plan consiste à rétablir le plus haut niveau de justice économique mondiale possible en: \n * Utiliser notre propre monnaie numérique FairCoin et développer son propre système économique totalement indépendant des banques centrales et des institutions\n* Utiliser FairCoin pour quelque chose qui a généralement joué contre le Global South: les forces du marché (offre-demande), les pirater et insérer le virus coopératif.\n* Utiliser le virus coopératif pour créer la confiance et inciter tout le monde à investir dans un système coopératif plutôt qu'un système compétitif volatil et spéculatif.\n* En utilisant la stratégie de croissance stable pour augmenter la valeur de la monnaie en raison de l'offre limitée d'unités monétaires (caractère déflationniste) et l'augmentation de la demande de la monnaie.\n* Utiliser la valeur accrue de la monnaie pour financer le développement de projets et d'outils qui sont alignés sur les objectifs de FairCoop et qui étendent constamment l'infrastructure du système.\n* Utiliser ces projets, outils et infrastructures pour faciliter l'utilisation commune de FairCoin pour d'autres produits et services qui sont en ligne avec les principes FairCoop, et ainsi augmenter sa convivialité.\n* Utiliser cette utilité croissante de FairCoin pour être globalement de plus en plus indépendant des monnaies fiduciaires et évoluer vers une économie circulaire.\n* Utiliser l'économie circulaire, renforcée en incluant de plus en plus de produits et de services dans le monde entier, pour couvrir nos besoins de base et intégrer naturellement plus d'utilisateurs (individus, groupes, réseaux) à FairCoin.\n* Utiliser notre pouvoir collectif et financier provenant d'une participation et d'utilisateurs sans cesse croissants pour autonomiser et libérer de plus en plus de gens de toute forme de répression économique ou politique.\n* Utiliser les outils largement dispersés mais interconnectés, les réseaux humains, les services et les caractéristiques de ce système décentralisé indépendant comme base pour le changement social de toute la société mondiale, connue sous le nom de révolution intégrale."
+  },
+  "organization": {
+    "content": "La communauté FairCoop s'organise à travers un coopérativisme ouvert. Tout le monde est encouragé à participer avec ses compétences individuelles et à aider le mouvement à grandir. \n \n Comme nous travaillons globalement pour soutenir la décentralisation et l'économie locale, notre approche consiste à suivre un modèle d'organisation glocal (global et local combiné):\n \n ### Les domaines de travail mondiaux\n se réfèrent principalement au travail en ligne, visant à structurer, organiser et développer l'information et la technologie pour le réseau mondial. Toutes les tâches sont organisées dans notre plateforme collaborative ouverte (OCP). Les participants peuvent soit offrir leurs heures de bénévolat ou réclamer une rémunération dans FairCoin pour le travail nécessaire.\n \n Nos domaines de travail mondiaux sont:\n * Gestion commune\n *  la communication\n  * Économie circulaire\n  * Développement de la technologie\n  * Bienvenue-Education-Support\n  * Soins humains\n ###### [en savoir plus sur notre structure de l'espace de travail global ici](https://www.mindomo.com/mindmap/free-mind-map-ffa5505555b54101960e3138e13b5e89)\n ### Le travail des nœuds locaux\n fait référence aux activités en ligne et hors ligne du nœud local correspondant pour développer le réseau physique sur le terrain en mettant l'accent sur le travail régional individuel.\n Certains domaines de nœuds locaux pourraient être:\n  * Dynamisation de l'économie circulaire (soutien aux commerçants)\n  * Promotion de différents outils FairCoop \n * Gestion d'un point d'échange (PoE)\n * Promouvoir les valeurs et les pratiques de FairCoop auprès des projets locaux \n * Construction de projets locaux spécifiques au sein de l'écosystème Faircoop\n ###### [plus sur les nœuds locaux ici](https://git.fairkom.net/faircoop/MediaCommunication/wikis/How-to-create-a-Local-Node-%5Ben%5D)\n **Chaque zone de travail globale et chaque nœud local ont une autonomie de décision interne grâce à des assemblées pour accomplir leurs tâches et atteindre leurs objectifs de la meilleure façon possible. Par conséquent, les autorisations centralisées ne sont pas nécessaires. Cependant, les questions clés, qui concernent l'ensemble de la communauté, sont décidées par l'assemblée générale mondiale, toujours par consensus.** \n \n **Toutes les zones de travail mondiales et les zones de nœuds locaux ont divers groupes de discussion et sous-domaines pour la communication quotidienne et la coordination.**\n \n Si vous souhaitez participer, rejoignez notre [groupe d'accueil](https://t.me/askfaircoop) et prenez contact directement avec nous. De là, nous pouvons vous conduire à l'endroit qui correspond le mieux à vos intérêts et intentions.\n \n ### Réseau de nœuds locaux \n Les nœuds locaux sont les groupes de représentation régionaux et l'expansion de FairCoop au niveau local. Ils développent et élargissent le réseau régional de manière indépendante en promouvant les outils FairCoop auprès des commerçants et des particuliers, en leur apportant un support technique, en organisant des présentations, répondant à toutes sortes de questions ou même en démarrant leur projet de nœuds locaux dans le cadre des principes FairCoop. Les nœuds locaux peuvent recevoir de petits financements pour couvrir les coûts de base dans le but d'être autosuffisants au fil du temps. \n \n Pour établir un nœud local, au moins 3 participants actifs sont nécessaires. Nous encourageons tous ceux qui sont intéressés à entrer en contact direct avec les gens du nœud local de votre région. Vous pouvez trouver la carte des nœuds locaux, avec plus de détails ici: (http://map.fairplayground.info/) .Si vous ne trouvez pas de nœud local dans votre région, nous sommes heureux de vous aider et de vous aider à en créer un.\n \n ###### [Plus de détails peuvent être trouvés dans le guide des nœuds locaux ici](https://git.fairkom.net/faircoop/MediaCommunication/wikis/How-to-create-a-Local-Node-%5Ben%5D)."
+  },
+  "tools": {
+    "faircoin": {
+      "title": "FairCoin",
+      "description": "FairCoin est une monnaie numérique basée sur un réseau peer-to-peer décentralisé protégé par un cryptage fort. C'est un outil puissant pour changer le monde par l'indépendance des banques centrales, des institutions financières et des gouvernements. C'est donc un outil clé dans le nouveau système économique. Comparé à d'autres cryptocurrences, comme Bitcoin, sa valeur est stable et fréquemment ajustée de la communauté par consensus."
+    },
+    "fairpay": {
+      "title": "FairPay",
+      "description": "FairPay est un système de cartes NFC permettant aux clients et aux commerçants de faire des paiements FairCoin aussi facilement qu'avec une carte de crédit. L'autocollant NFC contient un identifiant unique qui identifie l'utilisateur de la carte et communique directement avec le panneau d'application lié. Grâce à ce panel, les marchands ont la possibilité de changer ces FairCoins directement en Euros si nécessaire."
+    },
+    "fairfund": {
+      "title": "FairFund",
+      "description": "Il existe trois grands fonds FairFund, le Global South Fund, le Commons Fund et le Technology Infrastructure Fund. Les FairCoins stockés dans ces fonds ont pour but de financer de futurs projets qui sont en harmonie avec l'objectif de chaque fonds et de soutenir la plus grande économie circulaire FairCoin. En raison de la croissance stable de la valeur de FairCoin en tant que devise, la puissance économique des fonds est également en croissance constante. Ainsi, nous sommes de plus en plus en mesure de financer des projets plus nombreux et de plus grande envergure pour atteindre nos objectifs communs."
+    },
+    "usefaircoin": {
+      "title": "useFairCoin",
+      "description": "Use.fair-coin.org est une carte virtuelle et un répertoire d'espaces physiques de toutes sortes acceptant FairCoins comme méthode de paiement. Ceci est particulièrement utile pour les utilisateurs de trouver facilement des emplacements pour dépenser FairCoins pour des produits et services réels, et pour soutenir l'économie circulaire en même temps."
+    },
+    "getfaircoin": {
+      "title": "getFairCoin",
+      "description": "GetFairCoin.net est un moyen facile d'acheter FairCoin via différentes devises nationales comme EUR, USD, SYP, CNY, RUB, GBP, INR, NGN, BRL, MXN, etc avec des méthodes de paiement couramment utilisées comme virement bancaire, carte de crédit ou de débit ou même en utilisant de l'argent, à travers les lieux physiques (nœuds locaux). Ce prix FairCoin officiel est stable, défini par l'assemblage et fréquemment ajusté en raison de divers paramètres de prix."
+    },
+    "fairsaving": {
+      "title": "FairSaving",
+      "description": "FairSaving est un service d'épargne FairCoin que FairCoop fournit via la plateforme getFairCoin. Il est offert à ceux qui veulent utiliser notre infrastructure pour garder leurs Faircoins sous toutes les mesures de sécurité appropriées. Il est recommandé aux personnes ne possédant pas d'ordinateur personnel ou à ceux qui ne se sentent pas suffisamment en confiance dans leurs compétences informatiques pour prendre en charge leur portefeuille Coop."
+    },
+    "ocp": {
+      "title": "Open Collaborative Platform",
+      "description": "L'OCP est l'outil organisationnel clé que nous offrons aux individus, aux collectifs et aux coordinateurs de projet au sein de Freedom Coop, de la Banque des Communes et de nombreux autres projets de coopération dans le futur. Il peut également être utilisé, par exemple, pour gérer des projets collectifs ouverts et leur travail d'équipe en créant des groupes de travail, prendre en compte le temps passé par chaque membre comme base de distribution des revenus ou gérer un portefeuille en ligne FairCoin pour accepter et effectuer des paiements."
+    },
+    "freedomcoop": {
+      "title": "FreedomCoop",
+      "description": "FreedomCoop est une société coopérative européenne (SCE) qui offre une boîte à outils pour l'autogestion, le travail indépendant, l'autonomie économique et la désobéissance financière. Les membres indépendants peuvent, par exemple, remettre leurs factures à FreedomCoop et recevoir leur argent dans leur compte virtuel individuel. Les identifiants personnels ou autres documents ne sont pas requis. Tous les frais d'adhésion sont payables dans FairCoin. Les profits de FreedomCoop sont redistribués aux nœuds locaux et donc cruciaux pour financer et dynamiser leur création."
+    },
+    "fairmarket": {
+      "title": "FairMarket",
+      "description": "FairMarket est le marché en ligne de FairCoop, où tous les participants peuvent offrir leurs produits et services à la communauté. Il interconnecte des individus qui sont en accord avec les marchés alternatifs, les monnaies sociales, le commerce équitable et les principes généraux de FairCoop. Tous les produits et services sont payés dans FairCoin. Cela augmente la facilité d'utilisation / circulation de la monnaie et aide à construire des alternatives pour une économie plus équitable."
+    },
+    "bankofthecommons": {
+      "title": "Bank of the Commons",
+      "description": "La Banque Commune (BotC) est une initiative coopérative ouverte dont l'objectif est de transformer la banque, les paiements et les devises afin de soutenir l'économie utilisée dans les mouvements coopératifs et sociaux au niveau mondial et local. BotC a adopté FairCoin en tant que monnaie sociale mondiale stratégique et sa technologie blockchain dans le cadre du développement et de l'adoption de structures financières décentralisées pour les communes. BotC est indirectement lié à la boîte à outils de FairCoop afin d'élargir le plus possible le champ potentiel des utilisateurs."
+    }
+  },
+  "joinus" : {
+    "content": "Rejoignez-nous dans [notre groupe d'accueil](https://t.me/askfaircoop) ou dans le [Forum](http://forum.fair.coop/) et entrez directement en contact avec nous. Vous voyez ici une liste des compétences dont nous avons le plus besoin de toute urgence. Quoi qu'il en soit, tout le monde avec un état d'esprit proactif et un bon esprit est le bienvenu :)"
+  }
+}
+
+  

@@ -2,26 +2,29 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import PageTemplateDetails from '../components/PageTemplateDetails'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 class PageTemplate extends React.Component {
   render () {
-    const { title, subtitle } = this.props.data.site.siteMetadata
-    const page = this.props.data.markdownRemark
-
-    let description
-    if (page.frontmatter.description !== null) {
-      description = page.frontmatter.description
-    } else {
-      description = subtitle
-    }
+    const { title, subtitle, menu, author } = this.props.data.site.siteMetadata
+    // const page = this.props.data.markdownRemark
 
     return (
       <div>
         <Helmet>
-          <title>{`${page.frontmatter.title} - ${title}`}</title>
-          <meta name="description" content={description} />
+          <title>{`${title}`}</title>
+          <meta name="description" />
         </Helmet>
+        <Header
+          menu={menu}
+          social={author}
+        />
         <PageTemplateDetails {...this.props} />
+        <Footer
+          menu={menu}
+          social={author}
+        />
       </div>
     )
   }
@@ -34,8 +37,7 @@ PageTemplate.propTypes = {
         title: PropTypes.string.isRequired,
         subtitle: PropTypes.string.isRequired
       })
-    }),
-    markdownRemark: PropTypes.object.isRequired
+    })
   })
 }
 

@@ -7,7 +7,7 @@ This website is built with the amazing GatsbyJs
 
 - Multilanguages: Actually 10 languages managed with [react-i18next](https://github.com/i18next/react-i18next) and Markdown
 - All contents are Markdown based
-- PostCss
+- PostCSS
 - Data imported with GraphQl
 - Highly Modular, each block in every pages is a separate and customizable React Component
 - Mobile-First approach in development

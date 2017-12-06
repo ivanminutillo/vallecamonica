@@ -1,7 +1,7 @@
 [![Gatsby Version](https://img.shields.io/badge/gatsby-1.8.12-744C9E.svg)](https://github.com/gatsbyjs/gatsby) [![Code Climate](https://codeclimate.com/github/alxshelepenok/gatsby-starter-lumen.png)](https://codeclimate.com/github/alxshelepenok/gatsby-starter-lumen) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/alxshelepenok/gatsby-starter-lumen/master/LICENSE)
 # FairCoop Website
 
-This website is built with the amazing GatsbyJs
+This website is based on amazing GatsbyJs
 
 ## Features
 

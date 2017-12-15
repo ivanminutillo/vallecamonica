@@ -182,8 +182,11 @@
                       position: fixed;
                       width: 320px;
                       left: 50%;
-                      top: 100px;
+                      top: 50px;
                       margin-left: -170px;
+                      height: 500px;
+                      bottom: 0;
+                      overflow: scroll;
                       h5 {
                           margin: 0;
                           text-align: left;

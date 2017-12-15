@@ -55,6 +55,7 @@ class Horizontal extends Component {
       { code: 'en', label: 'English' },
       { code: 'fr', label: 'French' },
       { code: 'gr', label: 'Greek' },
+      { code: 'it', label: 'Italian' },
       { code: 'ku', label: 'Kurdish' },
       { code: 'se', label: 'Serbian' },
       { code: 'es', label: 'Spanish' }
@@ -69,4 +70,4 @@ class Horizontal extends Component {
   }
 }
 
-export default translate('LanguageSwitcher')(Horizontal)
+export default translate('translations')(Horizontal)

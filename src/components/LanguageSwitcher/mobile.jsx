@@ -55,6 +55,7 @@ class LanguageMobile extends Component {
       { code: 'en', label: 'English' },
       { code: 'fr', label: 'French' },
       { code: 'gr', label: 'Greek' },
+      { code: 'it', label: 'Italian' },
       { code: 'ku', label: 'Kurdish' },
       { code: 'se', label: 'Serbian' },
       { code: 'es', label: 'Spanish' }
@@ -77,4 +78,4 @@ class LanguageMobile extends Component {
   }
 }
 
-export default translate('LanguageSwitcher')(LanguageMobile)
+export default translate('translations')(LanguageMobile)

@@ -55,6 +55,7 @@ class LanguageSwitcher extends Component {
       { code: 'en', label: 'English' },
       { code: 'fr', label: 'French' },
       { code: 'gr', label: 'Greek' },
+      { code: 'it', label: 'Italian' },
       { code: 'ku', label: 'Kurdish' },
       { code: 'se', label: 'Serbian' },
       { code: 'es', label: 'Spanish' }
@@ -63,7 +64,7 @@ class LanguageSwitcher extends Component {
       <div className='languages_container' onClick={() => this.handleDropdown()}>
         <div className="languageSwitcher">
           <div className="languageSwitcher_current">
-            {this.state.language === 'en-US' ? 'English' 
+            {this.state.language === 'en-US' || this.state.language === 'en-GB'  ? 'English' 
             : languages.filter(lang => this.state.language.includes(lang.code))[0].label}
           </div>
           <div className={this.state.active ? "languageSwitcher_dropdown active" : "languageSwitcher_dropdown" }>
@@ -76,4 +77,4 @@ class LanguageSwitcher extends Component {
   }
 }
 
-export default translate('LanguageSwitcher')(LanguageSwitcher)
+export default translate('translations')(LanguageSwitcher)

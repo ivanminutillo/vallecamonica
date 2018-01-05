@@ -1,0 +1,138 @@
+@import "../../assets/scss/mixins";
+
+
+.instagram {
+    .instagram_link {
+        font-size: 46px;
+        font-style: italic;
+        columns: #333;
+        font-weight: 300;
+        a {
+            font-weight: 600;
+            text-decoration: underline;
+            font-size: 46px;
+            font-style: italic;
+            color: #333 !important;
+            padding: 0 !important;
+        }
+    }
+    .content_link.instagram {
+        background: transparent;
+        padding: 0;
+        color: #59C25B;
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        .instagram_icon {
+            background: url('../../icons/instagramgreen.svg');
+            width: 18px;
+            height: 18px;
+            vertical-align: middle;
+            display: inline-block;
+            margin-right: 5px;
+            background-size: contain;
+            background-repeat: no-repeat;  
+        }
+    }
+}
+
+.content_photo {
+    margin-top: 0 !important;
+    .photo_item {
+        lost-waffle: 1/5;
+        margin-bottom: 0;
+        margin-top: 0 !important;
+        background-repeat:no-repeat;
+        background-size: cover;  
+        position: relative;
+        a {
+          padding: 0;
+          margin: 0;
+          position: absolute;
+
+        }
+      .item_photo {
+          width: 100%;
+          height: 0;
+          padding-bottom: 100%;
+          background: #dadada;
+          background-size: cover;
+          background-repeat: no-repeat; 
+          margin: 0;
+      }
+    }
+}
+
+@include breakpoint-md {
+    .content_photo {
+        margin-top: 0 !important;
+        .photo_item {
+            lost-waffle: 1/1 !important;
+            .item_photo {
+                background-repeat:no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+    .nodes {
+        .wrapper_info {
+          .info_content {
+            lost-column: 1/1 !important;
+         
+          }
+        }
+    .hero_feed {
+        lost-utility: clearfix;
+        padding-top: 0px;
+        margin-top: 60px;
+        lost-column: 1/1;
+        .feed_document {
+            height: 50px;
+            border-radius: 3px;
+            background: #F5F5E9;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+            padding: 0 10px;
+            lost-utility: clearfix;
+        }
+        h5 {
+            margin: 0;
+            line-height: 50px;
+            font-size: 15px;
+            font-weight: 500;
+            display: inline-block;
+        }
+        span {
+            display: inline-block;
+            vertical-align: SUB; 
+            height: 50px;
+            line-height: 50px;
+            margin-right: 10px;
+        }
+        .feed_actions {
+            float: right;
+            margin-top: 0px;
+            button {
+                height: 30px;
+                margin-top: 10px;
+                border: none;
+                margin-left: 10px;
+                font-size: 13px;
+                margin-right: 0;
+                &.good {
+                    background: #59C25B;
+                    border-radius: 2px;
+                    color: white;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                }
+                &.inline {
+                    text-decoration: underline;
+                    font-weight: 600;
+                    background: transparent;
+                }
+            }
+        }
+    }
+}
+}

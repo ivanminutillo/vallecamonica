@@ -2,35 +2,36 @@ import React from 'react'
 import './style.scss'
 import Link from 'gatsby-link'
 import {Book} from '../../icons'
-import { translate } from 'react-i18next'
-
+import Header from '../Header'
 const Hero = (props) => {
-  const {t} = props
+  // console.log('hero')
+  // console.log(props)
   return (
     <section className='hero'>
+      <Header menu={props.menu} />
       <div className='hero_wrapper'>
-        <h4>{t('hero.description')}</h4>
-        <h3 className='hero_tagline'>{t('hero.title.first_line')}<br />{t('hero.title.second_line')}<br /> <i>{t('hero.title.third_line_italic')}</i> {t('hero.title.third_line')}</h3>
+        <h4>osserva</h4>
+        <h3 className='hero_tagline'>La bellezza<br />della Valle Camonica<br /> <i>da ogni angolo</i></h3>
         <div className='hero_meta'>
           <div className='meta_desc'>
-            <Link to='/about'>{t('hero.readMore')}</Link>
-            <a className='inline' href='http://forum.fair.coop'>{t('hero.joinDiscussion')}</a>
+          <p>Lorem ipsum Now, if you are interested in being the best player, getting really good money and knowing some tricks and advices of what to do.</p>
+            <Link to='/about'>Scopri di più</Link>
+            <a className='inline' href='#'>Guarda le webcam</a>
             {/* <Link className='inline' to='/about'></Link> */}
           </div>
         </div>
       </div>
-        <div className='hero_feed'>
+        {/* <div className='hero_feed'>
           <div className='feed_document'>
             <span><Book heigth='18' width='18' line='1' /></span>
             <h5>Faircoop Beginner guide </h5>
           <div className='feed_actions'>
-            {/* <button className='good'>Download</button> */}
             <a className='inline' href='https://git.fairkom.net/faircoop/MediaCommunication/wikis/welcome-to-faircoop' target='blank'>Read online</a>
           </div>
           </div>
-        </div>
+        </div> */}
     </section>
   )
 }
 
-export default translate('translations')(Hero)
+export default Hero

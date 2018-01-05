@@ -4,7 +4,6 @@ import {Twitter, Github, Calendar, Menu} from '../../icons'
 import Link from 'gatsby-link'
 import LanguageSwitcher from '../LanguageSwitcher'
 import { translate, Trans } from 'react-i18next'
-import i18n from '../../i18n'
 import LanguageMobile from '../LanguageSwitcher/mobile'
 
 class Topbar extends Component {
@@ -40,9 +39,7 @@ class Topbar extends Component {
                 <button>Join Assembly</button>
             </div> */}
             <Link to={'/'}><div className='topbar_logo' /></Link>
-            <div className='meta_languages_mobile'><LanguageMobile /></div>
             <div className='topbar_meta'>
-                <div className='meta_languages'><LanguageSwitcher /></div>
                 <div className='meta_social'>
                     <i className='social'>
                         <a href="https://twitter.com/Fair_Coop">

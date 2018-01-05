@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="232px" height="57px" viewBox="0 0 232 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6381B5" offset="0%"></stop>
+            <stop stop-color="#7FA940" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2">
+            <text id="Webcam" font-family="FiraSans-Bold, Fira Sans" font-size="21" font-weight="bold" letter-spacing="0.976744175" fill="#7FA940">
+                <tspan x="46" y="25">Webcam</tspan>
+            </text>
+            <text id="Valle-Camonica" font-family="FiraSans-Light, Fira Sans" font-size="25" font-weight="300" letter-spacing="1.16279078" fill="#FFFFFF">
+                <tspan x="46" y="50">Valle Camonica</tspan>
+            </text>
+            <circle id="Oval-3-Copy" fill="#FFFFFF" opacity="0.801247668" cx="17" cy="19" r="17"></circle>
+            <ellipse id="Oval-2" fill="#6381B5" cx="16.5493421" cy="18.5" rx="7.54934211" ry="7.5"></ellipse>
+            <path d="M17,52.5555556 L17,40.6636839 C17,40.6636839 17,36.7309471 21.25,34.7645787 C25.5,32.7982103 34,28.8654735 34,21" id="Path-4" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M17,52.5555556 L17,40.6636839 C17,40.6636839 17,36.7309471 12.75,34.7645787 C8.5,32.7982103 0,28.8654735 0,21" id="Path-4" stroke="url(#linearGradient-1)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+            <circle id="Oval-4" fill="#303B4E" cx="16.5" cy="18.5" r="2.5"></circle>
+        </g>
+    </g>
+</svg>

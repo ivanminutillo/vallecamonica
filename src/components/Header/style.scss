@@ -4,31 +4,38 @@
 }
 
 .main_header {
-    text-align: center;
-    background: #20202C;
-    height: 130px;
-    box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    // text-align: center;
+    background: transparent;
+    height: 60px;
+    // padding-left: 40px;
+    // padding-right: 40px;
+    border-bottom: 1px solid rgba(255,255,255, .1);
+    a {
+      background: transparent !important;
+      border: none !important;
+      padding: 0 !important;
+    }
     .header {
-      height: 80px;
-      line-height: 80px;
+      height: 60px;
+      line-height: 60px;
       lost-column: 8/10;
       lost-offset: 1/10;
-      lost-align: center;
+      // lost-align: left;;
       h2 {
         color: white;
       }
     }
     .header_menu {
-      margin-left: 10px;
+      // margin-left: 10px;
       display: inline-block;
       vertical-align: middle;
-      margin-left: 20px;
+      // margin-left: 20px;
       a {
         .active {
           background: red;
         }
-        margin-right: 30px;
-        font-weight: 400;
+        margin-right: 50px;
+        font-weight: 500;
         text-transform: capitalize;
         text-decoration: none;
         letter-spacing: 1px;
@@ -56,12 +63,12 @@
   .header_logo {
     vertical-align: middle;
     .logo_earth {
-      animation: App-logo-spin infinite 20s linear;
-      height: 22px;
-      background: url('./earth.png');
-      background-size:cover;
+      height:40px;
+      background: url('../../assets/images/logo.svg');
+      background-size:contain;
+      background-repeat: no-repeat; 
       display: inline-block;
-      width: 24px;
+      width: 220px;
       vertical-align: middle;
     }
     display: inline-block;
@@ -91,10 +98,55 @@
 }
 
 @media (max-width: 900px) {
+  .menu_mobile {
+    display: block !important;
+  }
   .main_header {
     .header {
       lost-column: 10/10;
       margin-left: 0 !important;
     }
+  }
+}
+
+.mobile_content {
+  width: 320px;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background: #20202C;
+  // height: 300px;
+  opacity: 0;
+  // @include transition(.3s);
+  left: -320px;
+  &.active {
+      opacity: 1;
+      left: 20px;
+      top: 90px;
+  }
+  .content_menu {
+      // margin-top: 30px;
+      padding: 10px;
+      a {
+          color: white;
+          display: block;
+          text-align: left;
+          font-size: 14px;
+          padding: 20px;
+          text-transform: capitalize;
+          font-weight: 600;
+          letter-spacing: .5px;
+          position: relative;
+          z-index: 9999999;
+      }
+  }
+}
+.menu_mobile {
+  display: none;
+  cursor: pointer;
+  // margin-top: 15px;
+  position: relative;
+  .topbar_menu {
+      float: left;
   }
 }

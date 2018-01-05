@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://fair.coop',
-    title: 'FairCoop',
-    subtitle: 'the earth cooperative',
+    url: 'https://vallecamonica.com',
+    title: 'vallecamonica',
+    subtitle: '',
     copyright: '© All rights cooperatively shared.',
     menu: [
       {
@@ -10,25 +10,17 @@ module.exports = {
         path: '/about'
       },
       {
-        label: 'Organization',
-        path: '/organization'
+        label: 'Webcam',
+        path: '/webcam'
       },
       {
-        label: 'Economic System',
-        path: '/economic-system'
-      },
-      {
-        label: 'Tools',
-        path: '/tools'
-      },
-      {
-        label: 'Join us',
-        path: '/join-us/'
+        label: 'Contacts',
+        path: '/contacts'
       }
     ],
     author: {
-      name: 'FairCoop',
-      email: 'hello@fair.coop',
+      name: 'ValleCamonica',
+      email: 'hello@vallecamonica.it',
       telegram: 'https://t.me/askfaircoop',
       twitter: 'https://twitter.com/Fair_Coop',
       github: 'https://github.com/faircoop'

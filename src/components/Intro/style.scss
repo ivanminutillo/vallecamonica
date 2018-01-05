@@ -1,7 +1,8 @@
+
+
 .page_header {
     height: 500px;
     background: #919191;
-    text-align: center;
     background-repeat: no-repeat;
     background-size: cover; 
     &.tools {
@@ -30,11 +31,12 @@
         letter-spacing: 2px;
         padding-top: 200px;
         color: white;
+        text-align: center;
     }
 }
 
 .page_body {
-    lost-column: 1/2;
+    lost-column: 1/2 0;
     lost-offset: 1/4;
     margin-top: 40px;
     margin-bottom: 100px;

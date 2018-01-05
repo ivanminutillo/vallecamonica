@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Intro from '../components/Intro'
 import { translate } from 'react-i18next'
@@ -15,10 +14,6 @@ class ToolsRoute extends React.Component {
           <title>{`${title}`}</title>
           <meta name="description" />
         </Helmet>
-        <Header
-          menu={menu}
-          social={author}
-        />
         <Intro image={'tools'} title={'FairCoop Tools'} />
         <div className='page_tools'>
             <div className='body_tools'>

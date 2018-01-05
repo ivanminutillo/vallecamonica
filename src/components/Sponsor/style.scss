@@ -1,0 +1,31 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.sponsor {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(67, 206, 162), rgb(24, 90, 157)) repeat scroll 0% 0%;
+    height: 350px;
+    .sponsor_wrapper {
+        lost-column: 8/10;
+        lost-offset: 1/10;
+        h3 {
+            color: white;
+            font-size: 46px;
+            i {
+                font-style: italic;
+                font-weight: 400;
+            }
+        }
+        .wrapper_list {
+            lost-column: 10/10;
+            margin-top: 20px;
+            .list_item {
+                width: 200px;
+                height: 200px;
+                background: #E4E4E4;
+                border-radius: 3px;
+                float: left;
+                margin-right: 10px;
+            }
+        }
+    }
+}

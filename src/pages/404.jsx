@@ -2,7 +2,6 @@ import React from 'react'
 
 class NotFoundRoute extends React.Component {
   render() {
-    const { menu, author } = this.props.data.site.siteMetadata
     return (
       <div>
         <div className="content">
@@ -29,18 +28,7 @@ export const pageQuery = graphql`
         title
         subtitle
         copyright
-        menu {
-          label
-          path
-        }
-        author {
-          name
-          email
-          telegram
-          twitter
-          github
-        }
       }
     }
   }
-`;
+`

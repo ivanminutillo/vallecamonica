@@ -46,11 +46,51 @@
         background-repeat:no-repeat;
         background-size: cover;  
         position: relative;
-        a {
-          padding: 0;
-          margin: 0;
-          position: absolute;
+        // a {
+        //   padding: 0;
+        //   margin: 0;
+        //   position: absolute;
 
+        // }
+        h5 {
+            @include truncate;
+            margin: 0;
+            font-size: 14px;
+            font-weight: 500;
+            color: #333;
+            display: block;
+            width: 100%;
+            margin-top: 0px;
+            background: #ececec;
+            border-radius: 2px;
+            padding: 0 2px;
+        }
+        .item_meta {
+            height: 20px;
+            @include clearfix;
+            margin-top: 10px;
+            .meta_likes {
+                margin: 0;
+                float: left;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 1px;
+                span {
+                    margin-right: 5px;
+                    vertical-align: sub;
+                }
+            }
+            .meta_comments {
+                margin: 0;
+                float: right;
+                font-size: 14px;
+                line-height: 20px;
+                letter-spacing: 1px;
+                span {
+                    margin-right: 5px;
+                    vertical-align: sub;
+                }
+            }
         }
       .item_photo {
           width: 100%;

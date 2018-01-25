@@ -16,7 +16,7 @@ const Hero = (props) => {
           <div className='meta_desc'>
           <p>Lorem ipsum Now, if you are interested in being the best player, getting really good money and knowing some tricks and advices of what to do.</p>
             <Link to='/about'>Scopri di più</Link>
-            <a className='inline' href='#'>Guarda le webcam</a>
+            <a className='inline' href='/webcam'>Guarda le webcam</a>
             {/* <Link className='inline' to='/about'></Link> */}
           </div>
         </div>

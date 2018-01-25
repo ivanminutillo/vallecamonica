@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import './style.scss'
-import {Twitter, Github, Calendar, Menu} from '../../icons'
+import {Twitter, Facebook, Instagram, Calendar, Menu} from '../../icons'
 
 // import {
 //   Link
@@ -31,7 +31,11 @@ class Header extends React.Component {
         </div>
         <div className='menu_mobile'>
             <span className='topbar_menu' onClick={() => this.toggleDropdown()}><Menu color='white' width='20' height='20' line='1' /></span>
-            
+            <div className='header_logo'>
+            <Link to={'/'}>
+              <span className='logo_earth' />
+            </Link>
+          </div>
         </div>
         <div className='header'>
           <div className='header_logo'>
@@ -44,6 +48,11 @@ class Header extends React.Component {
             <a target='blank' href='http://blog.fair.coop'>Blog</a>
             {/* <a href='http://wiki.fair.coop'>Wiki</a> */}
           </nav>
+          <div className='header_social'>
+            <a href='https://www.twitter.com/webcamvallecamonica' target='blank'><Twitter color={'#fff'} width='18' height='18' /></a>
+            <a href='https://www.facebook.com/webcamvallecamonica/' target='blank'><Facebook color={'#fff'} width='18' height='18' /></a>
+            <a href='https://www.instagram.com/webcamvallecamonica/'><Instagram color={'#fff'} width='18' height='18' /></a>
+          </div>
         </div>
       </header>
     )

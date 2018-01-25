@@ -5,6 +5,10 @@
     background: #919191;
     background-repeat: no-repeat;
     background-size: cover; 
+    &.little {
+        height: 60px;
+        background: #292525;
+    }
     &.tools {
         background-image: url('./tools.jpg')
     }
@@ -104,7 +108,7 @@
 .body_tools {
     lost-utility: clearfix;
     .tools_item {
-        lost-column: 1/2;
+        lost-column: 1/3;
         background: #f5f5f5;
         border-radius: 3px;
         margin-bottom: 20px;
@@ -146,6 +150,36 @@
 }
 
 
+.body_webcam {
+    .social_container {
+        lost-utility: clearfix;
+        margin-top: 10px;
+    }
+    .container_item {
+        float: left;
+        margin-right: 10px;
+    }
+    .item_button {
+        
+    }
+    .webcam_title {
+        font-size: 32px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    .webcam_snap {
+        margin-top: 40px;
+        .snap_photo {
+            height: 400px;
+            background: aliceblue;
+        }
+    }
+    .webcam_desc {
+        margin-top: 20px;
+    }
+}
+
 @media (max-width: 800px) {
     .page_body {
         lost-column: 8/10;
@@ -171,3 +205,106 @@ ul {
 }
 
 
+.network_list {
+    .list_title {
+        font-size: 16px;
+        border-bottom: 1px solid #F5F5E9;
+        padding-bottom: 10px;
+        position: relative;
+        margin-bottom: 20px;
+        &:after {
+            position: absolute;
+            content: "";
+            left: 0;
+            background: #000;
+            display: block;
+            width: 100px;
+            height: 1px;
+            bottom: 0px;
+        }
+    }
+    .list_item {
+        background: #F5F5E9;
+        border-radius: 2px;
+        height: 180px;
+        padding: 10px;
+        lost-utility: clearfix;
+        margin-bottom: 20px;
+        .item_photo {
+            width: 180px;
+            height: 180px;
+            float: left;
+            background: white;
+            border-radius: 2px;
+            &.bepete {
+                background-image: url('../../assets/images/bepete-banner.jpg');
+                background-size: cover;
+                background-position: center center;
+            }
+            &.adamello {
+                background-image: url('../../assets/images/adamellomagazine-banner.jpg');
+                background-size: cover;
+                background-position: center center;
+            }
+            &.allianz {
+                background-image: url('../../assets/images/allianz-agenzia-nord-brescia.jpg');
+                background-size: cover;
+                background-position: center center;
+            }
+            &.bmsmoto {
+                background-image: url('../../assets/images/bmsmoto.jpg');
+                background-size: cover;
+                background-position: center center;
+            }
+            &.clan {
+                background-image: url('../../assets/images/clan-banner.jpg');
+                background-size: cover;
+                background-position: center center;
+            }
+            &.dimensionesport {
+                background-image: url('../../assets/images/dimensionesport-piancogno.jpg');
+                background-size: cover;
+                background-position: center center;
+            }
+            &.italiana-assicurazioni-brescia {
+                background-image: url('../../assets/images/Italiana-assicurazioni-brescia.jpg');
+                background-size: cover;
+                background-position: center center;
+            }
+
+        }
+
+        .item_meta {
+            float: left;
+            margin-left: 10px;
+            .meta_link {
+                a {
+                    font-size: 14px;
+                    font-weight: 500;
+                    letter-spacing: 1px;
+                    
+                }
+            }
+        }
+        .item_hash {
+            font-size: 15px;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+            margin-left: 10px;
+            margin-top: 10px;
+            li {
+                margin-left: 5px;
+            }
+        }
+        .item_title {
+            font-size: 22px;
+            margin: 0;    
+            padding: 0;
+            // width: 200px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}

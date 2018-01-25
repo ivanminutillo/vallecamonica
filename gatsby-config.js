@@ -14,6 +14,10 @@ module.exports = {
         path: '/webcam'
       },
       {
+        label: 'Network',
+        path: '/network'
+      },
+      {
         label: 'Contacts',
         path: '/contacts'
       }

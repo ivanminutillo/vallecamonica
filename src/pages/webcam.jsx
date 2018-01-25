@@ -1,19 +1,21 @@
 import React from 'react'
-import './style.scss'
-import {Book} from '../../icons'
+import Helmet from 'react-helmet'
+import Footer from '../components/Footer'
+import Intro from '../components/Intro'
 
-const Nodes = (props) => {
-  return (
-    <section className='section nodes webcams'>
-      <div className='section_wrapper'>
-        <div className='wrapper_tagline'><h5 className='bold'>Le nostre webcams</h5></div>
-        <div className='wrapper_info'>
-          <div className='info_content'>
-            <div>Having used discount toner cartridges for twenty years, there have been a lot of changes in the toner cartridge market. The market today is approximately a twenty billion dollar business. </div>
-            {/* <a className='good' href='http://map.fairplayground.info/map-localnodes/' target='blank'>{t('localNodes.action')}</a> */}
-            <a href='/webcam' className='content_link good'>Tutte le webcams</a>
-          </div>
-          <div className='content_webcams'>
+
+class Webcam extends React.Component {
+  render () {
+    const { title, menu, author } = this.props.data.site.siteMetadata
+    return (
+      <div>
+        <Helmet>
+          <title>{`${title}`}</title>
+          <meta name="description" />
+        </Helmet>
+        <Intro menu={menu} image={'about'} title={'Le Webcam della Vallecamonica'} />
+        <div className='page_tools'>
+        <div className='content_webcams'>
             <div className='webcams_item'>
               <div className='item_photo'>
                 <img src='https://picsum.photos/200' />
@@ -88,9 +90,35 @@ const Nodes = (props) => {
             </div>
           </div>
         </div>
+        <Footer
+          social={author}
+        />
       </div>
-    </section>
-  )
+    );
+  }
 }
 
-export default Nodes
+export default Webcam
+
+export const pageQuery = graphql`
+query WebcamQuery {
+  site {
+    siteMetadata {
+      title
+      subtitle
+      copyright
+      menu {
+        label
+        path
+      }
+      author {
+        name
+        email
+        telegram
+        twitter
+        github
+      }
+    }
+  }
+}
+`

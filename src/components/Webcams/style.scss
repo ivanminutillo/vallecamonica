@@ -260,7 +260,7 @@
         }
         }
     }
-    a {
+    a.inline {
         display: inline-block;
         height: 40px;
         border: none;
@@ -271,19 +271,27 @@
         font-weight: 600;
         margin-top: 30px;
         line-height: 40px;
-        &.good {
-            background: #59C25B;
-            border-radius: 2px;
-            color: white;
-            font-weight: 600;
-            letter-spacing: 1px;
-        }
-        &.inline {
-            text-decoration: underline;
-            font-weight: 600;
-            background: transparent;
-            color: #333;
-        }
+        text-decoration: underline;
+        font-weight: 600;
+        background: transparent;
+        color: #333;
+    }
+    a.good {
+        display: inline-block;
+        height: 40px;
+        border: none;
+        padding: 0 20px;
+        margin-right: 10px;
+        border-radius: 2px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 30px;
+        line-height: 40px;
+        background: #59C25B;
+        border-radius: 2px;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 1px;
     }
     .hero_feed {
         lost-utility: clearfix;
@@ -352,20 +360,24 @@
     // margin-top: 0 !important;
     .webcams_item {
       lost-column: 1/4;
+      margin-bottom: 20px;
       .item_photo {
           width: 100%;
           height: 0;
           padding-bottom: 100%;
           background: #dadada;
+          img {
+              width: 100%;
+              padding-bottom: 100%;
+          }
       }
       .item_title {
-          font-size: 25px;
           color: #333;
           letter-spacing: 1px;
           text-decoration: underline;
           margin-top: 20px;
           line-height: 30px;
-          font-size: 23px;
+          font-size: 20px;
       }
       p {
           font-size: 15px;

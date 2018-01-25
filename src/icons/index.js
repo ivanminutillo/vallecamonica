@@ -68,6 +68,16 @@ export const Twitter = !browser ? nullServerComponent : ({width = 24, height = 2
   <svg xmlns="http://www.w3.org/2000/svg" color={color} width={width} height={height} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={line} strokeLinecap="round" strokeLinejoin="round" className="feather feather-users"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
 )
 
+// FACEBOOK
+export const Facebook = !browser ? nullServerComponent : ({width = 24, height = 24, color = '#333', line = 2}) => (
+  <svg xmlns="http://www.w3.org/2000/svg" color={color} width={width} height={height} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={line} strokeLinecap="round" strokeLinejoin="round" className="feather feather-users"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+)
+
+// INSTAGRAM
+export const Instagram = !browser ? nullServerComponent : ({width = 24, height = 24, color = '#333', line = 2}) => (
+  <svg xmlns="http://www.w3.org/2000/svg" color={color} width={width} height={height} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={line} strokeLinecap="round" strokeLinejoin="round" className="feather feather-users"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+)
+
 // MENU
 export const Menu = !browser ? nullServerComponent : ({width = 24, height = 24, color = '#333', line = 2}) => (
   <svg xmlns="http://www.w3.org/2000/svg" color={color} width={width} height={height} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={line} strokeLinecap="round" strokeLinejoin="round" className="feather feather-users"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
@@ -76,4 +86,14 @@ export const Menu = !browser ? nullServerComponent : ({width = 24, height = 24, 
 // DOWN
 export const Down = !browser ? nullServerComponent : ({width = 24, height = 24, color = '#333', line = 2}) => (
   <svg xmlns="http://www.w3.org/2000/svg" color={color} width={width} height={height} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={line} strokeLinecap="round" strokeLinejoin="round" className="feather feather-users"><polyline points="6 9 12 15 18 9"></polyline></svg>
+)
+
+// HEARTH
+export const Heart = !browser ? nullServerComponent : ({width = 24, height = 24, color = '#333', line = 2}) => (
+  <svg xmlns="http://www.w3.org/2000/svg" color={color} width={width} height={height} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={line} strokeLinecap="round" strokeLinejoin="round" className="feather feather-users"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+)
+
+// WEBCAM
+export const Webcam = !browser ? nullServerComponent : ({width = 24, height = 24, color = '#333', line = 2}) => (
+  <svg xmlns="http://www.w3.org/2000/svg" color={color} width={width} height={height} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={line} strokeLinecap="round" strokeLinejoin="round" className="feather feather-users"><g><path d="M10,10c1.1,0,2-0.9,2-2c0-1.5-1.5-2.4-2.9-1.8c0.6,0.6-0.3,1.6-0.9,0.9C7.6,8.5,8.6,10,10,10z"/><path d="M15.2,16.5c-3.1,2-7.3,2-10.5,0l-1.6,2C2.7,19.2,3.2,20,4,20h12c0.8,0,1.3-0.8,0.9-1.5L15.2,16.5z"/><path d="M10,16c4.4,0,8-3.6,8-8c0-4.4-3.6-8-8-8S2,3.6,2,8C2,12.4,5.6,16,10,16z M10,1c0.6,0,1,0.4,1,1c0,0.6-0.4,1-1,1S9,2.6,9,2   C9,1.4,9.4,1,10,1z M10,4c2.2,0,4,1.8,4,4c0,2.2-1.8,4-4,4s-4-1.8-4-4C6,5.8,7.8,4,10,4z"/></g></svg>
 )

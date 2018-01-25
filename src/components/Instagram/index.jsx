@@ -1,6 +1,6 @@
 import React from 'react'
 import './style.scss'
-import {Book} from '../../icons'
+import {Message, Heart} from '../../icons'
 import axios from 'axios'
 
 class Instagram extends React.Component {
@@ -27,7 +27,14 @@ class Instagram extends React.Component {
             <div className='content_photo'>
               {photo.map((photo, i) => (
                 <div key={i} className='photo_item'>
-                  <div className='item_photo' style={{backgroundImage: `url(${photo.images.standard_resolution.url})`}} />
+                  <a href={photo.link} target='blank'>
+                    <div className='item_photo' style={{backgroundImage: `url(${photo.images.standard_resolution.url})`}} />
+                    <div className='item_meta'>
+                      <div className='meta_likes'><span className='meta_image'><Heart width={'18'} height={'18'} color={'#dadada'} /></span> {photo.likes.count}</div>
+                      <div className='meta_comments'><span className='meta_image'><Message width={'18'} height={'18'} color={'#dadada'} /></span> {photo.comments.count}</div>
+                    </div>
+                    <h5>{photo.caption.text}</h5>
+                  </a>
                 </div>
               ))}
             </div>

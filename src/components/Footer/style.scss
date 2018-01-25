@@ -3,28 +3,38 @@
     lost-utility: clearfix;
     .footer_wrapper {
         border-top: 1px solid #D6D6D6;
+        padding: 20px 0;
         lost-offset: 1/10;
         lost-column: 8/10;
         font-size: 32px;
         font-weight: 700;
+        .header_social {
+            span {
+                margin-left: 20px; 
+            }
+        }
         h5 {
-            text-align: center;
+            // text-align: center;
             font-size: 14px;
             letter-spacing: .5px;
             font-weight: 400;
-            margin: 40px 0;
-            margin-bottom: 0;
+            // margin: 40px 0;
+            line-height: 60px;
+            margin: 0;
+            float: left;
+            margin-left: 20px;
+
         }
         .footer_logo {
-            background: url('./logo.png');
+            float: left;
+            background: url('../../assets/images/logo.jpg');
             background-size:cover;
-            display: block;
-            width: 125px;
-            height: 24px;
+            display: inline-block;
+            width: 60px;
+            height: 60px;
             margin: 0 auto;
-            margin-top: 10px;
-            margin-bottom: 40px;
-            text-align: center;
+            // margin-top: 10px;
+            // margin-bottom: 40px;
         }
     }
     .horizontal {
